@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_009",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-73891",
+  "vendor": "Walls, Newman and Ochoa",
+  "invoice_date": "2026-05-29",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 9,
+      "unit_price": 600.0,
+      "amount": 5400.0
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 19,
+      "unit_price": 800.0,
+      "amount": 15200.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 2,
+      "unit_price": 24300.0,
+      "amount": 48600.0
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 14,
+      "unit_price": 3300.0,
+      "amount": 46200.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 17,
+      "unit_price": 16500.0,
+      "amount": 280500.0
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 18,
+      "unit_price": 31000.0,
+      "amount": 558000.0
+    }
+  ],
+  "subtotal": 953900.0,
+  "tax": 171702.0,
+  "total": 1125602.0
+}

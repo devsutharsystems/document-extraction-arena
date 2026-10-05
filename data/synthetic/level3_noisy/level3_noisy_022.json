@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_022",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-85261",
+  "vendor": "Hudson, Smith and Gregory",
+  "invoice_date": "2026-03-02",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 14,
+      "unit_price": 1678.45,
+      "amount": 23498.3
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 1,
+      "unit_price": 1447.86,
+      "amount": 1447.86
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 1048.58,
+      "amount": 6291.48
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 20,
+      "unit_price": 3296.56,
+      "amount": 65931.2
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 10,
+      "unit_price": 3210.6,
+      "amount": 32106.0
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 4,
+      "unit_price": 4611.3,
+      "amount": 18445.2
+    }
+  ],
+  "subtotal": 147720.04,
+  "tax": 0.0,
+  "total": 147720.04
+}

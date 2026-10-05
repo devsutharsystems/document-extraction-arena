@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_010",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-59725",
+  "vendor": "Mendoza LLC",
+  "invoice_date": "2026-04-26",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 2,
+      "unit_price": 9600.0,
+      "amount": 19200.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 12,
+      "unit_price": 23100.0,
+      "amount": 277200.0
+    }
+  ],
+  "subtotal": 296400.0,
+  "tax": 14820.0,
+  "total": 311220.0
+}

@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_015",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-16034",
+  "vendor": "Garde LLC",
+  "invoice_date": "2026-05-22",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 18,
+      "unit_price": 4678.17,
+      "amount": 84207.06
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 14,
+      "unit_price": 4323.03,
+      "amount": 60522.42
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 16,
+      "unit_price": 3709.27,
+      "amount": 59348.32
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 20,
+      "unit_price": 3209.3,
+      "amount": 64186.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 15,
+      "unit_price": 1048.16,
+      "amount": 15722.4
+    }
+  ],
+  "subtotal": 283986.2,
+  "tax": 0.0,
+  "total": 283986.2
+}

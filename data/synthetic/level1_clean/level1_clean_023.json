@@ -1,0 +1,25 @@
+{
+  "id": "level1_clean_023",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-20313",
+  "vendor": "Parsa Group",
+  "invoice_date": "2026-06-02",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 6,
+      "unit_price": 1216.77,
+      "amount": 7300.62
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 17,
+      "unit_price": 444.68,
+      "amount": 7559.56
+    }
+  ],
+  "subtotal": 14860.18,
+  "tax": 2674.83,
+  "total": 17535.01
+}

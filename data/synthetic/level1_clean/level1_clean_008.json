@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_008",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-84018",
+  "vendor": "Dasgupta-Rout",
+  "invoice_date": "2026-03-31",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 9,
+      "unit_price": 4607.36,
+      "amount": 41466.24
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 17,
+      "unit_price": 3368.15,
+      "amount": 57258.55
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 7,
+      "unit_price": 754.65,
+      "amount": 5282.55
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 3951.97,
+      "amount": 11855.91
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 16,
+      "unit_price": 3418.87,
+      "amount": 54701.92
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 14,
+      "unit_price": 4450.49,
+      "amount": 62306.86
+    }
+  ],
+  "subtotal": 232872.03,
+  "tax": 41916.97,
+  "total": 274789.0
+}

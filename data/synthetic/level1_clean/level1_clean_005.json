@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_005",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-34920",
+  "vendor": "Khosla-Mammen",
+  "invoice_date": "2026-03-21",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 3841.93,
+      "amount": 23051.58
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 13,
+      "unit_price": 1533.37,
+      "amount": 19933.81
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 10,
+      "unit_price": 4228.99,
+      "amount": 42289.9
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 13,
+      "unit_price": 693.05,
+      "amount": 9009.65
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 20,
+      "unit_price": 1969.71,
+      "amount": 39394.2
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 1,
+      "unit_price": 3221.99,
+      "amount": 3221.99
+    }
+  ],
+  "subtotal": 136901.13,
+  "tax": 24642.2,
+  "total": 161543.33
+}

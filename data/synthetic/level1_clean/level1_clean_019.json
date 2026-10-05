@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_019",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-45481",
+  "vendor": "Saini Inc",
+  "invoice_date": "2026-09-17",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 16,
+      "unit_price": 3482.95,
+      "amount": 55727.2
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 4,
+      "unit_price": 1371.51,
+      "amount": 5486.04
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 3,
+      "unit_price": 4452.74,
+      "amount": 13358.22
+    },
+    {
+      "description": "External SSD",
+      "quantity": 7,
+      "unit_price": 952.86,
+      "amount": 6670.02
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 7,
+      "unit_price": 2648.2,
+      "amount": 18537.4
+    }
+  ],
+  "subtotal": 99778.88,
+  "tax": 17960.2,
+  "total": 117739.08
+}

@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_001",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-68209",
+  "vendor": "Chakrabarti-Oza",
+  "invoice_date": "2026-04-16",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Laptop Stand",
+      "quantity": 5,
+      "unit_price": 2578.1,
+      "amount": 12890.5
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 15,
+      "unit_price": 1935.96,
+      "amount": 29039.4
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 20,
+      "unit_price": 3574.6,
+      "amount": 71492.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 15,
+      "unit_price": 1176.55,
+      "amount": 17648.25
+    },
+    {
+      "description": "External SSD",
+      "quantity": 15,
+      "unit_price": 716.51,
+      "amount": 10747.65
+    }
+  ],
+  "subtotal": 141817.8,
+  "tax": 14181.78,
+  "total": 155999.58
+}

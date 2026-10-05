@@ -1,0 +1,37 @@
+{
+  "id": "level2_mixed_012",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-46539",
+  "vendor": "Campbell-Leonard",
+  "invoice_date": "2026-03-09",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 3,
+      "unit_price": 4203.87,
+      "amount": 12611.61
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 13,
+      "unit_price": 771.05,
+      "amount": 10023.65
+    },
+    {
+      "description": "Webcam",
+      "quantity": 9,
+      "unit_price": 3215.22,
+      "amount": 28936.98
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 4,
+      "unit_price": 3383.56,
+      "amount": 13534.24
+    }
+  ],
+  "subtotal": 65106.48,
+  "tax": 3255.32,
+  "total": 68361.8
+}

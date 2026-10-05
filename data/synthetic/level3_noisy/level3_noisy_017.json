@@ -1,0 +1,25 @@
+{
+  "id": "level3_noisy_017",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-91834",
+  "vendor": "Boyle, Dawson and Hall",
+  "invoice_date": "2026-09-26",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 748.16,
+      "amount": 2244.48
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 3,
+      "unit_price": 2616.91,
+      "amount": 7850.73
+    }
+  ],
+  "subtotal": 10095.21,
+  "tax": 2019.04,
+  "total": 12114.25
+}

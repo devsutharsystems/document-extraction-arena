@@ -1,0 +1,25 @@
+{
+  "id": "level1_clean_020",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-85691",
+  "vendor": "Bhasin and Sons",
+  "invoice_date": "2026-01-11",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 2,
+      "unit_price": 2926.69,
+      "amount": 5853.38
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 4,
+      "unit_price": 4500.03,
+      "amount": 18000.12
+    }
+  ],
+  "subtotal": 23853.5,
+  "tax": 4293.63,
+  "total": 28147.13
+}

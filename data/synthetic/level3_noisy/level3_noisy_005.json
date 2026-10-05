@@ -1,0 +1,31 @@
+{
+  "id": "level3_noisy_005",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-86567",
+  "vendor": "Sager M\u00fcller e.G.",
+  "invoice_date": "2026-02-28",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Laptop Stand",
+      "quantity": 11,
+      "unit_price": 1214.45,
+      "amount": 13358.95
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 9,
+      "unit_price": 823.12,
+      "amount": 7408.08
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 16,
+      "unit_price": 1604.29,
+      "amount": 25668.64
+    }
+  ],
+  "subtotal": 46435.67,
+  "tax": 2321.78,
+  "total": 48757.45
+}

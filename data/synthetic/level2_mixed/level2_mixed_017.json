@@ -1,0 +1,31 @@
+{
+  "id": "level2_mixed_017",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-53723",
+  "vendor": "Willis, Giles and Campbell",
+  "invoice_date": "2026-07-21",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 2,
+      "unit_price": 23400.0,
+      "amount": 46800.0
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 19,
+      "unit_price": 27300.0,
+      "amount": 518700.0
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 9,
+      "unit_price": 37300.0,
+      "amount": 335700.0
+    }
+  ],
+  "subtotal": 901200.0,
+  "tax": 0.0,
+  "total": 901200.0
+}

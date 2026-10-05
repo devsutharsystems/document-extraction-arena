@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_016",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-58008",
+  "vendor": "Davids",
+  "invoice_date": "2026-02-27",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 13,
+      "unit_price": 2144.0,
+      "amount": 27872.0
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 6,
+      "unit_price": 2571.9,
+      "amount": 15431.4
+    }
+  ],
+  "subtotal": 43303.4,
+  "tax": 4330.34,
+  "total": 47633.74
+}

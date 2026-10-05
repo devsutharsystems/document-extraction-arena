@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_022",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-20613",
+  "vendor": "Reyes, Anderson and Guerrero",
+  "invoice_date": "2026-01-30",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 14,
+      "unit_price": 37100.0,
+      "amount": 519400.0
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 16,
+      "unit_price": 30000.0,
+      "amount": 480000.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 27200.0,
+      "amount": 81600.0
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 6,
+      "unit_price": 36400.0,
+      "amount": 218400.0
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 4,
+      "unit_price": 28300.0,
+      "amount": 113200.0
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 4,
+      "unit_price": 28700.0,
+      "amount": 114800.0
+    }
+  ],
+  "subtotal": 1527400.0,
+  "tax": 274932.0,
+  "total": 1802332.0
+}

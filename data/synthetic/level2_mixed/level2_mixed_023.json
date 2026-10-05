@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_023",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-78832",
+  "vendor": "Gulati and Sons",
+  "invoice_date": "2026-01-07",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 2,
+      "unit_price": 3003.84,
+      "amount": 6007.68
+    },
+    {
+      "description": "Webcam",
+      "quantity": 7,
+      "unit_price": 1427.19,
+      "amount": 9990.33
+    }
+  ],
+  "subtotal": 15998.01,
+  "tax": 799.9,
+  "total": 16797.91
+}

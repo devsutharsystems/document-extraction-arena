@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_014",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-16236",
+  "vendor": "Walker-Murray",
+  "invoice_date": "2026-05-14",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 9,
+      "unit_price": 3412.42,
+      "amount": 30711.78
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 20,
+      "unit_price": 3816.45,
+      "amount": 76329.0
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 2,
+      "unit_price": 3717.3,
+      "amount": 7434.6
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 18,
+      "unit_price": 295.34,
+      "amount": 5316.12
+    }
+  ],
+  "subtotal": 119791.5,
+  "tax": 0.0,
+  "total": 119791.5
+}

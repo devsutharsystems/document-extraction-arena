@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_019",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-57260",
+  "vendor": "Martin LLC",
+  "invoice_date": "2026-04-24",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 13,
+      "unit_price": 2874.05,
+      "amount": 37362.65
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 11,
+      "unit_price": 890.78,
+      "amount": 9798.58
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 12,
+      "unit_price": 4405.96,
+      "amount": 52871.52
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 6,
+      "unit_price": 2462.15,
+      "amount": 14772.9
+    },
+    {
+      "description": "External SSD",
+      "quantity": 14,
+      "unit_price": 1724.75,
+      "amount": 24146.5
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 8,
+      "unit_price": 4742.22,
+      "amount": 37937.76
+    }
+  ],
+  "subtotal": 176889.91,
+  "tax": 17688.99,
+  "total": 194578.9
+}

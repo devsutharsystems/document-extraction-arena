@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_013",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-44498",
+  "vendor": "Gray PLC",
+  "invoice_date": "2026-03-20",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 16,
+      "unit_price": 14800.0,
+      "amount": 236800.0
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 4,
+      "unit_price": 12700.0,
+      "amount": 50800.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 9,
+      "unit_price": 39200.0,
+      "amount": 352800.0
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 15,
+      "unit_price": 28700.0,
+      "amount": 430500.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 25800.0,
+      "amount": 77400.0
+    }
+  ],
+  "subtotal": 1148300.0,
+  "tax": 229660.0,
+  "total": 1377960.0
+}

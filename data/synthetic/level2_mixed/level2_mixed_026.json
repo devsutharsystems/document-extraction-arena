@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_026",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-95156",
+  "vendor": "Davids Kabus Stiftung & Co. KGaA",
+  "invoice_date": "2026-05-18",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 6,
+      "unit_price": 4460.84,
+      "amount": 26765.04
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 19,
+      "unit_price": 425.02,
+      "amount": 8075.38
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 7,
+      "unit_price": 517.21,
+      "amount": 3620.47
+    },
+    {
+      "description": "Webcam",
+      "quantity": 17,
+      "unit_price": 3931.23,
+      "amount": 66830.91
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 6,
+      "unit_price": 4130.49,
+      "amount": 24782.94
+    }
+  ],
+  "subtotal": 130074.74,
+  "tax": 23413.45,
+  "total": 153488.19
+}

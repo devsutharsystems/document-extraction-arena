@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_004",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-52055",
+  "vendor": "Nigam LLC",
+  "invoice_date": "2026-08-14",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 1,
+      "unit_price": 2210.38,
+      "amount": 2210.38
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 3851.07,
+      "amount": 65468.19
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 10,
+      "unit_price": 2540.7,
+      "amount": 25407.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 12,
+      "unit_price": 3396.7,
+      "amount": 40760.4
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 5,
+      "unit_price": 4957.38,
+      "amount": 24786.9
+    }
+  ],
+  "subtotal": 158632.87,
+  "tax": 28553.92,
+  "total": 187186.79
+}

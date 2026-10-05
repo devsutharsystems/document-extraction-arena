@@ -1,0 +1,31 @@
+{
+  "id": "level2_mixed_028",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-74918",
+  "vendor": "Bradley and Sons",
+  "invoice_date": "2026-03-02",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 5,
+      "unit_price": 860.27,
+      "amount": 4301.35
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 10,
+      "unit_price": 3800.01,
+      "amount": 38000.1
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 1516.54,
+      "amount": 25781.18
+    }
+  ],
+  "subtotal": 68082.63,
+  "tax": 12254.87,
+  "total": 80337.5
+}

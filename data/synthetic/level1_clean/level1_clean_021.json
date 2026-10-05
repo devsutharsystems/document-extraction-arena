@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_021",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-72466",
+  "vendor": "Manne Group",
+  "invoice_date": "2026-08-31",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 10,
+      "unit_price": 2216.75,
+      "amount": 22167.5
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 1,
+      "unit_price": 4711.27,
+      "amount": 4711.27
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 18,
+      "unit_price": 4596.3,
+      "amount": 82733.4
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 12,
+      "unit_price": 1767.43,
+      "amount": 21209.16
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 6,
+      "unit_price": 1065.79,
+      "amount": 6394.74
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 9,
+      "unit_price": 4609.15,
+      "amount": 41482.35
+    }
+  ],
+  "subtotal": 178698.42,
+  "tax": 32165.72,
+  "total": 210864.14
+}

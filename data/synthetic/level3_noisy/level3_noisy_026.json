@@ -1,0 +1,25 @@
+{
+  "id": "level3_noisy_026",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-60095",
+  "vendor": "Sachar Ltd",
+  "invoice_date": "2026-06-29",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 1840.45,
+      "amount": 1840.45
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 2,
+      "unit_price": 2537.89,
+      "amount": 5075.78
+    }
+  ],
+  "subtotal": 6916.23,
+  "tax": 691.62,
+  "total": 7607.85
+}

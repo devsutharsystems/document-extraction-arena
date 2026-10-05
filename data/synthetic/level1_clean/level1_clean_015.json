@@ -1,0 +1,37 @@
+{
+  "id": "level1_clean_015",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-32832",
+  "vendor": "Jani-Mallick",
+  "invoice_date": "2026-06-04",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 4,
+      "unit_price": 2530.45,
+      "amount": 10121.8
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 17,
+      "unit_price": 2600.26,
+      "amount": 44204.42
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 12,
+      "unit_price": 3540.5,
+      "amount": 42486.0
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 9,
+      "unit_price": 2335.24,
+      "amount": 21017.16
+    }
+  ],
+  "subtotal": 117829.38,
+  "tax": 21209.29,
+  "total": 139038.67
+}

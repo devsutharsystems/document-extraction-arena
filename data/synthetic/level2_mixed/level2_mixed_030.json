@@ -1,0 +1,31 @@
+{
+  "id": "level2_mixed_030",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-16561",
+  "vendor": "Walia, Nadig and Lad",
+  "invoice_date": "2026-03-17",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 10,
+      "unit_price": 1903.05,
+      "amount": 19030.5
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 4961.65,
+      "amount": 4961.65
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 18,
+      "unit_price": 4814.05,
+      "amount": 86652.9
+    }
+  ],
+  "subtotal": 110645.05,
+  "tax": 19916.11,
+  "total": 130561.16
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_021",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-62193",
+  "vendor": "Larsen-Hunter",
+  "invoice_date": "2026-04-10",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 4101.74,
+      "amount": 69729.58
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 17,
+      "unit_price": 2802.91,
+      "amount": 47649.47
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 5,
+      "unit_price": 763.0,
+      "amount": 3815.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 2,
+      "unit_price": 1143.67,
+      "amount": 2287.34
+    },
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 163.47,
+      "amount": 1471.23
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 12,
+      "unit_price": 4458.7,
+      "amount": 53504.4
+    }
+  ],
+  "subtotal": 178457.02,
+  "tax": 35691.4,
+  "total": 214148.42
+}

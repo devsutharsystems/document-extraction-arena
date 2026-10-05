@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_016",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-20255",
+  "vendor": "Francis-Williams",
+  "invoice_date": "2026-09-07",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "USB-C Hub",
+      "quantity": 19,
+      "unit_price": 823.46,
+      "amount": 15645.74
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 19,
+      "unit_price": 635.56,
+      "amount": 12075.64
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 9,
+      "unit_price": 2592.33,
+      "amount": 23330.97
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 4000.07,
+      "amount": 4000.07
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 14,
+      "unit_price": 2568.5,
+      "amount": 35959.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 9,
+      "unit_price": 3697.54,
+      "amount": 33277.86
+    }
+  ],
+  "subtotal": 124289.28,
+  "tax": 22372.07,
+  "total": 146661.35
+}

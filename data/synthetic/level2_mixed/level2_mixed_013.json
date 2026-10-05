@@ -1,0 +1,37 @@
+{
+  "id": "level2_mixed_013",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-59100",
+  "vendor": "Howells, Hewitt and Taylor",
+  "invoice_date": "2026-06-14",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 2,
+      "unit_price": 271.26,
+      "amount": 542.52
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 5,
+      "unit_price": 4017.76,
+      "amount": 20088.8
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 5,
+      "unit_price": 3465.79,
+      "amount": 17328.95
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 2,
+      "unit_price": 3382.73,
+      "amount": 6765.46
+    }
+  ],
+  "subtotal": 44725.73,
+  "tax": 0.0,
+  "total": 44725.73
+}

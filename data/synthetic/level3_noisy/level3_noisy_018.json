@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_018",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-54847",
+  "vendor": "Brown Inc",
+  "invoice_date": "2026-08-08",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 7,
+      "unit_price": 3965.8,
+      "amount": 27760.6
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 8,
+      "unit_price": 4717.01,
+      "amount": 37736.08
+    },
+    {
+      "description": "External SSD",
+      "quantity": 2,
+      "unit_price": 648.5,
+      "amount": 1297.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 20,
+      "unit_price": 3868.87,
+      "amount": 77377.4
+    }
+  ],
+  "subtotal": 144171.08,
+  "tax": 28834.22,
+  "total": 173005.3
+}

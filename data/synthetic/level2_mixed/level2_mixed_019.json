@@ -1,0 +1,37 @@
+{
+  "id": "level2_mixed_019",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-66179",
+  "vendor": "R\u00e4del AG",
+  "invoice_date": "2026-06-28",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 7,
+      "unit_price": 335.12,
+      "amount": 2345.84
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 6,
+      "unit_price": 1688.48,
+      "amount": 10130.88
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 15,
+      "unit_price": 64.27,
+      "amount": 964.05
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 3,
+      "unit_price": 2799.7,
+      "amount": 8399.1
+    }
+  ],
+  "subtotal": 21839.87,
+  "tax": 3931.18,
+  "total": 25771.05
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_007",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-51927",
+  "vendor": "Richards-Martinez",
+  "invoice_date": "2026-09-25",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 16,
+      "unit_price": 37400.0,
+      "amount": 598400.0
+    },
+    {
+      "description": "External SSD",
+      "quantity": 2,
+      "unit_price": 6900.0,
+      "amount": 13800.0
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 30200.0,
+      "amount": 513400.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 1,
+      "unit_price": 29400.0,
+      "amount": 29400.0
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 20,
+      "unit_price": 7600.0,
+      "amount": 152000.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 18,
+      "unit_price": 31800.0,
+      "amount": 572400.0
+    }
+  ],
+  "subtotal": 1879400.0,
+  "tax": 93970.0,
+  "total": 1973370.0
+}

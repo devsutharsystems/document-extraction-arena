@@ -1,0 +1,37 @@
+{
+  "id": "level1_clean_027",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-95425",
+  "vendor": "Mital, Sharaf and Boase",
+  "invoice_date": "2026-08-03",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 8,
+      "unit_price": 407.77,
+      "amount": 3262.16
+    },
+    {
+      "description": "External SSD",
+      "quantity": 6,
+      "unit_price": 3489.17,
+      "amount": 20935.02
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 4,
+      "unit_price": 1572.18,
+      "amount": 6288.72
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 13,
+      "unit_price": 2460.62,
+      "amount": 31988.06
+    }
+  ],
+  "subtotal": 62473.96,
+  "tax": 11245.31,
+  "total": 73719.27
+}

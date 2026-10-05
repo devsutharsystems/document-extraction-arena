@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_025",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-95114",
+  "vendor": "Hernandez-Rich",
+  "invoice_date": "2026-03-18",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 2500.9,
+      "amount": 42515.3
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 17,
+      "unit_price": 4622.45,
+      "amount": 78581.65
+    }
+  ],
+  "subtotal": 121096.95,
+  "tax": 6054.85,
+  "total": 127151.8
+}

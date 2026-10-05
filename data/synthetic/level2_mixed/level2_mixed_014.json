@@ -1,0 +1,37 @@
+{
+  "id": "level2_mixed_014",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-59512",
+  "vendor": "Schomber Schulz AG & Co. OHG",
+  "invoice_date": "2026-06-12",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Wireless Mouse",
+      "quantity": 8,
+      "unit_price": 503.26,
+      "amount": 4026.08
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 1,
+      "unit_price": 4295.55,
+      "amount": 4295.55
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 19,
+      "unit_price": 275.81,
+      "amount": 5240.39
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 15,
+      "unit_price": 3402.59,
+      "amount": 51038.85
+    }
+  ],
+  "subtotal": 64600.87,
+  "tax": 0.0,
+  "total": 64600.87
+}

@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_016",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-59040",
+  "vendor": "Sule-Cherian",
+  "invoice_date": "2026-03-20",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 17,
+      "unit_price": 4463.41,
+      "amount": 75877.97
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 5,
+      "unit_price": 4506.91,
+      "amount": 22534.55
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 1708.47,
+      "amount": 3416.94
+    },
+    {
+      "description": "External SSD",
+      "quantity": 19,
+      "unit_price": 1387.69,
+      "amount": 26366.11
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 4553.52,
+      "amount": 13660.56
+    }
+  ],
+  "subtotal": 141856.13,
+  "tax": 25534.1,
+  "total": 167390.23
+}

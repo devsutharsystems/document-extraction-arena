@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_024",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-24528",
+  "vendor": "Sarkar-Ramanathan",
+  "invoice_date": "2026-09-22",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 4705.21,
+      "amount": 42346.89
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 6,
+      "unit_price": 2835.63,
+      "amount": 17013.78
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 20,
+      "unit_price": 2947.02,
+      "amount": 58940.4
+    }
+  ],
+  "subtotal": 118301.07,
+  "tax": 21294.19,
+  "total": 139595.26
+}

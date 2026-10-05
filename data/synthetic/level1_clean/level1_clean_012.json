@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_012",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-83900",
+  "vendor": "Bansal, Chandran and Bala",
+  "invoice_date": "2026-08-06",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 4,
+      "unit_price": 2392.05,
+      "amount": 9568.2
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 10,
+      "unit_price": 1946.21,
+      "amount": 19462.1
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 4,
+      "unit_price": 1519.23,
+      "amount": 6076.92
+    }
+  ],
+  "subtotal": 35107.22,
+  "tax": 6319.3,
+  "total": 41426.52
+}

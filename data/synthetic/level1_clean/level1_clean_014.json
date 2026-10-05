@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_014",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-12540",
+  "vendor": "Sunder, Bir and Uppal",
+  "invoice_date": "2026-01-06",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 13,
+      "unit_price": 3943.61,
+      "amount": 51266.93
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 11,
+      "unit_price": 2945.57,
+      "amount": 32401.27
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 15,
+      "unit_price": 1182.72,
+      "amount": 17740.8
+    }
+  ],
+  "subtotal": 101409.0,
+  "tax": 18253.62,
+  "total": 119662.62
+}

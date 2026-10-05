@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_001",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-53092",
+  "vendor": "Goswami-Badal",
+  "invoice_date": "2026-09-16",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "USB-C Hub",
+      "quantity": 12,
+      "unit_price": 4677.63,
+      "amount": 56131.56
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 16,
+      "unit_price": 2769.47,
+      "amount": 44311.52
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 9,
+      "unit_price": 1413.92,
+      "amount": 12725.28
+    },
+    {
+      "description": "External SSD",
+      "quantity": 10,
+      "unit_price": 1383.14,
+      "amount": 13831.4
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 1589.09,
+      "amount": 9534.54
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 15,
+      "unit_price": 524.22,
+      "amount": 7863.3
+    }
+  ],
+  "subtotal": 144397.6,
+  "tax": 14439.76,
+  "total": 158837.36
+}

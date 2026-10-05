@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_002",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-75150",
+  "vendor": "Randolph Ltd",
+  "invoice_date": "2026-09-19",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 2169.95,
+      "amount": 2169.95
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 3,
+      "unit_price": 4435.52,
+      "amount": 13306.56
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 10,
+      "unit_price": 4949.66,
+      "amount": 49496.6
+    },
+    {
+      "description": "Webcam",
+      "quantity": 11,
+      "unit_price": 2346.0,
+      "amount": 25806.0
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 19,
+      "unit_price": 3832.75,
+      "amount": 72822.25
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 4,
+      "unit_price": 1256.54,
+      "amount": 5026.16
+    }
+  ],
+  "subtotal": 168627.52,
+  "tax": 30352.95,
+  "total": 198980.47
+}

@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_008",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-51506",
+  "vendor": "Schmidt Junk AG",
+  "invoice_date": "2026-05-19",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 5,
+      "unit_price": 127.3,
+      "amount": 636.5
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 18,
+      "unit_price": 439.66,
+      "amount": 7913.88
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 11,
+      "unit_price": 1529.11,
+      "amount": 16820.21
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 16,
+      "unit_price": 3627.11,
+      "amount": 58033.76
+    }
+  ],
+  "subtotal": 83404.35,
+  "tax": 15012.78,
+  "total": 98417.13
+}

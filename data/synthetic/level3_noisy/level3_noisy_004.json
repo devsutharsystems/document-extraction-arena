@@ -1,0 +1,31 @@
+{
+  "id": "level3_noisy_004",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-96114",
+  "vendor": "Klein-Figueroa",
+  "invoice_date": "2026-08-19",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 15200.0,
+      "amount": 30400.0
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 6,
+      "unit_price": 1500.0,
+      "amount": 9000.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 21900.0,
+      "amount": 65700.0
+    }
+  ],
+  "subtotal": 105100.0,
+  "tax": 5255.0,
+  "total": 110355.0
+}

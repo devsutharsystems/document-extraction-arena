@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_030",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-82664",
+  "vendor": "Bail-Pingle",
+  "invoice_date": "2026-04-20",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Laptop Stand",
+      "quantity": 18,
+      "unit_price": 819.91,
+      "amount": 14758.38
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 20,
+      "unit_price": 3911.21,
+      "amount": 78224.2
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 2,
+      "unit_price": 4176.24,
+      "amount": 8352.48
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 15,
+      "unit_price": 940.14,
+      "amount": 14102.1
+    }
+  ],
+  "subtotal": 115437.16,
+  "tax": 11543.72,
+  "total": 126980.88
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_017",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-91027",
+  "vendor": "Krishna, Sidhu and Barman",
+  "invoice_date": "2026-04-19",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 5,
+      "unit_price": 280.37,
+      "amount": 1401.85
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 13,
+      "unit_price": 3884.1,
+      "amount": 50493.3
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 3,
+      "unit_price": 2612.62,
+      "amount": 7837.86
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 13,
+      "unit_price": 2576.25,
+      "amount": 33491.25
+    },
+    {
+      "description": "Webcam",
+      "quantity": 7,
+      "unit_price": 4497.93,
+      "amount": 31485.51
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 10,
+      "unit_price": 343.59,
+      "amount": 3435.9
+    }
+  ],
+  "subtotal": 128145.67,
+  "tax": 23066.22,
+  "total": 151211.89
+}

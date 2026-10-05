@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_024",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-77173",
+  "vendor": "Dobes",
+  "invoice_date": "2026-06-14",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 4,
+      "unit_price": 670.65,
+      "amount": 2682.6
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 14,
+      "unit_price": 1897.23,
+      "amount": 26561.22
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 1,
+      "unit_price": 1489.45,
+      "amount": 1489.45
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 15,
+      "unit_price": 1329.74,
+      "amount": 19946.1
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 13,
+      "unit_price": 2669.6,
+      "amount": 34704.8
+    }
+  ],
+  "subtotal": 85384.17,
+  "tax": 15369.15,
+  "total": 100753.32
+}

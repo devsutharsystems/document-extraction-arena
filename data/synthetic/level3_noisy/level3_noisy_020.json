@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_020",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-60577",
+  "vendor": "Eberth",
+  "invoice_date": "2026-01-29",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 4,
+      "unit_price": 2812.14,
+      "amount": 11248.56
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 18,
+      "unit_price": 1354.54,
+      "amount": 24381.72
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 5,
+      "unit_price": 2367.84,
+      "amount": 11839.2
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 8,
+      "unit_price": 1562.38,
+      "amount": 12499.04
+    }
+  ],
+  "subtotal": 59968.52,
+  "tax": 2998.43,
+  "total": 62966.95
+}

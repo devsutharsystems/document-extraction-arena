@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_010",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-84001",
+  "vendor": "Lawson-Garza",
+  "invoice_date": "2026-08-27",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 20,
+      "unit_price": 4075.3,
+      "amount": 81506.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 10,
+      "unit_price": 4179.87,
+      "amount": 41798.7
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 7,
+      "unit_price": 4071.91,
+      "amount": 28503.37
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 13,
+      "unit_price": 1667.88,
+      "amount": 21682.44
+    }
+  ],
+  "subtotal": 173490.51,
+  "tax": 0.0,
+  "total": 173490.51
+}

@@ -1,0 +1,37 @@
+{
+  "id": "level1_clean_026",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-84407",
+  "vendor": "Balakrishnan-Bahri",
+  "invoice_date": "2026-06-30",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 1,
+      "unit_price": 953.63,
+      "amount": 953.63
+    },
+    {
+      "description": "External SSD",
+      "quantity": 4,
+      "unit_price": 4878.08,
+      "amount": 19512.32
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 20,
+      "unit_price": 1472.51,
+      "amount": 29450.2
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 8,
+      "unit_price": 4285.47,
+      "amount": 34283.76
+    }
+  ],
+  "subtotal": 84199.91,
+  "tax": 15155.98,
+  "total": 99355.89
+}

@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_011",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-62643",
+  "vendor": "Bender Gerlach GmbH",
+  "invoice_date": "2026-06-25",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 7,
+      "unit_price": 788.82,
+      "amount": 5521.74
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 8,
+      "unit_price": 2603.31,
+      "amount": 20826.48
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 17,
+      "unit_price": 3013.58,
+      "amount": 51230.86
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 16,
+      "unit_price": 474.64,
+      "amount": 7594.24
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 4,
+      "unit_price": 4385.28,
+      "amount": 17541.12
+    }
+  ],
+  "subtotal": 102714.44,
+  "tax": 10271.44,
+  "total": 112985.88
+}

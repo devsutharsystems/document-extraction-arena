@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_007",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-73563",
+  "vendor": "Chawla, Srivastava and Bahl",
+  "invoice_date": "2026-09-12",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 18,
+      "unit_price": 2810.82,
+      "amount": 50594.76
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 1,
+      "unit_price": 1770.36,
+      "amount": 1770.36
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 1663.36,
+      "amount": 9980.16
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 5,
+      "unit_price": 2151.85,
+      "amount": 10759.25
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 8,
+      "unit_price": 4942.74,
+      "amount": 39541.92
+    }
+  ],
+  "subtotal": 112646.45,
+  "tax": 20276.36,
+  "total": 132922.81
+}

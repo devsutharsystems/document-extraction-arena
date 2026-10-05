@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_006",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-15571",
+  "vendor": "Ganesh, Patla and Khare",
+  "invoice_date": "2026-06-16",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 17,
+      "unit_price": 3666.17,
+      "amount": 62324.89
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 15,
+      "unit_price": 4777.93,
+      "amount": 71668.95
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 3,
+      "unit_price": 2377.71,
+      "amount": 7133.13
+    }
+  ],
+  "subtotal": 141126.97,
+  "tax": 25402.85,
+  "total": 166529.82
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_029",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-31193",
+  "vendor": "Eimer",
+  "invoice_date": "2026-09-07",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 12,
+      "unit_price": 2053.25,
+      "amount": 24639.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 17,
+      "unit_price": 4564.66,
+      "amount": 77599.22
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 11,
+      "unit_price": 3840.7,
+      "amount": 42247.7
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 3,
+      "unit_price": 1490.0,
+      "amount": 4470.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 12,
+      "unit_price": 1176.22,
+      "amount": 14114.64
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 15,
+      "unit_price": 4200.77,
+      "amount": 63011.55
+    }
+  ],
+  "subtotal": 226082.11,
+  "tax": 11304.11,
+  "total": 237386.22
+}

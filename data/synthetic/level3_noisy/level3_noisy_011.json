@@ -1,0 +1,25 @@
+{
+  "id": "level3_noisy_011",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-65894",
+  "vendor": "Garner-Robbins",
+  "invoice_date": "2026-09-27",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 15,
+      "unit_price": 17700.0,
+      "amount": 265500.0
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 8,
+      "unit_price": 17200.0,
+      "amount": 137600.0
+    }
+  ],
+  "subtotal": 403100.0,
+  "tax": 80620.0,
+  "total": 483720.0
+}

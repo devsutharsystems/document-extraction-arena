@@ -1,0 +1,25 @@
+{
+  "id": "level3_noisy_003",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-78828",
+  "vendor": "L\u00f6ffler",
+  "invoice_date": "2026-04-09",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 15,
+      "unit_price": 2329.92,
+      "amount": 34948.8
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 13,
+      "unit_price": 1419.3,
+      "amount": 18450.9
+    }
+  ],
+  "subtotal": 53399.7,
+  "tax": 0.0,
+  "total": 53399.7
+}

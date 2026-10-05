@@ -1,0 +1,37 @@
+{
+  "id": "level3_noisy_015",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-55718",
+  "vendor": "Hicks-Shaw",
+  "invoice_date": "2026-09-15",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 5,
+      "unit_price": 792.46,
+      "amount": 3962.3
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 16,
+      "unit_price": 4673.96,
+      "amount": 74783.36
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 20,
+      "unit_price": 2012.71,
+      "amount": 40254.2
+    },
+    {
+      "description": "Webcam",
+      "quantity": 15,
+      "unit_price": 3758.04,
+      "amount": 56370.6
+    }
+  ],
+  "subtotal": 175370.46,
+  "tax": 0.0,
+  "total": 175370.46
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_007",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-16776",
+  "vendor": "Salz",
+  "invoice_date": "2026-01-23",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Wireless Mouse",
+      "quantity": 12,
+      "unit_price": 2167.83,
+      "amount": 26013.96
+    },
+    {
+      "description": "External SSD",
+      "quantity": 6,
+      "unit_price": 2000.63,
+      "amount": 12003.78
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 7,
+      "unit_price": 841.44,
+      "amount": 5890.08
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 13,
+      "unit_price": 3309.26,
+      "amount": 43020.38
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 5,
+      "unit_price": 4057.57,
+      "amount": 20287.85
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 17,
+      "unit_price": 264.5,
+      "amount": 4496.5
+    }
+  ],
+  "subtotal": 111712.55,
+  "tax": 20108.26,
+  "total": 131820.81
+}

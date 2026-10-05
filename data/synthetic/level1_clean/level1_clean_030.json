@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_030",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-80838",
+  "vendor": "Sharaf, Mohan and Krishna",
+  "invoice_date": "2026-03-26",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 10,
+      "unit_price": 2526.99,
+      "amount": 25269.9
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 2993.05,
+      "amount": 17958.3
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 3,
+      "unit_price": 3431.12,
+      "amount": 10293.36
+    }
+  ],
+  "subtotal": 53521.56,
+  "tax": 9633.88,
+  "total": 63155.44
+}

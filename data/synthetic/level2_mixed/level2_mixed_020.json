@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_020",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-28333",
+  "vendor": "Kensy Hornig GmbH & Co. KGaA",
+  "invoice_date": "2026-09-13",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 4,
+      "unit_price": 1493.13,
+      "amount": 5972.52
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 12,
+      "unit_price": 2749.44,
+      "amount": 32993.28
+    }
+  ],
+  "subtotal": 38965.8,
+  "tax": 7013.84,
+  "total": 45979.64
+}

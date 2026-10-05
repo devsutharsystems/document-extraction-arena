@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_011",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-95164",
+  "vendor": "Mand, Ramanathan and Samra",
+  "invoice_date": "2026-05-19",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 4916.8,
+      "amount": 9833.6
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 5,
+      "unit_price": 1583.93,
+      "amount": 7919.65
+    },
+    {
+      "description": "External SSD",
+      "quantity": 14,
+      "unit_price": 741.97,
+      "amount": 10387.58
+    }
+  ],
+  "subtotal": 28140.83,
+  "tax": 5065.35,
+  "total": 33206.18
+}

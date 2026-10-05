@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_009",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-60472",
+  "vendor": "Modi, Ramachandran and Balakrishnan",
+  "invoice_date": "2026-08-11",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 3,
+      "unit_price": 3341.04,
+      "amount": 10023.12
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 16,
+      "unit_price": 2514.42,
+      "amount": 40230.72
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 16,
+      "unit_price": 2411.38,
+      "amount": 38582.08
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 18,
+      "unit_price": 3263.47,
+      "amount": 58742.46
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 6,
+      "unit_price": 3835.72,
+      "amount": 23014.32
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 15,
+      "unit_price": 1439.04,
+      "amount": 21585.6
+    }
+  ],
+  "subtotal": 192178.3,
+  "tax": 34592.09,
+  "total": 226770.39
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_008",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-56708",
+  "vendor": "Wesack Patberg GmbH",
+  "invoice_date": "2026-06-15",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 12,
+      "unit_price": 2661.41,
+      "amount": 31936.92
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 9,
+      "unit_price": 454.96,
+      "amount": 4094.64
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 11,
+      "unit_price": 4412.79,
+      "amount": 48540.69
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 1,
+      "unit_price": 2082.52,
+      "amount": 2082.52
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 318.57,
+      "amount": 955.71
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 13,
+      "unit_price": 2077.66,
+      "amount": 27009.58
+    }
+  ],
+  "subtotal": 114620.06,
+  "tax": 20631.61,
+  "total": 135251.67
+}

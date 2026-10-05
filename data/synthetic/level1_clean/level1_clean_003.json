@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_003",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-53238",
+  "vendor": "Chad PLC",
+  "invoice_date": "2026-07-15",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 19,
+      "unit_price": 2564.72,
+      "amount": 48729.68
+    },
+    {
+      "description": "External SSD",
+      "quantity": 18,
+      "unit_price": 1558.02,
+      "amount": 28044.36
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 16,
+      "unit_price": 3896.92,
+      "amount": 62350.72
+    }
+  ],
+  "subtotal": 139124.76,
+  "tax": 25042.46,
+  "total": 164167.22
+}

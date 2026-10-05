@@ -1,0 +1,49 @@
+{
+  "id": "level1_clean_025",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-72901",
+  "vendor": "Ratta, Jaggi and Vala",
+  "invoice_date": "2026-04-08",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 6,
+      "unit_price": 3281.95,
+      "amount": 19691.7
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 6,
+      "unit_price": 4249.36,
+      "amount": 25496.16
+    },
+    {
+      "description": "Webcam",
+      "quantity": 12,
+      "unit_price": 3282.39,
+      "amount": 39388.68
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 307.48,
+      "amount": 5227.16
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 20,
+      "unit_price": 1265.25,
+      "amount": 25305.0
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 16,
+      "unit_price": 3193.26,
+      "amount": 51092.16
+    }
+  ],
+  "subtotal": 166200.86,
+  "tax": 29916.15,
+  "total": 196117.01
+}

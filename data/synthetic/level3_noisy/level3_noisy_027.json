@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_027",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-28580",
+  "vendor": "Foley LLC",
+  "invoice_date": "2026-07-26",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 20300.0,
+      "amount": 121800.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 3,
+      "unit_price": 4900.0,
+      "amount": 14700.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 1,
+      "unit_price": 23900.0,
+      "amount": 23900.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 16,
+      "unit_price": 23500.0,
+      "amount": 376000.0
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 18,
+      "unit_price": 39300.0,
+      "amount": 707400.0
+    }
+  ],
+  "subtotal": 1243800.0,
+  "tax": 223884.0,
+  "total": 1467684.0
+}

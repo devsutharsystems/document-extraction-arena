@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_022",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-38883",
+  "vendor": "Barman-Das",
+  "invoice_date": "2026-01-13",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 1325.55,
+      "amount": 22534.35
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 5,
+      "unit_price": 202.78,
+      "amount": 1013.9
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 18,
+      "unit_price": 4088.83,
+      "amount": 73598.94
+    },
+    {
+      "description": "Webcam",
+      "quantity": 20,
+      "unit_price": 1743.11,
+      "amount": 34862.2
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 15,
+      "unit_price": 2103.26,
+      "amount": 31548.9
+    }
+  ],
+  "subtotal": 163558.29,
+  "tax": 29440.49,
+  "total": 192998.78
+}

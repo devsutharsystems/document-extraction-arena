@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_024",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-28345",
+  "vendor": "Brown, Jefferson and Holmes",
+  "invoice_date": "2026-04-01",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 2,
+      "unit_price": 631.33,
+      "amount": 1262.66
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 13,
+      "unit_price": 3009.84,
+      "amount": 39127.92
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 18,
+      "unit_price": 1964.56,
+      "amount": 35362.08
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 2,
+      "unit_price": 3985.09,
+      "amount": 7970.18
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 1,
+      "unit_price": 2541.05,
+      "amount": 2541.05
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 8,
+      "unit_price": 3450.71,
+      "amount": 27605.68
+    }
+  ],
+  "subtotal": 113869.57,
+  "tax": 5693.48,
+  "total": 119563.05
+}

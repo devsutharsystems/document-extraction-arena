@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_023",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-89309",
+  "vendor": "Price PLC",
+  "invoice_date": "2026-05-09",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 12,
+      "unit_price": 20600.0,
+      "amount": 247200.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 8,
+      "unit_price": 21200.0,
+      "amount": 169600.0
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 13,
+      "unit_price": 4700.0,
+      "amount": 61100.0
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 7300.0,
+      "amount": 43800.0
+    },
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 10100.0,
+      "amount": 90900.0
+    }
+  ],
+  "subtotal": 612600.0,
+  "tax": 110268.0,
+  "total": 722868.0
+}

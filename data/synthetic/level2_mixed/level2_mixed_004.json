@@ -1,0 +1,31 @@
+{
+  "id": "level2_mixed_004",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-87639",
+  "vendor": "Williams LLC",
+  "invoice_date": "2026-01-14",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 10,
+      "unit_price": 28300.0,
+      "amount": 283000.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 8,
+      "unit_price": 15800.0,
+      "amount": 126400.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 1,
+      "unit_price": 16200.0,
+      "amount": 16200.0
+    }
+  ],
+  "subtotal": 425600.0,
+  "tax": 76608.0,
+  "total": 502208.0
+}

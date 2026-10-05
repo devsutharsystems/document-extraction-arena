@@ -1,0 +1,43 @@
+{
+  "id": "level1_clean_029",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-42252",
+  "vendor": "Chadha-Deshpande",
+  "invoice_date": "2026-06-24",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 16,
+      "unit_price": 2385.2,
+      "amount": 38163.2
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 13,
+      "unit_price": 2680.79,
+      "amount": 34850.27
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 2,
+      "unit_price": 1194.04,
+      "amount": 2388.08
+    },
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 2965.98,
+      "amount": 26693.82
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 6,
+      "unit_price": 3860.8,
+      "amount": 23164.8
+    }
+  ],
+  "subtotal": 125260.17,
+  "tax": 22546.83,
+  "total": 147807.0
+}

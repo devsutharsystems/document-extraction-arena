@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_027",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-97171",
+  "vendor": "Anand, Bala and Narang",
+  "invoice_date": "2026-09-02",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 16,
+      "unit_price": 1396.31,
+      "amount": 22340.96
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 4,
+      "unit_price": 614.8,
+      "amount": 2459.2
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 13,
+      "unit_price": 4844.22,
+      "amount": 62974.86
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 9,
+      "unit_price": 1939.32,
+      "amount": 17453.88
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 14,
+      "unit_price": 745.07,
+      "amount": 10430.98
+    }
+  ],
+  "subtotal": 115659.88,
+  "tax": 20818.78,
+  "total": 136478.66
+}

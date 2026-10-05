@@ -1,0 +1,43 @@
+{
+  "id": "level3_noisy_029",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-65408",
+  "vendor": "Ahluwalia, Puri and Chandra",
+  "invoice_date": "2026-04-20",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Laptop Stand",
+      "quantity": 18,
+      "unit_price": 1510.56,
+      "amount": 27190.08
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 18,
+      "unit_price": 1163.77,
+      "amount": 20947.86
+    },
+    {
+      "description": "Webcam",
+      "quantity": 6,
+      "unit_price": 66.87,
+      "amount": 401.22
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 11,
+      "unit_price": 2847.41,
+      "amount": 31321.51
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 2,
+      "unit_price": 555.36,
+      "amount": 1110.72
+    }
+  ],
+  "subtotal": 80971.39,
+  "tax": 8097.14,
+  "total": 89068.53
+}

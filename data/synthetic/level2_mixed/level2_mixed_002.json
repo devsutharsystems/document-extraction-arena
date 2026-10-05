@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_002",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-22638",
+  "vendor": "Hanna-Leon",
+  "invoice_date": "2026-08-21",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 1648.67,
+      "amount": 19784.04
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 8,
+      "unit_price": 2876.33,
+      "amount": 23010.64
+    }
+  ],
+  "subtotal": 42794.68,
+  "tax": 8558.94,
+  "total": 51353.62
+}

@@ -1,0 +1,49 @@
+{
+  "id": "level2_mixed_009",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-29268",
+  "vendor": "Houston, Moore and Reilly",
+  "invoice_date": "2026-05-04",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 2,
+      "unit_price": 20200.0,
+      "amount": 40400.0
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 1,
+      "unit_price": 32100.0,
+      "amount": 32100.0
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 10,
+      "unit_price": 5800.0,
+      "amount": 58000.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 17,
+      "unit_price": 34400.0,
+      "amount": 584800.0
+    },
+    {
+      "description": "Webcam",
+      "quantity": 6,
+      "unit_price": 9100.0,
+      "amount": 54600.0
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 12,
+      "unit_price": 17000.0,
+      "amount": 204000.0
+    }
+  ],
+  "subtotal": 973900.0,
+  "tax": 175302.0,
+  "total": 1149202.0
+}

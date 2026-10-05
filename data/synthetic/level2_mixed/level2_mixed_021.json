@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_021",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-30571",
+  "vendor": "Davenport, Perez and Mooney",
+  "invoice_date": "2026-05-12",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 7,
+      "unit_price": 2239.38,
+      "amount": 15675.66
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 13,
+      "unit_price": 396.74,
+      "amount": 5157.62
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 6,
+      "unit_price": 59.53,
+      "amount": 357.18
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 9,
+      "unit_price": 4458.06,
+      "amount": 40122.54
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 10,
+      "unit_price": 3070.64,
+      "amount": 30706.4
+    }
+  ],
+  "subtotal": 92019.4,
+  "tax": 0.0,
+  "total": 92019.4
+}

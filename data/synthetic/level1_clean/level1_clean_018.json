@@ -1,0 +1,25 @@
+{
+  "id": "level1_clean_018",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-74079",
+  "vendor": "Krish, Bhakta and Lad",
+  "invoice_date": "2026-06-20",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 2,
+      "unit_price": 4055.64,
+      "amount": 8111.28
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 6,
+      "unit_price": 2728.59,
+      "amount": 16371.54
+    }
+  ],
+  "subtotal": 24482.82,
+  "tax": 4406.91,
+  "total": 28889.73
+}

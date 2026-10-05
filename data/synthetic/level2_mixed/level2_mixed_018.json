@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_018",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-44136",
+  "vendor": "Becker",
+  "invoice_date": "2026-04-13",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "USB-C Hub",
+      "quantity": 7,
+      "unit_price": 1520.3,
+      "amount": 10642.1
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 17,
+      "unit_price": 2735.54,
+      "amount": 46504.18
+    }
+  ],
+  "subtotal": 57146.28,
+  "tax": 11429.26,
+  "total": 68575.54
+}

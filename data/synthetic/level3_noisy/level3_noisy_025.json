@@ -1,0 +1,49 @@
+{
+  "id": "level3_noisy_025",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-96965",
+  "vendor": "Price-Klein",
+  "invoice_date": "2026-05-07",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 9,
+      "unit_price": 30800.0,
+      "amount": 277200.0
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 5,
+      "unit_price": 25400.0,
+      "amount": 127000.0
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 7,
+      "unit_price": 17200.0,
+      "amount": 120400.0
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 10,
+      "unit_price": 30100.0,
+      "amount": 301000.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 11,
+      "unit_price": 4400.0,
+      "amount": 48400.0
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 5,
+      "unit_price": 9400.0,
+      "amount": 47000.0
+    }
+  ],
+  "subtotal": 921000.0,
+  "tax": 92100.0,
+  "total": 1013100.0
+}

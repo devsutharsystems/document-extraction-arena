@@ -1,0 +1,25 @@
+{
+  "id": "level3_noisy_006",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-67216",
+  "vendor": "Morrison, Williams and Turner",
+  "invoice_date": "2026-02-20",
+  "currency": "JPY",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 16,
+      "unit_price": 1000.0,
+      "amount": 16000.0
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 6,
+      "unit_price": 33800.0,
+      "amount": 202800.0
+    }
+  ],
+  "subtotal": 218800.0,
+  "tax": 10940.0,
+  "total": 229740.0
+}

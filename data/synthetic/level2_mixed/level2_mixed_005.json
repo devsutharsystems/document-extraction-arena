@@ -1,0 +1,25 @@
+{
+  "id": "level2_mixed_005",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-26628",
+  "vendor": "Lalla and Sons",
+  "invoice_date": "2026-03-19",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Wireless Mouse",
+      "quantity": 4,
+      "unit_price": 1154.92,
+      "amount": 4619.68
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 7,
+      "unit_price": 1310.24,
+      "amount": 9171.68
+    }
+  ],
+  "subtotal": 13791.36,
+  "tax": 2758.27,
+  "total": 16549.63
+}

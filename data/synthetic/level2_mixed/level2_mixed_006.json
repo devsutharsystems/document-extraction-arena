@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_006",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-42324",
+  "vendor": "Smith, Carr and Lynch",
+  "invoice_date": "2026-04-29",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 1,
+      "unit_price": 2067.76,
+      "amount": 2067.76
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 20,
+      "unit_price": 1567.22,
+      "amount": 31344.4
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 4449.82,
+      "amount": 75646.94
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 7,
+      "unit_price": 2440.54,
+      "amount": 17083.78
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 6,
+      "unit_price": 404.7,
+      "amount": 2428.2
+    }
+  ],
+  "subtotal": 128571.08,
+  "tax": 0.0,
+  "total": 128571.08
+}

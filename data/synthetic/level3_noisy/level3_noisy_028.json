@@ -1,0 +1,31 @@
+{
+  "id": "level3_noisy_028",
+  "level": "level3_noisy",
+  "invoice_number": "INV-2026-86560",
+  "vendor": "Henry, West and White",
+  "invoice_date": "2026-01-16",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 7,
+      "unit_price": 893.12,
+      "amount": 6251.84
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 2,
+      "unit_price": 4356.41,
+      "amount": 8712.82
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 18,
+      "unit_price": 2397.41,
+      "amount": 43153.38
+    }
+  ],
+  "subtotal": 58118.04,
+  "tax": 10461.25,
+  "total": 68579.29
+}

@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_002",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-97755",
+  "vendor": "Sandal, Bhatti and Boase",
+  "invoice_date": "2026-06-13",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 1,
+      "unit_price": 4345.79,
+      "amount": 4345.79
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 3,
+      "unit_price": 2885.97,
+      "amount": 8657.91
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 10,
+      "unit_price": 4450.87,
+      "amount": 44508.7
+    }
+  ],
+  "subtotal": 57512.4,
+  "tax": 10352.23,
+  "total": 67864.63
+}

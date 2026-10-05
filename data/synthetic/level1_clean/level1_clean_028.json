@@ -1,0 +1,25 @@
+{
+  "id": "level1_clean_028",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-86558",
+  "vendor": "Kumer-Guha",
+  "invoice_date": "2026-09-15",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "USB-C Hub",
+      "quantity": 3,
+      "unit_price": 2904.43,
+      "amount": 8713.29
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 8,
+      "unit_price": 1053.39,
+      "amount": 8427.12
+    }
+  ],
+  "subtotal": 17140.41,
+  "tax": 3085.27,
+  "total": 20225.68
+}

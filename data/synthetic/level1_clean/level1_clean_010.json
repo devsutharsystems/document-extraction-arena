@@ -1,0 +1,31 @@
+{
+  "id": "level1_clean_010",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-99230",
+  "vendor": "Hayre-Vohra",
+  "invoice_date": "2026-06-30",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 9,
+      "unit_price": 194.94,
+      "amount": 1754.46
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 9,
+      "unit_price": 4137.81,
+      "amount": 37240.29
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 4,
+      "unit_price": 1093.87,
+      "amount": 4375.48
+    }
+  ],
+  "subtotal": 43370.23,
+  "tax": 7806.64,
+  "total": 51176.87
+}
