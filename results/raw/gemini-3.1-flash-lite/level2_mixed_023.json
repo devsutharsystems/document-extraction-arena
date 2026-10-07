@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-78832\",\n  \"vendor\": \"Gulati and Sons\",\n  \"invoice_date\": \"2026-01-07\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 2,\n      \"unit_price\": 3003.84,\n      \"amount\": 6007.68\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 7,\n      \"unit_price\": 1427.19,\n      \"amount\": 9990.33\n    }\n  ],\n  \"subtotal\": 15998.01,\n  \"tax\": 799.90,\n  \"total\": 16797.91\n}",
+  "seconds": 2.89,
+  "input_tokens": 1199,
+  "output_tokens": 220,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_023",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

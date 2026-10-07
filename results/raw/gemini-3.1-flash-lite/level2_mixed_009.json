@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-29268\",\n  \"vendor\": \"Houston, Moore and Reilly\",\n  \"invoice_date\": \"2026-05-04\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 2,\n      \"unit_price\": 20200,\n      \"amount\": 40400\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 1,\n      \"unit_price\": 32100,\n      \"amount\": 32100\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 10,\n      \"unit_price\": 5800,\n      \"amount\": 58000\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 17,\n      \"unit_price\": 34400,\n      \"amount\": 584800\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 6,\n      \"unit_price\": 9100,\n      \"amount\": 54600\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 12,\n      \"unit_price\": 17000,\n      \"amount\": 204000\n    }\n  ],\n  \"subtotal\": 973900,\n  \"tax\": 175302,\n  \"total\": 1149202\n}",
+  "seconds": 10.15,
+  "input_tokens": 1199,
+  "output_tokens": 408,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_009",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

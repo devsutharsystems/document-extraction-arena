@@ -1,0 +1,61 @@
+{
+  "id": "level4_hard_003",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-73862",
+  "vendor": "Kakar-Saxena",
+  "invoice_date": "2026-03-07",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 3,
+      "unit_price": 3870.84,
+      "amount": 11612.52
+    },
+    {
+      "description": "External SSD",
+      "quantity": 20,
+      "unit_price": 1532.08,
+      "amount": 30641.6
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 992.7,
+      "amount": 11912.4
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 16,
+      "unit_price": 587.88,
+      "amount": 9406.08
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 15,
+      "unit_price": 2817.63,
+      "amount": 42264.45
+    },
+    {
+      "description": "Webcam",
+      "quantity": 4,
+      "unit_price": 2427.43,
+      "amount": 9709.72
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 17,
+      "unit_price": 3891.29,
+      "amount": 66151.93
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 17,
+      "unit_price": 1023.07,
+      "amount": 17392.19
+    }
+  ],
+  "subtotal": 199090.89,
+  "tax": 0.0,
+  "total": 199090.89
+}

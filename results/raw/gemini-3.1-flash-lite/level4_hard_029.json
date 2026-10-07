@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-76338\",\n  \"vendor\": \"Gokhale-Mall\",\n  \"invoice_date\": \"2026-03-10\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 11,\n      \"unit_price\": 2089.46,\n      \"amount\": 22984.06\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 1,\n      \"unit_price\": 4495.49,\n      \"amount\": 4495.49\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 9,\n      \"unit_price\": 3054.01,\n      \"amount\": 27486.09\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 16,\n      \"unit_price\": 2261.57,\n      \"amount\": 36185.12\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 7,\n      \"unit_price\": 3831.61,\n      \"amount\": 26821.27\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 12,\n      \"unit_price\": 2500.95,\n      \"amount\": 30011.40\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 12,\n      \"unit_price\": 2100.72,\n      \"amount\": 25208.64\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 2,\n      \"unit_price\": 3746.15,\n      \"amount\": 7492.30\n    }\n  ],\n  \"subtotal\": 180684.37,\n  \"tax\": 32523.19,\n  \"total\": 213207.56\n}",
+  "seconds": 3.76,
+  "input_tokens": 1199,
+  "output_tokens": 548,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_029",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

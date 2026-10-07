@@ -1,0 +1,73 @@
+{
+  "id": "level4_hard_016",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-47791",
+  "vendor": "Holzapfel Finke OHG mbH",
+  "invoice_date": "2026-02-04",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Office Chair",
+      "quantity": 9,
+      "unit_price": 1325.26,
+      "amount": 11927.34
+    },
+    {
+      "description": "External SSD",
+      "quantity": 13,
+      "unit_price": 1588.94,
+      "amount": 20656.22
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 6,
+      "unit_price": 1287.25,
+      "amount": 7723.5
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 3,
+      "unit_price": 490.0,
+      "amount": 1470.0
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 2047.82,
+      "amount": 34812.94
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 18,
+      "unit_price": 1817.83,
+      "amount": 32720.94
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 1,
+      "unit_price": 1416.09,
+      "amount": 1416.09
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 2,
+      "unit_price": 4308.62,
+      "amount": 8617.24
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 18,
+      "unit_price": 2572.19,
+      "amount": 46299.42
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 14,
+      "unit_price": 4306.02,
+      "amount": 60284.28
+    }
+  ],
+  "subtotal": 225927.97,
+  "tax": 11296.4,
+  "total": 237224.37
+}

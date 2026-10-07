@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-78828\",\n  \"vendor\": \"L\u00f6ffler\",\n  \"invoice_date\": \"2026-04-09\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 15,\n      \"unit_price\": 2329.92,\n      \"amount\": 34948.80\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 13,\n      \"unit_price\": 1419.30,\n      \"amount\": 18450.90\n    }\n  ],\n  \"subtotal\": 53399.70,\n  \"tax\": 0.00,\n  \"total\": 53399.70\n}",
+  "seconds": 11.35,
+  "input_tokens": 1199,
+  "output_tokens": 221,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_003",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

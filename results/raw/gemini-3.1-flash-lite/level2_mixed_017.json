@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-53723\",\n  \"vendor\": \"Willis, Giles and Campbell\",\n  \"invoice_date\": \"2026-07-21\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 2,\n      \"unit_price\": 23400,\n      \"amount\": 46800\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 19,\n      \"unit_price\": 27300,\n      \"amount\": 518700\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 9,\n      \"unit_price\": 37300,\n      \"amount\": 335700\n    }\n  ],\n  \"subtotal\": 901200,\n  \"tax\": 0,\n  \"total\": 901200\n}",
+  "seconds": 4.55,
+  "input_tokens": 1199,
+  "output_tokens": 258,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_017",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

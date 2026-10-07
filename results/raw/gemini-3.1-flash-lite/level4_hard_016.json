@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-47791\",\n  \"vendor\": \"Holzapfel Finke OHG mbH\",\n  \"invoice_date\": \"2026-02-04\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 9,\n      \"unit_price\": 1325.26,\n      \"amount\": 11927.34\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 13,\n      \"unit_price\": 1588.94,\n      \"amount\": 20656.22\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 6,\n      \"unit_price\": 1287.25,\n      \"amount\": 7723.50\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 3,\n      \"unit_price\": 490.00,\n      \"amount\": 1470.00\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 17,\n      \"unit_price\": 2047.82,\n      \"amount\": 34812.94\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 18,\n      \"unit_price\": 1817.83,\n      \"amount\": 32720.94\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 1,\n      \"unit_price\": 1416.09,\n      \"amount\": 1416.09\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 2,\n      \"unit_price\": 4308.62,\n      \"amount\": 8617.24\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 18,\n      \"unit_price\": 2572.19,\n      \"amount\": 46299.42\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 14,\n      \"unit_price\": 4306.02,\n      \"amount\": 60284.28\n    }\n  ],\n  \"subtotal\": 225927.97,\n  \"tax\": 11296.40,\n  \"total\": 237224.37\n}",
+  "seconds": 5.59,
+  "input_tokens": 1199,
+  "output_tokens": 658,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_016",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-54847\",\n  \"vendor\": \"Brown Inc\",\n  \"invoice_date\": \"2026-08-08\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 7,\n      \"unit_price\": 3965.80,\n      \"amount\": 27760.60\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 8,\n      \"unit_price\": 4717.01,\n      \"amount\": 37736.08\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 2,\n      \"unit_price\": 648.50,\n      \"amount\": 1297.00\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 20,\n      \"unit_price\": 3868.87,\n      \"amount\": 77377.40\n    }\n  ],\n  \"subtotal\": 144171.08,\n  \"tax\": 28834.22,\n  \"total\": 173005.30\n}",
+  "seconds": 5.24,
+  "input_tokens": 1199,
+  "output_tokens": 329,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_018",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

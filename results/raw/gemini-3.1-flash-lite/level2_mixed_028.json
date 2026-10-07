@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-74918\",\n  \"vendor\": \"Bradley and Sons\",\n  \"invoice_date\": \"2026-03-02\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 5,\n      \"unit_price\": 860.27,\n      \"amount\": 4301.35\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 10,\n      \"unit_price\": 3800.01,\n      \"amount\": 38000.10\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 1516.54,\n      \"amount\": 25781.18\n    }\n  ],\n  \"subtotal\": 68082.63,\n  \"tax\": 12254.87,\n  \"total\": 80337.50\n}",
+  "seconds": 12.19,
+  "input_tokens": 1199,
+  "output_tokens": 277,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_028",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

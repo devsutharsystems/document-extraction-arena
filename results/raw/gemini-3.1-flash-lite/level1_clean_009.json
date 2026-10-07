@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-60472\",\n  \"vendor\": \"Modi, Ramachandran and Balakrishnan\",\n  \"invoice_date\": \"2026-08-11\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 3,\n      \"unit_price\": 3341.04,\n      \"amount\": 10023.12\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 16,\n      \"unit_price\": 2514.42,\n      \"amount\": 40230.72\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 16,\n      \"unit_price\": 2411.38,\n      \"amount\": 38582.08\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 18,\n      \"unit_price\": 3263.47,\n      \"amount\": 58742.46\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 6,\n      \"unit_price\": 3835.72,\n      \"amount\": 23014.32\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 15,\n      \"unit_price\": 1439.04,\n      \"amount\": 21585.60\n    }\n  ],\n  \"subtotal\": 192178.30,\n  \"tax\": 34592.09,\n  \"total\": 226770.39\n}",
+  "seconds": 3.69,
+  "input_tokens": 1199,
+  "output_tokens": 450,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_009",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

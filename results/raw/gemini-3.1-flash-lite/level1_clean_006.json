@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-15571\",\n  \"vendor\": \"Ganesh, Patla and Khare\",\n  \"invoice_date\": \"2026-06-16\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 17,\n      \"unit_price\": 3666.17,\n      \"amount\": 62324.89\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 15,\n      \"unit_price\": 4777.93,\n      \"amount\": 71668.95\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 3,\n      \"unit_price\": 2377.71,\n      \"amount\": 7133.13\n    }\n  ],\n  \"subtotal\": 141126.97,\n  \"tax\": 25402.85,\n  \"total\": 166529.82\n}",
+  "seconds": 8.24,
+  "input_tokens": 1199,
+  "output_tokens": 285,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_006",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

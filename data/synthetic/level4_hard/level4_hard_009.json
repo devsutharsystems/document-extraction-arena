@@ -1,0 +1,97 @@
+{
+  "id": "level4_hard_009",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-36824",
+  "vendor": "Smith PLC",
+  "invoice_date": "2026-02-07",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 20,
+      "unit_price": 1139.66,
+      "amount": 22793.2
+    },
+    {
+      "description": "Webcam",
+      "quantity": 20,
+      "unit_price": 4707.46,
+      "amount": 94149.2
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 2,
+      "unit_price": 2788.47,
+      "amount": 5576.94
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 16,
+      "unit_price": 3842.52,
+      "amount": 61480.32
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 6,
+      "unit_price": 419.86,
+      "amount": 2519.16
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 19,
+      "unit_price": 1979.79,
+      "amount": 37616.01
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 8,
+      "unit_price": 2434.97,
+      "amount": 19479.76
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 13,
+      "unit_price": 1350.85,
+      "amount": 17561.05
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 17,
+      "unit_price": 4438.72,
+      "amount": 75458.24
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 10,
+      "unit_price": 2671.36,
+      "amount": 26713.6
+    },
+    {
+      "description": "External SSD",
+      "quantity": 7,
+      "unit_price": 3310.45,
+      "amount": 23173.15
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 13,
+      "unit_price": 474.2,
+      "amount": 6164.6
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 20,
+      "unit_price": 303.61,
+      "amount": 6072.2
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 14,
+      "unit_price": 3799.68,
+      "amount": 53195.52
+    }
+  ],
+  "subtotal": 451952.95,
+  "tax": 81351.53,
+  "total": 533304.48
+}

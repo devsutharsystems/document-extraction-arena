@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-28333\",\n  \"vendor\": \"Kensy Hornig GmbH & Co. KGaA\",\n  \"invoice_date\": \"2026-09-13\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 4,\n      \"unit_price\": 1493.13,\n      \"amount\": 5972.52\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 12,\n      \"unit_price\": 2749.44,\n      \"amount\": 32993.28\n    }\n  ],\n  \"subtotal\": 38965.80,\n  \"tax\": 7013.84,\n  \"total\": 45979.64\n}",
+  "seconds": 17.31,
+  "input_tokens": 1199,
+  "output_tokens": 232,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_020",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

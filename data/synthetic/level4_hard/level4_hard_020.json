@@ -1,0 +1,73 @@
+{
+  "id": "level4_hard_020",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-24086",
+  "vendor": "Klotz Becker GbR",
+  "invoice_date": "2026-11-08",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 18,
+      "unit_price": 2777.73,
+      "amount": 49999.14
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 11,
+      "unit_price": 83.83,
+      "amount": 922.13
+    },
+    {
+      "description": "Webcam",
+      "quantity": 13,
+      "unit_price": 2685.74,
+      "amount": 34914.62
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 19,
+      "unit_price": 1662.03,
+      "amount": 31578.57
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 15,
+      "unit_price": 1838.32,
+      "amount": 27574.8
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 11,
+      "unit_price": 1169.25,
+      "amount": 12861.75
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 3,
+      "unit_price": 2537.63,
+      "amount": 7612.89
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 19,
+      "unit_price": 2525.64,
+      "amount": 47987.16
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 11,
+      "unit_price": 3012.32,
+      "amount": 33135.52
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 3417.65,
+      "amount": 58100.05
+    }
+  ],
+  "subtotal": 304686.63,
+  "tax": 54843.59,
+  "total": 359530.22
+}

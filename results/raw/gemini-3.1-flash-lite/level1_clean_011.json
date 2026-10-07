@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-95164\",\n  \"vendor\": \"Mand, Ramanathan and Samra\",\n  \"invoice_date\": \"2026-05-19\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 2,\n      \"unit_price\": 4916.80,\n      \"amount\": 9833.60\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 5,\n      \"unit_price\": 1583.93,\n      \"amount\": 7919.65\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 14,\n      \"unit_price\": 741.97,\n      \"amount\": 10387.58\n    }\n  ],\n  \"subtotal\": 28140.83,\n  \"tax\": 5065.35,\n  \"total\": 33206.18\n}",
+  "seconds": 4.17,
+  "input_tokens": 1199,
+  "output_tokens": 278,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_011",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

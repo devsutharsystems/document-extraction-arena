@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-38883\",\n  \"vendor\": \"Barman-Das\",\n  \"invoice_date\": \"2026-01-13\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 17,\n      \"unit_price\": 1325.55,\n      \"amount\": 22534.35\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 5,\n      \"unit_price\": 202.78,\n      \"amount\": 1013.90\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 18,\n      \"unit_price\": 4088.83,\n      \"amount\": 73598.94\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 20,\n      \"unit_price\": 1743.11,\n      \"amount\": 34862.20\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 15,\n      \"unit_price\": 2103.26,\n      \"amount\": 31548.90\n    }\n  ],\n  \"subtotal\": 163558.29,\n  \"tax\": 29440.49,\n  \"total\": 192998.78\n}",
+  "seconds": 14.84,
+  "input_tokens": 1199,
+  "output_tokens": 388,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_022",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

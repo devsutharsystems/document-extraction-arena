@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-86560\",\n  \"vendor\": \"Henry, West and White\",\n  \"invoice_date\": \"2026-01-16\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 7,\n      \"unit_price\": 893.12,\n      \"amount\": 6251.84\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 2,\n      \"unit_price\": 4356.41,\n      \"amount\": 8712.82\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 18,\n      \"unit_price\": 2397.41,\n      \"amount\": 43153.38\n    }\n  ],\n  \"subtotal\": 58118.04,\n  \"tax\": 10461.25,\n  \"total\": 68579.29\n}",
+  "seconds": 8.97,
+  "input_tokens": 1199,
+  "output_tokens": 278,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_028",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

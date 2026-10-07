@@ -1,0 +1,97 @@
+{
+  "id": "level4_hard_008",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-55529",
+  "vendor": "Wilkinson, Green and Simpson",
+  "invoice_date": "2026-04-10",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 16,
+      "unit_price": 3003.05,
+      "amount": 48048.8
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 18,
+      "unit_price": 2512.52,
+      "amount": 45225.36
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 20,
+      "unit_price": 3411.32,
+      "amount": 68226.4
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 15,
+      "unit_price": 2036.83,
+      "amount": 30552.45
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 11,
+      "unit_price": 2732.93,
+      "amount": 30062.23
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 1,
+      "unit_price": 532.99,
+      "amount": 532.99
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 16,
+      "unit_price": 2674.01,
+      "amount": 42784.16
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 6,
+      "unit_price": 3339.72,
+      "amount": 20038.32
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 8,
+      "unit_price": 1564.85,
+      "amount": 12518.8
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 1,
+      "unit_price": 2916.44,
+      "amount": 2916.44
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 11,
+      "unit_price": 425.94,
+      "amount": 4685.34
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 16,
+      "unit_price": 1341.43,
+      "amount": 21462.88
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 6,
+      "unit_price": 1166.76,
+      "amount": 7000.56
+    },
+    {
+      "description": "External SSD",
+      "quantity": 5,
+      "unit_price": 448.08,
+      "amount": 2240.4
+    }
+  ],
+  "subtotal": 336295.13,
+  "tax": 33629.51,
+  "total": 369924.64
+}

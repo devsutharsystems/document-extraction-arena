@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-87639\",\n  \"vendor\": \"Williams LLC\",\n  \"invoice_date\": \"2026-01-14\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 10,\n      \"unit_price\": 28300,\n      \"amount\": 283000\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 8,\n      \"unit_price\": 15800,\n      \"amount\": 126400\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 1,\n      \"unit_price\": 16200,\n      \"amount\": 16200\n    }\n  ],\n  \"subtotal\": 425600,\n  \"tax\": 76608,\n  \"total\": 502208\n}",
+  "seconds": 3.47,
+  "input_tokens": 1199,
+  "output_tokens": 256,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_004",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

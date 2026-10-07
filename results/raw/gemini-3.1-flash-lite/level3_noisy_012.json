@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-48689\",\n  \"vendor\": \"Merchant-Sani\",\n  \"invoice_date\": \"2026-07-15\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 9,\n      \"unit_price\": 1493.96,\n      \"amount\": 13445.64\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 17,\n      \"unit_price\": 1123.03,\n      \"amount\": 19091.51\n    }\n  ],\n  \"subtotal\": 32537.15,\n  \"tax\": 1626.86,\n  \"total\": 34164.01\n}",
+  "seconds": 8.6,
+  "input_tokens": 1199,
+  "output_tokens": 224,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_012",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

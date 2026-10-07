@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-11270\",\n  \"vendor\": \"Wells Inc\",\n  \"invoice_date\": \"2026-11-04\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 19,\n      \"unit_price\": 2030.96,\n      \"amount\": 38588.24\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 15,\n      \"unit_price\": 2093.63,\n      \"amount\": 31404.45\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 2,\n      \"unit_price\": 3949.73,\n      \"amount\": 7899.46\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 15,\n      \"unit_price\": 1344.56,\n      \"amount\": 20168.40\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 7,\n      \"unit_price\": 4165.23,\n      \"amount\": 29156.61\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 10,\n      \"unit_price\": 3618.04,\n      \"amount\": 36180.40\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 8,\n      \"unit_price\": 3865.12,\n      \"amount\": 30920.96\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 12,\n      \"unit_price\": 4403.08,\n      \"amount\": 52836.96\n    }\n  ],\n  \"subtotal\": 247155.48,\n  \"tax\": 24715.55,\n  \"total\": 271871.03\n}",
+  "seconds": 6.37,
+  "input_tokens": 1199,
+  "output_tokens": 548,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_024",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

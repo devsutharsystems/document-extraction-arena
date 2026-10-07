@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-84018\",\n  \"vendor\": \"Dasgupta-Rout\",\n  \"invoice_date\": \"2026-03-31\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 9,\n      \"unit_price\": 4607.36,\n      \"amount\": 41466.24\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 17,\n      \"unit_price\": 3368.15,\n      \"amount\": 57258.55\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 7,\n      \"unit_price\": 754.65,\n      \"amount\": 5282.55\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 3951.97,\n      \"amount\": 11855.91\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 16,\n      \"unit_price\": 3418.87,\n      \"amount\": 54701.92\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 14,\n      \"unit_price\": 4450.49,\n      \"amount\": 62306.86\n    }\n  ],\n  \"subtotal\": 232872.03,\n  \"tax\": 41916.97,\n  \"total\": 274789.00\n}",
+  "seconds": 3.38,
+  "input_tokens": 1199,
+  "output_tokens": 442,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_008",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-59100\",\n  \"vendor\": \"Howells, Hewitt and Taylor\",\n  \"invoice_date\": \"2026-06-14\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 2,\n      \"unit_price\": 271.26,\n      \"amount\": 542.52\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 5,\n      \"unit_price\": 4017.76,\n      \"amount\": 20088.80\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 5,\n      \"unit_price\": 3465.79,\n      \"amount\": 17328.95\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 2,\n      \"unit_price\": 3382.73,\n      \"amount\": 6765.46\n    }\n  ],\n  \"subtotal\": 44725.73,\n  \"tax\": 0.00,\n  \"total\": 44725.73\n}",
+  "seconds": 5.07,
+  "input_tokens": 1199,
+  "output_tokens": 325,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_013",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

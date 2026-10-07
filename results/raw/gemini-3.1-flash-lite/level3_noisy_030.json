@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-82664\",\n  \"vendor\": \"Bail-Pingle\",\n  \"invoice_date\": \"2026-04-20\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 18,\n      \"unit_price\": 819.91,\n      \"amount\": 14758.38\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 20,\n      \"unit_price\": 3911.21,\n      \"amount\": 78224.20\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 2,\n      \"unit_price\": 4176.24,\n      \"amount\": 8352.48\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 15,\n      \"unit_price\": 940.14,\n      \"amount\": 14102.10\n    }\n  ],\n  \"subtotal\": 115437.16,\n  \"tax\": 11543.72,\n  \"total\": 126980.88\n}",
+  "seconds": 6.03,
+  "input_tokens": 1199,
+  "output_tokens": 335,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_030",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

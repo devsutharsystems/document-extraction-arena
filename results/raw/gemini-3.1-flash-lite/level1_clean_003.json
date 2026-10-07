@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-53238\",\n  \"vendor\": \"Chad PLC\",\n  \"invoice_date\": \"2026-07-15\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 19,\n      \"unit_price\": 2564.72,\n      \"amount\": 48729.68\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 18,\n      \"unit_price\": 1558.02,\n      \"amount\": 28044.36\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 16,\n      \"unit_price\": 3896.92,\n      \"amount\": 62350.72\n    }\n  ],\n  \"subtotal\": 139124.76,\n  \"tax\": 25042.46,\n  \"total\": 164167.22\n}",
+  "seconds": 2.62,
+  "input_tokens": 1199,
+  "output_tokens": 280,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_003",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

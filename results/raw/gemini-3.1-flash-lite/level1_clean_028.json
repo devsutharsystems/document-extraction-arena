@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-86558\",\n  \"vendor\": \"Kumer-Guha\",\n  \"invoice_date\": \"2026-09-15\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 3,\n      \"unit_price\": 2904.43,\n      \"amount\": 8713.29\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 8,\n      \"unit_price\": 1053.39,\n      \"amount\": 8427.12\n    }\n  ],\n  \"subtotal\": 17140.41,\n  \"tax\": 3085.27,\n  \"total\": 20225.68\n}",
+  "seconds": 13.43,
+  "input_tokens": 1199,
+  "output_tokens": 224,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_028",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

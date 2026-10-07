@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-20313\",\n  \"vendor\": \"Parsa Group\",\n  \"invoice_date\": \"2026-06-02\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 6,\n      \"unit_price\": 1216.77,\n      \"amount\": 7300.62\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 17,\n      \"unit_price\": 444.68,\n      \"amount\": 7559.56\n    }\n  ],\n  \"subtotal\": 14860.18,\n  \"tax\": 2674.83,\n  \"total\": 17535.01\n}",
+  "seconds": 9.16,
+  "input_tokens": 1199,
+  "output_tokens": 220,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_023",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

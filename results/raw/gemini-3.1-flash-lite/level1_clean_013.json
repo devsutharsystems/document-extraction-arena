@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-73275\",\n  \"vendor\": \"Chandran, Rege and Rana\",\n  \"invoice_date\": \"2026-05-27\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 11,\n      \"unit_price\": 2002.85,\n      \"amount\": 22031.35\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 5,\n      \"unit_price\": 2801.81,\n      \"amount\": 14009.05\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 2,\n      \"unit_price\": 3215.80,\n      \"amount\": 6431.60\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 18,\n      \"unit_price\": 1683.42,\n      \"amount\": 30301.56\n    }\n  ],\n  \"subtotal\": 72773.56,\n  \"tax\": 13099.24,\n  \"total\": 85872.80\n}",
+  "seconds": 5.66,
+  "input_tokens": 1199,
+  "output_tokens": 336,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_013",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

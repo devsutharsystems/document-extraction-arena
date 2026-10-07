@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-48606\",\n  \"vendor\": \"Moore, Morris and Coles\",\n  \"invoice_date\": \"2026-08-12\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 17,\n      \"unit_price\": 4249.75,\n      \"amount\": 72245.75\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 16,\n      \"unit_price\": 77.93,\n      \"amount\": 1246.88\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 18,\n      \"unit_price\": 105.33,\n      \"amount\": 1895.94\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 3,\n      \"unit_price\": 4361.13,\n      \"amount\": 13083.39\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 3,\n      \"unit_price\": 174.00,\n      \"amount\": 522.00\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 7,\n      \"unit_price\": 4882.61,\n      \"amount\": 34178.27\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 7,\n      \"unit_price\": 2632.29,\n      \"amount\": 18426.03\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 13,\n      \"unit_price\": 1621.40,\n      \"amount\": 21078.20\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 7,\n      \"unit_price\": 1220.41,\n      \"amount\": 8542.87\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 11,\n      \"unit_price\": 673.88,\n      \"amount\": 7412.68\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 8,\n      \"unit_price\": 164.43,\n      \"amount\": 1315.44\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 1,\n      \"unit_price\": 3813.36,\n      \"amount\": 3813.36\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 15,\n      \"unit_price\": 846.21,\n      \"amount\": 12693.15\n    }\n  ],\n  \"subtotal\": 196453.96,\n  \"tax\": 0.00,\n  \"total\": 196453.96\n}",
+  "seconds": 4.98,
+  "input_tokens": 1199,
+  "output_tokens": 800,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_012",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

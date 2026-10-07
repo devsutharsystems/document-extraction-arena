@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-66179\",\n  \"vendor\": \"R\u00e4del AG\",\n  \"invoice_date\": \"2026-06-28\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 7,\n      \"unit_price\": 335.12,\n      \"amount\": 2345.84\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 6,\n      \"unit_price\": 1688.48,\n      \"amount\": 10130.88\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 15,\n      \"unit_price\": 64.27,\n      \"amount\": 964.05\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 3,\n      \"unit_price\": 2799.70,\n      \"amount\": 8399.10\n    }\n  ],\n  \"subtotal\": 21839.87,\n  \"tax\": 3931.18,\n  \"total\": 25771.05\n}",
+  "seconds": 12.78,
+  "input_tokens": 1199,
+  "output_tokens": 323,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_019",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

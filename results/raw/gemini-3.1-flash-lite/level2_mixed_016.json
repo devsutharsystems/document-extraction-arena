@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-58008\",\n  \"vendor\": \"Davids\",\n  \"invoice_date\": \"2026-02-27\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 13,\n      \"unit_price\": 2144.00,\n      \"amount\": 27872.00\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 6,\n      \"unit_price\": 2571.90,\n      \"amount\": 15431.40\n    }\n  ],\n  \"subtotal\": 43303.40,\n  \"tax\": 4330.34,\n  \"total\": 47633.74\n}",
+  "seconds": 3.78,
+  "input_tokens": 1199,
+  "output_tokens": 222,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_016",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

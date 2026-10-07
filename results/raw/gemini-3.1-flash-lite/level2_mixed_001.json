@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-53092\",\n  \"vendor\": \"Goswami-Badal\",\n  \"invoice_date\": \"2026-09-16\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 12,\n      \"unit_price\": 4677.63,\n      \"amount\": 56131.56\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 16,\n      \"unit_price\": 2769.47,\n      \"amount\": 44311.52\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 9,\n      \"unit_price\": 1413.92,\n      \"amount\": 12725.28\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 10,\n      \"unit_price\": 1383.14,\n      \"amount\": 13831.40\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 1589.09,\n      \"amount\": 9534.54\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 15,\n      \"unit_price\": 524.22,\n      \"amount\": 7863.30\n    }\n  ],\n  \"subtotal\": 144397.60,\n  \"tax\": 14439.76,\n  \"total\": 158837.36\n}",
+  "seconds": 5.48,
+  "input_tokens": 1199,
+  "output_tokens": 445,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_001",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

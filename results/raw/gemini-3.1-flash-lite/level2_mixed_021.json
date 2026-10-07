@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-30571\",\n  \"vendor\": \"Davenport, Perez and Mooney\",\n  \"invoice_date\": \"2026-05-12\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 7,\n      \"unit_price\": 2239.38,\n      \"amount\": 15675.66\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 13,\n      \"unit_price\": 396.74,\n      \"amount\": 5157.62\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 6,\n      \"unit_price\": 59.53,\n      \"amount\": 357.18\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 9,\n      \"unit_price\": 4458.06,\n      \"amount\": 40122.54\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 10,\n      \"unit_price\": 3070.64,\n      \"amount\": 30706.40\n    }\n  ],\n  \"subtotal\": 92019.40,\n  \"tax\": 0.00,\n  \"total\": 92019.40\n}",
+  "seconds": 9.26,
+  "input_tokens": 1199,
+  "output_tokens": 379,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_021",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-73891\",\n  \"vendor\": \"Walls, Newman and Ochoa\",\n  \"invoice_date\": \"2026-05-29\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 9,\n      \"unit_price\": 600,\n      \"amount\": 5400\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 19,\n      \"unit_price\": 800,\n      \"amount\": 15200\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 2,\n      \"unit_price\": 24300,\n      \"amount\": 48600\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 14,\n      \"unit_price\": 3300,\n      \"amount\": 46200\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 17,\n      \"unit_price\": 16500,\n      \"amount\": 280500\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 18,\n      \"unit_price\": 31000,\n      \"amount\": 558000\n    }\n  ],\n  \"subtotal\": 953900,\n  \"tax\": 171702,\n  \"total\": 1125602\n}",
+  "seconds": 29.31,
+  "input_tokens": 1199,
+  "output_tokens": 405,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_009",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

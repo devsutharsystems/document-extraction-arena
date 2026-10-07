@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-31193\",\n  \"vendor\": \"Eimer\",\n  \"invoice_date\": \"2026-09-07\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 12,\n      \"unit_price\": 2053.25,\n      \"amount\": 24639.00\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 17,\n      \"unit_price\": 4564.66,\n      \"amount\": 77599.22\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 11,\n      \"unit_price\": 3840.70,\n      \"amount\": 42247.70\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 3,\n      \"unit_price\": 1490.00,\n      \"amount\": 4470.00\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 12,\n      \"unit_price\": 1176.22,\n      \"amount\": 14114.64\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 15,\n      \"unit_price\": 4200.77,\n      \"amount\": 63011.55\n    }\n  ],\n  \"subtotal\": 226082.11,\n  \"tax\": 11304.11,\n  \"total\": 237386.22\n}",
+  "seconds": 8.34,
+  "input_tokens": 1199,
+  "output_tokens": 440,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_029",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

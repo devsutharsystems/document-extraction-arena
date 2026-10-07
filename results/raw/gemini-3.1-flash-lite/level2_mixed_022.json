@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-20613\",\n  \"vendor\": \"Reyes, Anderson and Guerrero\",\n  \"invoice_date\": \"2026-01-30\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 14,\n      \"unit_price\": 37100,\n      \"amount\": 519400\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 16,\n      \"unit_price\": 30000,\n      \"amount\": 480000\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 3,\n      \"unit_price\": 27200,\n      \"amount\": 81600\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 6,\n      \"unit_price\": 36400,\n      \"amount\": 218400\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 4,\n      \"unit_price\": 28300,\n      \"amount\": 113200\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 4,\n      \"unit_price\": 28700,\n      \"amount\": 114800\n    }\n  ],\n  \"subtotal\": 1527400,\n  \"tax\": 274932,\n  \"total\": 1802332\n}",
+  "seconds": 11.31,
+  "input_tokens": 1199,
+  "output_tokens": 411,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_022",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-16034\",\n  \"vendor\": \"Garde LLC\",\n  \"invoice_date\": \"2026-05-22\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 18,\n      \"unit_price\": 4678.17,\n      \"amount\": 84207.06\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 14,\n      \"unit_price\": 4323.03,\n      \"amount\": 60522.42\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 16,\n      \"unit_price\": 3709.27,\n      \"amount\": 59348.32\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 20,\n      \"unit_price\": 3209.30,\n      \"amount\": 64186.00\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 15,\n      \"unit_price\": 1048.16,\n      \"amount\": 15722.40\n    }\n  ],\n  \"subtotal\": 283986.20,\n  \"tax\": 0.00,\n  \"total\": 283986.20\n}",
+  "seconds": 4.31,
+  "input_tokens": 1199,
+  "output_tokens": 385,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_015",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

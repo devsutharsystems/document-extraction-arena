@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_030",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-71577",
+  "vendor": "Nigam-Kala",
+  "invoice_date": "2026-03-09",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 16,
+      "unit_price": 2712.54,
+      "amount": 43400.64
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 17,
+      "unit_price": 4114.21,
+      "amount": 69941.57
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 9,
+      "unit_price": 1573.36,
+      "amount": 14160.24
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 2,
+      "unit_price": 159.97,
+      "amount": 319.94
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 17,
+      "unit_price": 86.61,
+      "amount": 1472.37
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 1,
+      "unit_price": 4540.39,
+      "amount": 4540.39
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 19,
+      "unit_price": 433.29,
+      "amount": 8232.51
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 8,
+      "unit_price": 2632.81,
+      "amount": 21062.48
+    },
+    {
+      "description": "Webcam",
+      "quantity": 18,
+      "unit_price": 4182.96,
+      "amount": 75293.28
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 12,
+      "unit_price": 1818.83,
+      "amount": 21825.96
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 9,
+      "unit_price": 1587.24,
+      "amount": 14285.16
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 8,
+      "unit_price": 4848.04,
+      "amount": 38784.32
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 19,
+      "unit_price": 2935.2,
+      "amount": 55768.8
+    },
+    {
+      "description": "External SSD",
+      "quantity": 2,
+      "unit_price": 3894.55,
+      "amount": 7789.1
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 17,
+      "unit_price": 4920.16,
+      "amount": 83642.72
+    }
+  ],
+  "subtotal": 460519.48,
+  "tax": 92103.9,
+  "total": 552623.38
+}

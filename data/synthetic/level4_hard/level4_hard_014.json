@@ -1,0 +1,85 @@
+{
+  "id": "level4_hard_014",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-93409",
+  "vendor": "Reed Inc",
+  "invoice_date": "2026-03-08",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 16,
+      "unit_price": 1878.77,
+      "amount": 30060.32
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 7,
+      "unit_price": 180.48,
+      "amount": 1263.36
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 15,
+      "unit_price": 3097.6,
+      "amount": 46464.0
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 15,
+      "unit_price": 4814.56,
+      "amount": 72218.4
+    },
+    {
+      "description": "External SSD",
+      "quantity": 7,
+      "unit_price": 1920.58,
+      "amount": 13444.06
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 18,
+      "unit_price": 967.87,
+      "amount": 17421.66
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 9,
+      "unit_price": 1773.82,
+      "amount": 15964.38
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 20,
+      "unit_price": 2071.58,
+      "amount": 41431.6
+    },
+    {
+      "description": "Webcam",
+      "quantity": 4,
+      "unit_price": 2779.26,
+      "amount": 11117.04
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 5,
+      "unit_price": 1327.31,
+      "amount": 6636.55
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 19,
+      "unit_price": 4594.04,
+      "amount": 87286.76
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 8,
+      "unit_price": 310.78,
+      "amount": 2486.24
+    }
+  ],
+  "subtotal": 345794.37,
+  "tax": 62242.99,
+  "total": 408037.36
+}

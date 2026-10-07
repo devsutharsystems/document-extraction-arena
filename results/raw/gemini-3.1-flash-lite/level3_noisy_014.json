@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-16236\",\n  \"vendor\": \"Walker-Murray\",\n  \"invoice_date\": \"2026-05-14\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 9,\n      \"unit_price\": 3412.42,\n      \"amount\": 30711.78\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 20,\n      \"unit_price\": 3816.45,\n      \"amount\": 76329.00\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 2,\n      \"unit_price\": 3717.30,\n      \"amount\": 7434.60\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 18,\n      \"unit_price\": 295.34,\n      \"amount\": 5316.12\n    }\n  ],\n  \"subtotal\": 119791.50,\n  \"tax\": 0.00,\n  \"total\": 119791.50\n}",
+  "seconds": 5.98,
+  "input_tokens": 1199,
+  "output_tokens": 327,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_014",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

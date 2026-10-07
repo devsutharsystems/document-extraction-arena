@@ -1,0 +1,67 @@
+{
+  "id": "level4_hard_004",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-86973",
+  "vendor": "Steckel Gnatz AG",
+  "invoice_date": "2026-03-11",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 4346.52,
+      "amount": 13039.56
+    },
+    {
+      "description": "Webcam",
+      "quantity": 17,
+      "unit_price": 1202.35,
+      "amount": 20439.95
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 7,
+      "unit_price": 868.97,
+      "amount": 6082.79
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 1,
+      "unit_price": 1804.66,
+      "amount": 1804.66
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 3,
+      "unit_price": 3094.77,
+      "amount": 9284.31
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 3,
+      "unit_price": 3268.88,
+      "amount": 9806.64
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 7,
+      "unit_price": 1279.86,
+      "amount": 8959.02
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 8,
+      "unit_price": 3391.01,
+      "amount": 27128.08
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 15,
+      "unit_price": 1535.42,
+      "amount": 23031.3
+    }
+  ],
+  "subtotal": 119576.31,
+  "tax": 21523.74,
+  "total": 141100.05
+}

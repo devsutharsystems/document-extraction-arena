@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-72466\",\n  \"vendor\": \"Manne Group\",\n  \"invoice_date\": \"2026-08-31\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 10,\n      \"unit_price\": 2216.75,\n      \"amount\": 22167.50\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 1,\n      \"unit_price\": 4711.27,\n      \"amount\": 4711.27\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 18,\n      \"unit_price\": 4596.30,\n      \"amount\": 82733.40\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 12,\n      \"unit_price\": 1767.43,\n      \"amount\": 21209.16\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 6,\n      \"unit_price\": 1065.79,\n      \"amount\": 6394.74\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 9,\n      \"unit_price\": 4609.15,\n      \"amount\": 41482.35\n    }\n  ],\n  \"subtotal\": 178698.42,\n  \"tax\": 32165.72,\n  \"total\": 210864.14\n}",
+  "seconds": 16.67,
+  "input_tokens": 1199,
+  "output_tokens": 438,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_021",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-28345\",\n  \"vendor\": \"Brown, Jefferson and Holmes\",\n  \"invoice_date\": \"2026-04-01\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 2,\n      \"unit_price\": 631.33,\n      \"amount\": 1262.66\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 13,\n      \"unit_price\": 3009.84,\n      \"amount\": 39127.92\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 18,\n      \"unit_price\": 1964.56,\n      \"amount\": 35362.08\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 2,\n      \"unit_price\": 3985.09,\n      \"amount\": 7970.18\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 1,\n      \"unit_price\": 2541.05,\n      \"amount\": 2541.05\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 8,\n      \"unit_price\": 3450.71,\n      \"amount\": 27605.68\n    }\n  ],\n  \"subtotal\": 113869.57,\n  \"tax\": 5693.48,\n  \"total\": 119563.05\n}",
+  "seconds": 15.8,
+  "input_tokens": 1199,
+  "output_tokens": 439,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_024",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

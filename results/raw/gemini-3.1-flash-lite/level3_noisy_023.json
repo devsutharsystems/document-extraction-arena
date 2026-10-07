@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-89309\",\n  \"vendor\": \"Price PLC\",\n  \"invoice_date\": \"2026-05-09\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 12,\n      \"unit_price\": 20600,\n      \"amount\": 247200\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 8,\n      \"unit_price\": 21200,\n      \"amount\": 169600\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 13,\n      \"unit_price\": 4700,\n      \"amount\": 61100\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 7300,\n      \"amount\": 43800\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 9,\n      \"unit_price\": 10100,\n      \"amount\": 90900\n    }\n  ],\n  \"subtotal\": 612600,\n  \"tax\": 110268,\n  \"total\": 722868\n}",
+  "seconds": 5.76,
+  "input_tokens": 1199,
+  "output_tokens": 353,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_023",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-39684\",\n  \"vendor\": \"Walsh Group\",\n  \"invoice_date\": \"2026-07-06\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 5,\n      \"unit_price\": 982.73,\n      \"amount\": 4913.65\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 12,\n      \"unit_price\": 3812.79,\n      \"amount\": 45753.48\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 11,\n      \"unit_price\": 4841.49,\n      \"amount\": 53256.39\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 19,\n      \"unit_price\": 3118.50,\n      \"amount\": 59251.50\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 2,\n      \"unit_price\": 569.66,\n      \"amount\": 1139.32\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 2,\n      \"unit_price\": 1322.90,\n      \"amount\": 2645.80\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 4,\n      \"unit_price\": 1244.08,\n      \"amount\": 4976.32\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 7,\n      \"unit_price\": 3457.33,\n      \"amount\": 24201.31\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 8,\n      \"unit_price\": 3357.50,\n      \"amount\": 26860.00\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 1,\n      \"unit_price\": 4656.07,\n      \"amount\": 4656.07\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 4,\n      \"unit_price\": 3406.40,\n      \"amount\": 13625.60\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 13,\n      \"unit_price\": 1979.03,\n      \"amount\": 25727.39\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 16,\n      \"unit_price\": 4100.63,\n      \"amount\": 65610.08\n    }\n  ],\n  \"subtotal\": 332616.91,\n  \"tax\": 0.00,\n  \"total\": 332616.91\n}",
+  "seconds": 6.37,
+  "input_tokens": 1199,
+  "output_tokens": 806,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_027",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

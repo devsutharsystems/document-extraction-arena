@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_007",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-19303",
+  "vendor": "Gallagher PLC",
+  "invoice_date": "2026-06-11",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 11,
+      "unit_price": 2817.72,
+      "amount": 30994.92
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 7,
+      "unit_price": 2575.74,
+      "amount": 18030.18
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 6,
+      "unit_price": 3097.37,
+      "amount": 18584.22
+    },
+    {
+      "description": "Webcam",
+      "quantity": 20,
+      "unit_price": 3219.03,
+      "amount": 64380.6
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 8,
+      "unit_price": 139.26,
+      "amount": 1114.08
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 7,
+      "unit_price": 4723.66,
+      "amount": 33065.62
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 4,
+      "unit_price": 118.98,
+      "amount": 475.92
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 17,
+      "unit_price": 3950.1,
+      "amount": 67151.7
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 13,
+      "unit_price": 3751.38,
+      "amount": 48767.94
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 11,
+      "unit_price": 1385.41,
+      "amount": 15239.51
+    },
+    {
+      "description": "External SSD",
+      "quantity": 18,
+      "unit_price": 1335.89,
+      "amount": 24046.02
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 14,
+      "unit_price": 87.15,
+      "amount": 1220.1
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 12,
+      "unit_price": 3641.79,
+      "amount": 43701.48
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 9,
+      "unit_price": 2349.91,
+      "amount": 21149.19
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 14,
+      "unit_price": 4398.48,
+      "amount": 61578.72
+    }
+  ],
+  "subtotal": 449500.2,
+  "tax": 22475.01,
+  "total": 471975.21
+}

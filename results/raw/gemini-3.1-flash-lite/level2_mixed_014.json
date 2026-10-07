@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-59512\",\n  \"vendor\": \"Schomber Schulz AG & Co. OHG\",\n  \"invoice_date\": \"2026-06-12\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 8,\n      \"unit_price\": 503.26,\n      \"amount\": 4026.08\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 1,\n      \"unit_price\": 4295.55,\n      \"amount\": 4295.55\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 19,\n      \"unit_price\": 275.81,\n      \"amount\": 5240.39\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 15,\n      \"unit_price\": 3402.59,\n      \"amount\": 51038.85\n    }\n  ],\n  \"subtotal\": 64600.87,\n  \"tax\": 0.00,\n  \"total\": 64600.87\n}",
+  "seconds": 7.24,
+  "input_tokens": 1199,
+  "output_tokens": 331,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_014",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

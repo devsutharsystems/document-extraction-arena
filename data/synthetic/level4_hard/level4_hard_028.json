@@ -1,0 +1,67 @@
+{
+  "id": "level4_hard_028",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-12089",
+  "vendor": "Mueller, Terry and Diaz",
+  "invoice_date": "2026-12-08",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 19,
+      "unit_price": 2853.21,
+      "amount": 54210.99
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 16,
+      "unit_price": 3389.29,
+      "amount": 54228.64
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 9,
+      "unit_price": 4623.87,
+      "amount": 41614.83
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 2,
+      "unit_price": 4443.74,
+      "amount": 8887.48
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 19,
+      "unit_price": 3254.36,
+      "amount": 61832.84
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 18,
+      "unit_price": 4112.36,
+      "amount": 74022.48
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 4,
+      "unit_price": 3385.29,
+      "amount": 13541.16
+    },
+    {
+      "description": "External SSD",
+      "quantity": 19,
+      "unit_price": 4715.97,
+      "amount": 89603.43
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 10,
+      "unit_price": 2330.44,
+      "amount": 23304.4
+    }
+  ],
+  "subtotal": 421246.25,
+  "tax": 21062.31,
+  "total": 442308.56
+}

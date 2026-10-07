@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-12089\",\n  \"vendor\": \"Mueller, Terry and Diaz\",\n  \"invoice_date\": \"2026-08-12\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 19,\n      \"unit_price\": 2853.21,\n      \"amount\": 54210.99\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 16,\n      \"unit_price\": 3389.29,\n      \"amount\": 54228.64\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 9,\n      \"unit_price\": 4623.87,\n      \"amount\": 41614.83\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 2,\n      \"unit_price\": 4443.74,\n      \"amount\": 8887.48\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 19,\n      \"unit_price\": 3254.36,\n      \"amount\": 61832.84\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 18,\n      \"unit_price\": 4112.36,\n      \"amount\": 74022.48\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 4,\n      \"unit_price\": 3385.29,\n      \"amount\": 13541.16\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 19,\n      \"unit_price\": 4715.97,\n      \"amount\": 89603.43\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 10,\n      \"unit_price\": 2330.44,\n      \"amount\": 23304.40\n    }\n  ],\n  \"subtotal\": 421246.25,\n  \"tax\": 21062.31,\n  \"total\": 442308.56\n}",
+  "seconds": 5.1,
+  "input_tokens": 1199,
+  "output_tokens": 609,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_028",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

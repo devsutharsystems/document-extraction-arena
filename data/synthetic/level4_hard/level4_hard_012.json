@@ -1,0 +1,91 @@
+{
+  "id": "level4_hard_012",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-48606",
+  "vendor": "Moore, Morris and Coles",
+  "invoice_date": "2026-08-12",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 17,
+      "unit_price": 4249.75,
+      "amount": 72245.75
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 16,
+      "unit_price": 77.93,
+      "amount": 1246.88
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 18,
+      "unit_price": 105.33,
+      "amount": 1895.94
+    },
+    {
+      "description": "Webcam",
+      "quantity": 3,
+      "unit_price": 4361.13,
+      "amount": 13083.39
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 174.0,
+      "amount": 522.0
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 7,
+      "unit_price": 4882.61,
+      "amount": 34178.27
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 7,
+      "unit_price": 2632.29,
+      "amount": 18426.03
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 13,
+      "unit_price": 1621.4,
+      "amount": 21078.2
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 7,
+      "unit_price": 1220.41,
+      "amount": 8542.87
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 11,
+      "unit_price": 673.88,
+      "amount": 7412.68
+    },
+    {
+      "description": "External SSD",
+      "quantity": 8,
+      "unit_price": 164.43,
+      "amount": 1315.44
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 1,
+      "unit_price": 3813.36,
+      "amount": 3813.36
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 15,
+      "unit_price": 846.21,
+      "amount": 12693.15
+    }
+  ],
+  "subtotal": 196453.96,
+  "tax": 0.0,
+  "total": 196453.96
+}

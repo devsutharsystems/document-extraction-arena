@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-86567\",\n  \"vendor\": \"Sager M\u00fcller e.G.\",\n  \"invoice_date\": \"2026-02-28\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 11,\n      \"unit_price\": 1214.45,\n      \"amount\": 13358.95\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 9,\n      \"unit_price\": 823.12,\n      \"amount\": 7408.08\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 16,\n      \"unit_price\": 1604.29,\n      \"amount\": 25668.64\n    }\n  ],\n  \"subtotal\": 46435.67,\n  \"tax\": 2321.78,\n  \"total\": 48757.45\n}",
+  "seconds": 9.96,
+  "input_tokens": 1199,
+  "output_tokens": 278,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_005",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

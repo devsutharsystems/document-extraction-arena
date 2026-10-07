@@ -1,0 +1,85 @@
+{
+  "id": "level4_hard_018",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-59066",
+  "vendor": "Lorch OHG mbH",
+  "invoice_date": "2026-12-06",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 17,
+      "unit_price": 1797.71,
+      "amount": 30561.07
+    },
+    {
+      "description": "Webcam",
+      "quantity": 13,
+      "unit_price": 3902.34,
+      "amount": 50730.42
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 7,
+      "unit_price": 3256.87,
+      "amount": 22798.09
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 5,
+      "unit_price": 3132.92,
+      "amount": 15664.6
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 20,
+      "unit_price": 3583.48,
+      "amount": 71669.6
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 10,
+      "unit_price": 4019.27,
+      "amount": 40192.7
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 16,
+      "unit_price": 4402.29,
+      "amount": 70436.64
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 14,
+      "unit_price": 4373.18,
+      "amount": 61224.52
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 9,
+      "unit_price": 1240.69,
+      "amount": 11166.21
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 11,
+      "unit_price": 468.99,
+      "amount": 5158.89
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 2,
+      "unit_price": 1619.63,
+      "amount": 3239.26
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 1,
+      "unit_price": 1303.82,
+      "amount": 1303.82
+    }
+  ],
+  "subtotal": 384145.82,
+  "tax": 38414.58,
+  "total": 422560.4
+}

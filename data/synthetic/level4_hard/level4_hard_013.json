@@ -1,0 +1,91 @@
+{
+  "id": "level4_hard_013",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-45507",
+  "vendor": "Ahmed, Allen and Butler",
+  "invoice_date": "2026-04-10",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 7,
+      "unit_price": 2546.19,
+      "amount": 17823.33
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 670.73,
+      "amount": 8048.76
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 13,
+      "unit_price": 2087.87,
+      "amount": 27142.31
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 3,
+      "unit_price": 2588.53,
+      "amount": 7765.59
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 14,
+      "unit_price": 456.37,
+      "amount": 6389.18
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 4,
+      "unit_price": 1420.14,
+      "amount": 5680.56
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 3,
+      "unit_price": 1335.18,
+      "amount": 4005.54
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 9,
+      "unit_price": 1502.78,
+      "amount": 13525.02
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 8,
+      "unit_price": 967.36,
+      "amount": 7738.88
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 2,
+      "unit_price": 4672.77,
+      "amount": 9345.54
+    },
+    {
+      "description": "Webcam",
+      "quantity": 8,
+      "unit_price": 4789.28,
+      "amount": 38314.24
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 16,
+      "unit_price": 4317.71,
+      "amount": 69083.36
+    },
+    {
+      "description": "External SSD",
+      "quantity": 1,
+      "unit_price": 2355.42,
+      "amount": 2355.42
+    }
+  ],
+  "subtotal": 217217.73,
+  "tax": 21721.77,
+  "total": 238939.5
+}

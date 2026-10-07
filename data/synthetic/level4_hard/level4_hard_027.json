@@ -1,0 +1,91 @@
+{
+  "id": "level4_hard_027",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-39684",
+  "vendor": "Walsh Group",
+  "invoice_date": "2026-07-06",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 5,
+      "unit_price": 982.73,
+      "amount": 4913.65
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 12,
+      "unit_price": 3812.79,
+      "amount": 45753.48
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 11,
+      "unit_price": 4841.49,
+      "amount": 53256.39
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 19,
+      "unit_price": 3118.5,
+      "amount": 59251.5
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 2,
+      "unit_price": 569.66,
+      "amount": 1139.32
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 2,
+      "unit_price": 1322.9,
+      "amount": 2645.8
+    },
+    {
+      "description": "Webcam",
+      "quantity": 4,
+      "unit_price": 1244.08,
+      "amount": 4976.32
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 7,
+      "unit_price": 3457.33,
+      "amount": 24201.31
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 8,
+      "unit_price": 3357.5,
+      "amount": 26860.0
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 1,
+      "unit_price": 4656.07,
+      "amount": 4656.07
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 4,
+      "unit_price": 3406.4,
+      "amount": 13625.6
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 13,
+      "unit_price": 1979.03,
+      "amount": 25727.39
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 16,
+      "unit_price": 4100.63,
+      "amount": 65610.08
+    }
+  ],
+  "subtotal": 332616.91,
+  "tax": 0.0,
+  "total": 332616.91
+}

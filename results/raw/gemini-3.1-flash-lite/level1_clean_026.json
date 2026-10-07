@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-84407\",\n  \"vendor\": \"Balakrishnan-Bahri\",\n  \"invoice_date\": \"2026-06-30\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 1,\n      \"unit_price\": 953.63,\n      \"amount\": 953.63\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 4,\n      \"unit_price\": 4878.08,\n      \"amount\": 19512.32\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 20,\n      \"unit_price\": 1472.51,\n      \"amount\": 29450.20\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 8,\n      \"unit_price\": 4285.47,\n      \"amount\": 34283.76\n    }\n  ],\n  \"subtotal\": 84199.91,\n  \"tax\": 15155.98,\n  \"total\": 99355.89\n}",
+  "seconds": 5.86,
+  "input_tokens": 1199,
+  "output_tokens": 330,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_026",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

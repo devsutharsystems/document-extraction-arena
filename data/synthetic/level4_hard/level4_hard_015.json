@@ -1,0 +1,91 @@
+{
+  "id": "level4_hard_015",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-40159",
+  "vendor": "Soto, Johnson and Smith",
+  "invoice_date": "2026-05-03",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Packaging Materials",
+      "quantity": 19,
+      "unit_price": 4983.52,
+      "amount": 94686.88
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 13,
+      "unit_price": 1944.86,
+      "amount": 25283.18
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 2686.92,
+      "amount": 2686.92
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 19,
+      "unit_price": 2538.66,
+      "amount": 48234.54
+    },
+    {
+      "description": "External SSD",
+      "quantity": 3,
+      "unit_price": 3049.74,
+      "amount": 9149.22
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 9,
+      "unit_price": 1876.45,
+      "amount": 16888.05
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 18,
+      "unit_price": 2675.9,
+      "amount": 48166.2
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 3,
+      "unit_price": 98.11,
+      "amount": 294.33
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 18,
+      "unit_price": 2428.75,
+      "amount": 43717.5
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 8,
+      "unit_price": 3227.62,
+      "amount": 25820.96
+    },
+    {
+      "description": "Webcam",
+      "quantity": 20,
+      "unit_price": 3886.94,
+      "amount": 77738.8
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 19,
+      "unit_price": 4282.04,
+      "amount": 81358.76
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 12,
+      "unit_price": 1837.62,
+      "amount": 22051.44
+    }
+  ],
+  "subtotal": 496076.78,
+  "tax": 89293.82,
+  "total": 585370.6
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-99230\",\n  \"vendor\": \"Hayre-Vohra\",\n  \"invoice_date\": \"2026-06-30\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 9,\n      \"unit_price\": 194.94,\n      \"amount\": 1754.46\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 9,\n      \"unit_price\": 4137.81,\n      \"amount\": 37240.29\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 4,\n      \"unit_price\": 1093.87,\n      \"amount\": 4375.48\n    }\n  ],\n  \"subtotal\": 43370.23,\n  \"tax\": 7806.64,\n  \"total\": 51176.87\n}",
+  "seconds": 2.44,
+  "input_tokens": 1199,
+  "output_tokens": 276,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_010",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

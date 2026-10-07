@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-59068\",\n  \"vendor\": \"Lorch OHG mbH\",\n  \"invoice_date\": \"2026-12-06\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 1797.71,\n      \"amount\": 30561.07\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 13,\n      \"unit_price\": 3902.34,\n      \"amount\": 50730.42\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 7,\n      \"unit_price\": 3256.87,\n      \"amount\": 22798.09\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 5,\n      \"unit_price\": 3132.92,\n      \"amount\": 15664.60\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 20,\n      \"unit_price\": 3583.48,\n      \"amount\": 71669.60\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 10,\n      \"unit_price\": 4019.27,\n      \"amount\": 40192.70\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 16,\n      \"unit_price\": 4402.29,\n      \"amount\": 70436.64\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 14,\n      \"unit_price\": 4373.18,\n      \"amount\": 61224.52\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 9,\n      \"unit_price\": 1240.69,\n      \"amount\": 11166.21\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 11,\n      \"unit_price\": 468.99,\n      \"amount\": 5158.89\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 2,\n      \"unit_price\": 1619.63,\n      \"amount\": 3239.26\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 1,\n      \"unit_price\": 1303.82,\n      \"amount\": 1303.82\n    }\n  ],\n  \"subtotal\": 384145.82,\n  \"tax\": 38414.58,\n  \"total\": 422560.40\n}",
+  "seconds": 5.38,
+  "input_tokens": 1199,
+  "output_tokens": 766,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_018",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

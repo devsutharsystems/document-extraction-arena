@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-46539\",\n  \"vendor\": \"Campbell-Leonard\",\n  \"invoice_date\": \"2026-03-09\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 3,\n      \"unit_price\": 4203.87,\n      \"amount\": 12611.61\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 13,\n      \"unit_price\": 771.05,\n      \"amount\": 10023.65\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 9,\n      \"unit_price\": 3215.22,\n      \"amount\": 28936.98\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 4,\n      \"unit_price\": 3383.56,\n      \"amount\": 13534.24\n    }\n  ],\n  \"subtotal\": 65106.48,\n  \"tax\": 3255.32,\n  \"total\": 68361.80\n}",
+  "seconds": 3.98,
+  "input_tokens": 1199,
+  "output_tokens": 330,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_012",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

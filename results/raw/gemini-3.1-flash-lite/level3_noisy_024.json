@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-77173\",\n  \"vendor\": \"Dobes\",\n  \"invoice_date\": \"2026-06-14\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 4,\n      \"unit_price\": 670.65,\n      \"amount\": 2682.60\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 14,\n      \"unit_price\": 1897.23,\n      \"amount\": 26561.22\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 1,\n      \"unit_price\": 1489.45,\n      \"amount\": 1489.45\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 15,\n      \"unit_price\": 1329.74,\n      \"amount\": 19946.10\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 13,\n      \"unit_price\": 2669.60,\n      \"amount\": 34704.80\n    }\n  ],\n  \"subtotal\": 85384.17,\n  \"tax\": 15369.15,\n  \"total\": 100753.32\n}",
+  "seconds": 7.04,
+  "input_tokens": 1199,
+  "output_tokens": 385,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_024",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

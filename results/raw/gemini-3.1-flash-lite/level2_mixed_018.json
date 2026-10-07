@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-44136\",\n  \"vendor\": \"Becker\",\n  \"invoice_date\": \"2026-04-13\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 7,\n      \"unit_price\": 1520.30,\n      \"amount\": 10642.10\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 17,\n      \"unit_price\": 2735.54,\n      \"amount\": 46504.18\n    }\n  ],\n  \"subtotal\": 57146.28,\n  \"tax\": 11429.26,\n  \"total\": 68575.54\n}",
+  "seconds": 2.55,
+  "input_tokens": 1199,
+  "output_tokens": 225,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_018",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

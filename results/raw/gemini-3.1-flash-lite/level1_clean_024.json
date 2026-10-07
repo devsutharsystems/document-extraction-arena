@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-24528\",\n  \"vendor\": \"Sarkar-Ramanathan\",\n  \"invoice_date\": \"2026-09-22\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 9,\n      \"unit_price\": 4705.21,\n      \"amount\": 42346.89\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 6,\n      \"unit_price\": 2835.63,\n      \"amount\": 17013.78\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 20,\n      \"unit_price\": 2947.02,\n      \"amount\": 58940.40\n    }\n  ],\n  \"subtotal\": 118301.07,\n  \"tax\": 21294.19,\n  \"total\": 139595.26\n}",
+  "seconds": 4.45,
+  "input_tokens": 1199,
+  "output_tokens": 284,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_024",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

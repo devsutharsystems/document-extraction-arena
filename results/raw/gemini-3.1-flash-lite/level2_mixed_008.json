@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-56708\",\n  \"vendor\": \"Wesack Patberg GmbH\",\n  \"invoice_date\": \"2026-06-15\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 12,\n      \"unit_price\": 2661.41,\n      \"amount\": 31936.92\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 9,\n      \"unit_price\": 454.96,\n      \"amount\": 4094.64\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 11,\n      \"unit_price\": 4412.79,\n      \"amount\": 48540.69\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 1,\n      \"unit_price\": 2082.52,\n      \"amount\": 2082.52\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 318.57,\n      \"amount\": 955.71\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 13,\n      \"unit_price\": 2077.66,\n      \"amount\": 27009.58\n    }\n  ],\n  \"subtotal\": 114620.06,\n  \"tax\": 20631.61,\n  \"total\": 135251.67\n}",
+  "seconds": 3.34,
+  "input_tokens": 1199,
+  "output_tokens": 438,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_008",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

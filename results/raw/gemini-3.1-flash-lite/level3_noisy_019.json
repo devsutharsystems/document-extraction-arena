@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-57260\",\n  \"vendor\": \"Martin LLC\",\n  \"invoice_date\": \"2026-04-24\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 13,\n      \"unit_price\": 2874.05,\n      \"amount\": 37362.65\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 11,\n      \"unit_price\": 890.78,\n      \"amount\": 9798.58\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 12,\n      \"unit_price\": 4405.96,\n      \"amount\": 52871.52\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 6,\n      \"unit_price\": 2462.15,\n      \"amount\": 14772.90\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 14,\n      \"unit_price\": 1724.75,\n      \"amount\": 24146.50\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 8,\n      \"unit_price\": 4742.22,\n      \"amount\": 37937.76\n    }\n  ],\n  \"subtotal\": 176889.91,\n  \"tax\": 17688.99,\n  \"total\": 194578.90\n}",
+  "seconds": 8.43,
+  "input_tokens": 1199,
+  "output_tokens": 439,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_019",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-91027\",\n  \"vendor\": \"Krishna, Sidhu and Barman\",\n  \"invoice_date\": \"2026-04-19\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 5,\n      \"unit_price\": 280.37,\n      \"amount\": 1401.85\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 13,\n      \"unit_price\": 3884.10,\n      \"amount\": 50493.30\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 3,\n      \"unit_price\": 2612.62,\n      \"amount\": 7837.86\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 13,\n      \"unit_price\": 2576.25,\n      \"amount\": 33491.25\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 7,\n      \"unit_price\": 4497.93,\n      \"amount\": 31485.51\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 10,\n      \"unit_price\": 343.59,\n      \"amount\": 3435.90\n    }\n  ],\n  \"subtotal\": 128145.67,\n  \"tax\": 23066.22,\n  \"total\": 151211.89\n}",
+  "seconds": 14.62,
+  "input_tokens": 1199,
+  "output_tokens": 440,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_017",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

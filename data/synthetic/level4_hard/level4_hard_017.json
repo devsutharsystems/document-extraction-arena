@@ -1,0 +1,61 @@
+{
+  "id": "level4_hard_017",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-23551",
+  "vendor": "Wilkinson, Simpson and Morris",
+  "invoice_date": "2026-03-09",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 5,
+      "unit_price": 1949.72,
+      "amount": 9748.6
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 5,
+      "unit_price": 976.88,
+      "amount": 4884.4
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 12,
+      "unit_price": 3027.25,
+      "amount": 36327.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 5,
+      "unit_price": 3161.51,
+      "amount": 15807.55
+    },
+    {
+      "description": "External SSD",
+      "quantity": 13,
+      "unit_price": 60.94,
+      "amount": 792.22
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 11,
+      "unit_price": 3710.67,
+      "amount": 40817.37
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 3,
+      "unit_price": 1603.98,
+      "amount": 4811.94
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 14,
+      "unit_price": 2873.46,
+      "amount": 40228.44
+    }
+  ],
+  "subtotal": 153417.52,
+  "tax": 30683.5,
+  "total": 184101.02
+}

@@ -1,0 +1,61 @@
+{
+  "id": "level4_hard_029",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-76338",
+  "vendor": "Gokhale-Mall",
+  "invoice_date": "2026-03-10",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 11,
+      "unit_price": 2089.46,
+      "amount": 22984.06
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 1,
+      "unit_price": 4495.49,
+      "amount": 4495.49
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 9,
+      "unit_price": 3054.01,
+      "amount": 27486.09
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 16,
+      "unit_price": 2261.57,
+      "amount": 36185.12
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 7,
+      "unit_price": 3831.61,
+      "amount": 26821.27
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 12,
+      "unit_price": 2500.95,
+      "amount": 30011.4
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 12,
+      "unit_price": 2100.72,
+      "amount": 25208.64
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 2,
+      "unit_price": 3746.15,
+      "amount": 7492.3
+    }
+  ],
+  "subtotal": 180684.37,
+  "tax": 32523.19,
+  "total": 213207.56
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-32832\",\n  \"vendor\": \"Jani-Mallick\",\n  \"invoice_date\": \"2026-06-04\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 4,\n      \"unit_price\": 2530.45,\n      \"amount\": 10121.80\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 17,\n      \"unit_price\": 2600.26,\n      \"amount\": 44204.42\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 12,\n      \"unit_price\": 3540.50,\n      \"amount\": 42486.00\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 9,\n      \"unit_price\": 2335.24,\n      \"amount\": 21017.16\n    }\n  ],\n  \"subtotal\": 117829.38,\n  \"tax\": 21209.29,\n  \"total\": 139038.67\n}",
+  "seconds": 7.58,
+  "input_tokens": 1199,
+  "output_tokens": 335,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_015",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

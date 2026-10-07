@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_001",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-95602",
+  "vendor": "Jackson, Roberts and Bryant",
+  "invoice_date": "2026-11-03",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 12,
+      "unit_price": 1233.95,
+      "amount": 14807.4
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 4760.98,
+      "amount": 57131.76
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 6,
+      "unit_price": 2449.95,
+      "amount": 14699.7
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 4,
+      "unit_price": 935.16,
+      "amount": 3740.64
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 17,
+      "unit_price": 4669.68,
+      "amount": 79384.56
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 5,
+      "unit_price": 722.41,
+      "amount": 3612.05
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 6,
+      "unit_price": 3956.41,
+      "amount": 23738.46
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 5,
+      "unit_price": 2361.56,
+      "amount": 11807.8
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 13,
+      "unit_price": 3065.35,
+      "amount": 39849.55
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 16,
+      "unit_price": 4689.44,
+      "amount": 75031.04
+    },
+    {
+      "description": "External SSD",
+      "quantity": 6,
+      "unit_price": 2876.01,
+      "amount": 17256.06
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 17,
+      "unit_price": 3123.62,
+      "amount": 53101.54
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 17,
+      "unit_price": 4837.3,
+      "amount": 82234.1
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 2,
+      "unit_price": 4943.77,
+      "amount": 9887.54
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 19,
+      "unit_price": 1775.05,
+      "amount": 33725.95
+    }
+  ],
+  "subtotal": 520008.15,
+  "tax": 52000.82,
+  "total": 572008.97
+}

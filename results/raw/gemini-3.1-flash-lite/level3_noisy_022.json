@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-85261\",\n  \"vendor\": \"Hudson, Smith and Gregory\",\n  \"invoice_date\": \"2026-03-02\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 14,\n      \"unit_price\": 1678.45,\n      \"amount\": 23498.30\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 1,\n      \"unit_price\": 1447.86,\n      \"amount\": 1447.86\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 1048.58,\n      \"amount\": 6291.48\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 20,\n      \"unit_price\": 3296.56,\n      \"amount\": 65931.20\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 10,\n      \"unit_price\": 3210.60,\n      \"amount\": 32106.00\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 4,\n      \"unit_price\": 4611.30,\n      \"amount\": 18445.20\n    }\n  ],\n  \"subtotal\": 147720.04,\n  \"tax\": 0.00,\n  \"total\": 147720.04\n}",
+  "seconds": 20.5,
+  "input_tokens": 1199,
+  "output_tokens": 438,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_022",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-73563\",\n  \"vendor\": \"Chawla, Srivastava and Bahl\",\n  \"invoice_date\": \"2026-09-12\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 18,\n      \"unit_price\": 2810.82,\n      \"amount\": 50594.76\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 1,\n      \"unit_price\": 1770.36,\n      \"amount\": 1770.36\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 1663.36,\n      \"amount\": 9980.16\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 5,\n      \"unit_price\": 2151.85,\n      \"amount\": 10759.25\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 8,\n      \"unit_price\": 4942.74,\n      \"amount\": 39541.92\n    }\n  ],\n  \"subtotal\": 112646.45,\n  \"tax\": 20276.36,\n  \"total\": 132922.81\n}",
+  "seconds": 2.91,
+  "input_tokens": 1199,
+  "output_tokens": 388,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_007",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

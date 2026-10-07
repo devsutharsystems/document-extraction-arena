@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-51506\",\n  \"vendor\": \"Schmidt Junk AG\",\n  \"invoice_date\": \"2026-05-19\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 5,\n      \"unit_price\": 127.30,\n      \"amount\": 636.50\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 18,\n      \"unit_price\": 439.66,\n      \"amount\": 7913.88\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 11,\n      \"unit_price\": 1529.11,\n      \"amount\": 16820.21\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 16,\n      \"unit_price\": 3627.11,\n      \"amount\": 58033.76\n    }\n  ],\n  \"subtotal\": 83404.35,\n  \"tax\": 15012.78,\n  \"total\": 98417.13\n}",
+  "seconds": 10.25,
+  "input_tokens": 1199,
+  "output_tokens": 330,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_008",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

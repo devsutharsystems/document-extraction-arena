@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-86973\",\n  \"vendor\": \"Steckel Gnatz AG\",\n  \"invoice_date\": \"2026-03-11\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 4346.52,\n      \"amount\": 13039.56\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 17,\n      \"unit_price\": 1202.35,\n      \"amount\": 20439.95\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 7,\n      \"unit_price\": 868.97,\n      \"amount\": 6082.79\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 1,\n      \"unit_price\": 1804.66,\n      \"amount\": 1804.66\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 3,\n      \"unit_price\": 3094.77,\n      \"amount\": 9284.31\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 3,\n      \"unit_price\": 3268.88,\n      \"amount\": 9806.64\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 7,\n      \"unit_price\": 1279.86,\n      \"amount\": 8959.02\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 8,\n      \"unit_price\": 3391.01,\n      \"amount\": 27128.08\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 15,\n      \"unit_price\": 1535.42,\n      \"amount\": 23031.30\n    }\n  ],\n  \"subtotal\": 119576.31,\n  \"tax\": 21523.74,\n  \"total\": 141100.05\n}",
+  "seconds": 8.49,
+  "input_tokens": 1199,
+  "output_tokens": 596,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_004",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

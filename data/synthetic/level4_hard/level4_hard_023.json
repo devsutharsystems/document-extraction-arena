@@ -1,0 +1,97 @@
+{
+  "id": "level4_hard_023",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-10413",
+  "vendor": "Jain, Oommen and Kota",
+  "invoice_date": "2026-05-12",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printer Toner",
+      "quantity": 14,
+      "unit_price": 1560.08,
+      "amount": 21841.12
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 16,
+      "unit_price": 3006.54,
+      "amount": 48104.64
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 15,
+      "unit_price": 1001.41,
+      "amount": 15021.15
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 9,
+      "unit_price": 335.31,
+      "amount": 3017.79
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 19,
+      "unit_price": 2485.59,
+      "amount": 47226.21
+    },
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 2127.12,
+      "amount": 19144.08
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 4031.44,
+      "amount": 12094.32
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 14,
+      "unit_price": 1585.46,
+      "amount": 22196.44
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 17,
+      "unit_price": 1407.84,
+      "amount": 23933.28
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 9,
+      "unit_price": 1255.83,
+      "amount": 11302.47
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 16,
+      "unit_price": 2789.26,
+      "amount": 44628.16
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 11,
+      "unit_price": 196.77,
+      "amount": 2164.47
+    },
+    {
+      "description": "Webcam",
+      "quantity": 5,
+      "unit_price": 1949.38,
+      "amount": 9746.9
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 1,
+      "unit_price": 4965.64,
+      "amount": 4965.64
+    }
+  ],
+  "subtotal": 285386.67,
+  "tax": 14269.33,
+  "total": 299656.0
+}

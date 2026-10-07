@@ -1,0 +1,61 @@
+{
+  "id": "level4_hard_006",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-27839",
+  "vendor": "Jani Group",
+  "invoice_date": "2026-01-02",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 1,
+      "unit_price": 3741.49,
+      "amount": 3741.49
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 20,
+      "unit_price": 3313.43,
+      "amount": 66268.6
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 16,
+      "unit_price": 4538.34,
+      "amount": 72613.44
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 16,
+      "unit_price": 2584.41,
+      "amount": 41350.56
+    },
+    {
+      "description": "External SSD",
+      "quantity": 14,
+      "unit_price": 3938.62,
+      "amount": 55140.68
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 19,
+      "unit_price": 286.07,
+      "amount": 5435.33
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 8,
+      "unit_price": 2216.44,
+      "amount": 17731.52
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 16,
+      "unit_price": 2109.89,
+      "amount": 33758.24
+    }
+  ],
+  "subtotal": 296039.86,
+  "tax": 59207.97,
+  "total": 355247.83
+}

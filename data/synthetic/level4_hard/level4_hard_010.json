@@ -1,0 +1,73 @@
+{
+  "id": "level4_hard_010",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-43300",
+  "vendor": "Pham and Sons",
+  "invoice_date": "2026-02-11",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "USB-C Hub",
+      "quantity": 15,
+      "unit_price": 3056.18,
+      "amount": 45842.7
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 7,
+      "unit_price": 4203.57,
+      "amount": 29424.99
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 18,
+      "unit_price": 4517.33,
+      "amount": 81311.94
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 6,
+      "unit_price": 259.26,
+      "amount": 1555.56
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 13,
+      "unit_price": 808.49,
+      "amount": 10510.37
+    },
+    {
+      "description": "External SSD",
+      "quantity": 20,
+      "unit_price": 1862.29,
+      "amount": 37245.8
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 12,
+      "unit_price": 2983.91,
+      "amount": 35806.92
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 14,
+      "unit_price": 4639.15,
+      "amount": 64948.1
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 2,
+      "unit_price": 3410.77,
+      "amount": 6821.54
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 1,
+      "unit_price": 595.01,
+      "amount": 595.01
+    }
+  ],
+  "subtotal": 314062.93,
+  "tax": 31406.29,
+  "total": 345469.22
+}

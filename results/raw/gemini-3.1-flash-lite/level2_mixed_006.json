@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-42324\",\n  \"vendor\": \"Smith, Carr and Lynch\",\n  \"invoice_date\": \"2026-04-29\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 1,\n      \"unit_price\": 2067.76,\n      \"amount\": 2067.76\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 20,\n      \"unit_price\": 1567.22,\n      \"amount\": 31344.40\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 4449.82,\n      \"amount\": 75646.94\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 7,\n      \"unit_price\": 2440.54,\n      \"amount\": 17083.78\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 6,\n      \"unit_price\": 404.70,\n      \"amount\": 2428.20\n    }\n  ],\n  \"subtotal\": 128571.08,\n  \"tax\": 0.00,\n  \"total\": 128571.08\n}",
+  "seconds": 4.78,
+  "input_tokens": 1199,
+  "output_tokens": 385,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_006",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

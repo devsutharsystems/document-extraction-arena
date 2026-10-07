@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-83900\",\n  \"vendor\": \"Bansal, Chandran and Bala\",\n  \"invoice_date\": \"2026-08-06\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 4,\n      \"unit_price\": 2392.05,\n      \"amount\": 9568.20\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 10,\n      \"unit_price\": 1946.21,\n      \"amount\": 19462.10\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 4,\n      \"unit_price\": 1519.23,\n      \"amount\": 6076.92\n    }\n  ],\n  \"subtotal\": 35107.22,\n  \"tax\": 6319.30,\n  \"total\": 41426.52\n}",
+  "seconds": 9.78,
+  "input_tokens": 1199,
+  "output_tokens": 280,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_012",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-22638\",\n  \"vendor\": \"Hanna-Leon\",\n  \"invoice_date\": \"2026-08-21\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 12,\n      \"unit_price\": 1648.67,\n      \"amount\": 19784.04\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 8,\n      \"unit_price\": 2876.33,\n      \"amount\": 23010.64\n    }\n  ],\n  \"subtotal\": 42794.68,\n  \"tax\": 8558.94,\n  \"total\": 51353.62\n}",
+  "seconds": 3.92,
+  "input_tokens": 1199,
+  "output_tokens": 224,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_002",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

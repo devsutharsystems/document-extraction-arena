@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-51927\",\n  \"vendor\": \"Richards-Martinez\",\n  \"invoice_date\": \"2026-09-25\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 16,\n      \"unit_price\": 37400,\n      \"amount\": 598400\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 2,\n      \"unit_price\": 6900,\n      \"amount\": 13800\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 30200,\n      \"amount\": 513400\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 1,\n      \"unit_price\": 29400,\n      \"amount\": 29400\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 20,\n      \"unit_price\": 7600,\n      \"amount\": 152000\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 18,\n      \"unit_price\": 31800,\n      \"amount\": 572400\n    }\n  ],\n  \"subtotal\": 1879400,\n  \"tax\": 93970,\n  \"total\": 1973370\n}",
+  "seconds": 6.42,
+  "input_tokens": 1199,
+  "output_tokens": 408,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_007",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

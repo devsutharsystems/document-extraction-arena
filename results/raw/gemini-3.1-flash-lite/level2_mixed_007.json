@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-16776\",\n  \"vendor\": \"Salz\",\n  \"invoice_date\": \"2026-01-23\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 12,\n      \"unit_price\": 2167.83,\n      \"amount\": 26013.96\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 6,\n      \"unit_price\": 2000.63,\n      \"amount\": 12003.78\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 7,\n      \"unit_price\": 841.44,\n      \"amount\": 5890.08\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 13,\n      \"unit_price\": 3309.26,\n      \"amount\": 43020.38\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 5,\n      \"unit_price\": 4057.57,\n      \"amount\": 20287.85\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 17,\n      \"unit_price\": 264.50,\n      \"amount\": 4496.50\n    }\n  ],\n  \"subtotal\": 111712.55,\n  \"tax\": 20108.26,\n  \"total\": 131820.81\n}",
+  "seconds": 16.88,
+  "input_tokens": 1199,
+  "output_tokens": 436,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_007",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

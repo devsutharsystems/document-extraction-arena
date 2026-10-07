@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-20255\",\n  \"vendor\": \"Francis-Williams\",\n  \"invoice_date\": \"2026-09-07\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 19,\n      \"unit_price\": 823.46,\n      \"amount\": 15645.74\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 19,\n      \"unit_price\": 635.56,\n      \"amount\": 12075.64\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 9,\n      \"unit_price\": 2592.33,\n      \"amount\": 23330.97\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 4000.07,\n      \"amount\": 4000.07\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 14,\n      \"unit_price\": 2568.50,\n      \"amount\": 35959.00\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 9,\n      \"unit_price\": 3697.54,\n      \"amount\": 33277.86\n    }\n  ],\n  \"subtotal\": 124289.28,\n  \"tax\": 22372.07,\n  \"total\": 146661.35\n}",
+  "seconds": 7.08,
+  "input_tokens": 1199,
+  "output_tokens": 442,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_016",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-23551\",\n  \"vendor\": \"Wilkinson, Simpson and Morris\",\n  \"invoice_date\": \"2026-03-09\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 5,\n      \"unit_price\": 1949.72,\n      \"amount\": 9748.60\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 5,\n      \"unit_price\": 976.88,\n      \"amount\": 4884.40\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 12,\n      \"unit_price\": 3027.25,\n      \"amount\": 36327.00\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 5,\n      \"unit_price\": 3161.51,\n      \"amount\": 15807.55\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 13,\n      \"unit_price\": 60.94,\n      \"amount\": 792.22\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 11,\n      \"unit_price\": 3710.67,\n      \"amount\": 40817.37\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 3,\n      \"unit_price\": 1603.98,\n      \"amount\": 4811.94\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 14,\n      \"unit_price\": 2873.46,\n      \"amount\": 40228.44\n    }\n  ],\n  \"subtotal\": 153417.52,\n  \"tax\": 30683.50,\n  \"total\": 184101.02\n}",
+  "seconds": 4.29,
+  "input_tokens": 1199,
+  "output_tokens": 543,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_017",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

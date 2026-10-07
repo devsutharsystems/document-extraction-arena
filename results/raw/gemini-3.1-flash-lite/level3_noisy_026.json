@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-60095\",\n  \"vendor\": \"Sachar Ltd\",\n  \"invoice_date\": \"2026-06-29\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 1840.45,\n      \"amount\": 1840.45\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 2,\n      \"unit_price\": 2537.89,\n      \"amount\": 5075.78\n    }\n  ],\n  \"subtotal\": 6916.23,\n  \"tax\": 691.62,\n  \"total\": 7607.85\n}",
+  "seconds": 6.45,
+  "input_tokens": 1199,
+  "output_tokens": 218,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_026",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

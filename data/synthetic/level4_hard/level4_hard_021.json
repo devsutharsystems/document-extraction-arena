@@ -1,0 +1,91 @@
+{
+  "id": "level4_hard_021",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-48054",
+  "vendor": "Fr\u00f6hlich Roht AG",
+  "invoice_date": "2026-06-09",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 2108.15,
+      "amount": 18973.35
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 11,
+      "unit_price": 1350.74,
+      "amount": 14858.14
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 3,
+      "unit_price": 175.02,
+      "amount": 525.06
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 20,
+      "unit_price": 2512.2,
+      "amount": 50244.0
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 12,
+      "unit_price": 962.97,
+      "amount": 11555.64
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 1,
+      "unit_price": 1961.71,
+      "amount": 1961.71
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 4,
+      "unit_price": 3235.27,
+      "amount": 12941.08
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 17,
+      "unit_price": 917.56,
+      "amount": 15598.52
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 9,
+      "unit_price": 2180.54,
+      "amount": 19624.86
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 8,
+      "unit_price": 1211.07,
+      "amount": 9688.56
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 19,
+      "unit_price": 235.83,
+      "amount": 4480.77
+    },
+    {
+      "description": "Webcam",
+      "quantity": 2,
+      "unit_price": 3465.49,
+      "amount": 6930.98
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 3,
+      "unit_price": 2649.55,
+      "amount": 7948.65
+    }
+  ],
+  "subtotal": 175331.32,
+  "tax": 35066.26,
+  "total": 210397.58
+}

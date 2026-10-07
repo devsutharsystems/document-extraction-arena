@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-12540\",\n  \"vendor\": \"Sunder, Bir and Uppal\",\n  \"invoice_date\": \"2026-01-06\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 13,\n      \"unit_price\": 3943.61,\n      \"amount\": 51266.93\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 11,\n      \"unit_price\": 2945.57,\n      \"amount\": 32401.27\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 15,\n      \"unit_price\": 1182.72,\n      \"amount\": 17740.80\n    }\n  ],\n  \"subtotal\": 101409.00,\n  \"tax\": 18253.62,\n  \"total\": 119662.62\n}",
+  "seconds": 2.87,
+  "input_tokens": 1199,
+  "output_tokens": 286,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_014",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

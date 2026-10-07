@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-97755\",\n  \"vendor\": \"Sandal, Bhatti and Boase\",\n  \"invoice_date\": \"2026-06-13\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 1,\n      \"unit_price\": 4345.79,\n      \"amount\": 4345.79\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 3,\n      \"unit_price\": 2885.97,\n      \"amount\": 8657.91\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 10,\n      \"unit_price\": 4450.87,\n      \"amount\": 44508.70\n    }\n  ],\n  \"subtotal\": 57512.40,\n  \"tax\": 10352.23,\n  \"total\": 67864.63\n}",
+  "seconds": 3.58,
+  "input_tokens": 1199,
+  "output_tokens": 281,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_002",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-65408\",\n  \"vendor\": \"Ahluwalia, Puri and Chandra\",\n  \"invoice_date\": \"2026-04-20\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 18,\n      \"unit_price\": 1510.56,\n      \"amount\": 27190.08\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 18,\n      \"unit_price\": 1163.77,\n      \"amount\": 20947.86\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 6,\n      \"unit_price\": 66.87,\n      \"amount\": 401.22\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 11,\n      \"unit_price\": 2847.41,\n      \"amount\": 31321.51\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 2,\n      \"unit_price\": 555.36,\n      \"amount\": 1110.72\n    }\n  ],\n  \"subtotal\": 80971.39,\n  \"tax\": 8097.14,\n  \"total\": 89068.53\n}",
+  "seconds": 10.23,
+  "input_tokens": 1199,
+  "output_tokens": 384,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_029",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

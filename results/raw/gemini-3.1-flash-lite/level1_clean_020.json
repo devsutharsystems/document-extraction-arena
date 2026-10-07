@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-85691\",\n  \"vendor\": \"Bhasin and Sons\",\n  \"invoice_date\": \"2026-01-11\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 2,\n      \"unit_price\": 2926.69,\n      \"amount\": 5853.38\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 4,\n      \"unit_price\": 4500.03,\n      \"amount\": 18000.12\n    }\n  ],\n  \"subtotal\": 23853.50,\n  \"tax\": 4293.63,\n  \"total\": 28147.13\n}",
+  "seconds": 14.48,
+  "input_tokens": 1199,
+  "output_tokens": 223,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_020",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-81602\",\n  \"vendor\": \"Rodriguez-Scott\",\n  \"invoice_date\": \"2026-10-05\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 3,\n      \"unit_price\": 1587.47,\n      \"amount\": 4762.41\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 18,\n      \"unit_price\": 2211.30,\n      \"amount\": 39803.40\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 2,\n      \"unit_price\": 1465.94,\n      \"amount\": 2931.88\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 18,\n      \"unit_price\": 4366.30,\n      \"amount\": 78593.40\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 3,\n      \"unit_price\": 695.26,\n      \"amount\": 2085.78\n    }\n  ],\n  \"subtotal\": 128176.87,\n  \"tax\": 6408.84,\n  \"total\": 134585.71\n}",
+  "seconds": 9.37,
+  "input_tokens": 1199,
+  "output_tokens": 384,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_003",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

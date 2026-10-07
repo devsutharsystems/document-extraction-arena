@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-80838\",\n  \"vendor\": \"Sharaf, Mohan and Krishna\",\n  \"invoice_date\": \"2026-03-26\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 10,\n      \"unit_price\": 2526.99,\n      \"amount\": 25269.90\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 2993.05,\n      \"amount\": 17958.30\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 3,\n      \"unit_price\": 3431.12,\n      \"amount\": 10293.36\n    }\n  ],\n  \"subtotal\": 53521.56,\n  \"tax\": 9633.88,\n  \"total\": 63155.44\n}",
+  "seconds": 2.77,
+  "input_tokens": 1199,
+  "output_tokens": 280,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_030",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

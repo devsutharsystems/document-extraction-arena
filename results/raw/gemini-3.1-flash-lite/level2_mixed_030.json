@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-16561\",\n  \"vendor\": \"Walia, Nadig and Lad\",\n  \"invoice_date\": \"2026-03-17\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 10,\n      \"unit_price\": 1903.05,\n      \"amount\": 19030.50\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 4961.65,\n      \"amount\": 4961.65\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 18,\n      \"unit_price\": 4814.05,\n      \"amount\": 86652.90\n    }\n  ],\n  \"subtotal\": 110645.05,\n  \"tax\": 19916.11,\n  \"total\": 130561.16\n}",
+  "seconds": 40.61,
+  "input_tokens": 1199,
+  "output_tokens": 286,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_030",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

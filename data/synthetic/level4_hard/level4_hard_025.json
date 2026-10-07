@@ -1,0 +1,85 @@
+{
+  "id": "level4_hard_025",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-18460",
+  "vendor": "Calhoun-Ochoa",
+  "invoice_date": "2026-02-08",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 18,
+      "unit_price": 3561.31,
+      "amount": 64103.58
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 15,
+      "unit_price": 4951.17,
+      "amount": 74267.55
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 3,
+      "unit_price": 2178.23,
+      "amount": 6534.69
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 11,
+      "unit_price": 2051.54,
+      "amount": 22566.94
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 5,
+      "unit_price": 178.41,
+      "amount": 892.05
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 18,
+      "unit_price": 4147.28,
+      "amount": 74651.04
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 2435.36,
+      "amount": 29224.32
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 13,
+      "unit_price": 4229.3,
+      "amount": 54980.9
+    },
+    {
+      "description": "External SSD",
+      "quantity": 2,
+      "unit_price": 1454.06,
+      "amount": 2908.12
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 17,
+      "unit_price": 393.7,
+      "amount": 6692.9
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 15,
+      "unit_price": 4521.01,
+      "amount": 67815.15
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 11,
+      "unit_price": 4056.74,
+      "amount": 44624.14
+    }
+  ],
+  "subtotal": 449261.38,
+  "tax": 44926.14,
+  "total": 494187.52
+}

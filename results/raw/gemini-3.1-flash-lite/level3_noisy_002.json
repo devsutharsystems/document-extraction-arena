@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-75150\",\n  \"vendor\": \"Randolph Ltd\",\n  \"invoice_date\": \"2026-09-19\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 2169.95,\n      \"amount\": 2169.95\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 3,\n      \"unit_price\": 4435.52,\n      \"amount\": 13306.56\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 10,\n      \"unit_price\": 4949.66,\n      \"amount\": 49496.60\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 11,\n      \"unit_price\": 2346.00,\n      \"amount\": 25806.00\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 19,\n      \"unit_price\": 3832.75,\n      \"amount\": 72822.25\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 4,\n      \"unit_price\": 1256.54,\n      \"amount\": 5026.16\n    }\n  ],\n  \"subtotal\": 168627.52,\n  \"tax\": 30352.95,\n  \"total\": 198980.47\n}",
+  "seconds": 4.77,
+  "input_tokens": 1199,
+  "output_tokens": 442,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_002",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-55718\",\n  \"vendor\": \"Hicks-Shaw\",\n  \"invoice_date\": \"2026-09-15\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 5,\n      \"unit_price\": 792.46,\n      \"amount\": 3962.30\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 16,\n      \"unit_price\": 4673.96,\n      \"amount\": 74783.36\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 20,\n      \"unit_price\": 2012.71,\n      \"amount\": 40254.20\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 15,\n      \"unit_price\": 3758.04,\n      \"amount\": 56370.60\n    }\n  ],\n  \"subtotal\": 175370.46,\n  \"tax\": 0.00,\n  \"total\": 175370.46\n}",
+  "seconds": 6.45,
+  "input_tokens": 1199,
+  "output_tokens": 329,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_015",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

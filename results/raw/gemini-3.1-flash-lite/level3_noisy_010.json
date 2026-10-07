@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-84001\",\n  \"vendor\": \"Lawson-Garza\",\n  \"invoice_date\": \"2026-08-27\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 20,\n      \"unit_price\": 4075.30,\n      \"amount\": 81506.00\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 10,\n      \"unit_price\": 4179.87,\n      \"amount\": 41798.70\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 7,\n      \"unit_price\": 4071.91,\n      \"amount\": 28503.37\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 13,\n      \"unit_price\": 1667.88,\n      \"amount\": 21682.44\n    }\n  ],\n  \"subtotal\": 173490.51,\n  \"tax\": 0.00,\n  \"total\": 173490.51\n}",
+  "seconds": 12.56,
+  "input_tokens": 1199,
+  "output_tokens": 334,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_010",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

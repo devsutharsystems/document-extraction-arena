@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-26628\",\n  \"vendor\": \"Lalla and Sons\",\n  \"invoice_date\": \"2026-03-19\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 4,\n      \"unit_price\": 1154.92,\n      \"amount\": 4619.68\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 7,\n      \"unit_price\": 1310.24,\n      \"amount\": 9171.68\n    }\n  ],\n  \"subtotal\": 13791.36,\n  \"tax\": 2758.27,\n  \"total\": 16549.63\n}",
+  "seconds": 3.13,
+  "input_tokens": 1199,
+  "output_tokens": 221,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_005",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "level4_hard_022",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-72651",
+  "vendor": "Thanel Heinrich KG",
+  "invoice_date": "2026-10-04",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud Hosting",
+      "quantity": 1,
+      "unit_price": 3772.68,
+      "amount": 3772.68
+    },
+    {
+      "description": "External SSD",
+      "quantity": 14,
+      "unit_price": 465.78,
+      "amount": 6520.92
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 4956.79,
+      "amount": 14870.37
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 17,
+      "unit_price": 4904.17,
+      "amount": 83370.89
+    },
+    {
+      "description": "Webcam",
+      "quantity": 6,
+      "unit_price": 4819.8,
+      "amount": 28918.8
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 16,
+      "unit_price": 2644.14,
+      "amount": 42306.24
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 10,
+      "unit_price": 2966.83,
+      "amount": 29668.3
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 1,
+      "unit_price": 2480.63,
+      "amount": 2480.63
+    }
+  ],
+  "subtotal": 211908.83,
+  "tax": 21190.88,
+  "total": 233099.71
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-95114\",\n  \"vendor\": \"Hernandez-Rich\",\n  \"invoice_date\": \"2026-03-18\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 2500.90,\n      \"amount\": 42515.30\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 17,\n      \"unit_price\": 4622.45,\n      \"amount\": 78581.65\n    }\n  ],\n  \"subtotal\": 121096.95,\n  \"tax\": 6054.85,\n  \"total\": 127151.80\n}",
+  "seconds": 12.08,
+  "input_tokens": 1199,
+  "output_tokens": 228,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_025",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

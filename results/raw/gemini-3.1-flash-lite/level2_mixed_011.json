@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-62643\",\n  \"vendor\": \"Bender Gerlach GmbH\",\n  \"invoice_date\": \"2026-06-25\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 7,\n      \"unit_price\": 788.82,\n      \"amount\": 5521.74\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 8,\n      \"unit_price\": 2603.31,\n      \"amount\": 20826.48\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 17,\n      \"unit_price\": 3013.58,\n      \"amount\": 51230.86\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 16,\n      \"unit_price\": 474.64,\n      \"amount\": 7594.24\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 4,\n      \"unit_price\": 4385.28,\n      \"amount\": 17541.12\n    }\n  ],\n  \"subtotal\": 102714.44,\n  \"tax\": 10271.44,\n  \"total\": 112985.88\n}",
+  "seconds": 6.81,
+  "input_tokens": 1199,
+  "output_tokens": 388,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_011",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-97171\",\n  \"vendor\": \"Anand, Bala and Narang\",\n  \"invoice_date\": \"2026-09-02\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 16,\n      \"unit_price\": 1396.31,\n      \"amount\": 22340.96\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 4,\n      \"unit_price\": 614.80,\n      \"amount\": 2459.20\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 13,\n      \"unit_price\": 4844.22,\n      \"amount\": 62974.86\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 9,\n      \"unit_price\": 1939.32,\n      \"amount\": 17453.88\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 14,\n      \"unit_price\": 745.07,\n      \"amount\": 10430.98\n    }\n  ],\n  \"subtotal\": 115659.88,\n  \"tax\": 20818.78,\n  \"total\": 136478.66\n}",
+  "seconds": 8.25,
+  "input_tokens": 1199,
+  "output_tokens": 389,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_027",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

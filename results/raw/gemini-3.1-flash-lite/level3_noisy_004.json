@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-96114\",\n  \"vendor\": \"Klein-Figueroa\",\n  \"invoice_date\": \"2026-08-19\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 2,\n      \"unit_price\": 15200,\n      \"amount\": 30400\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 6,\n      \"unit_price\": 1500,\n      \"amount\": 9000\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 21900,\n      \"amount\": 65700\n    }\n  ],\n  \"subtotal\": 105100,\n  \"tax\": 5255,\n  \"total\": 110355\n}",
+  "seconds": 16.65,
+  "input_tokens": 1199,
+  "output_tokens": 252,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_004",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_026",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-70686",
+  "vendor": "J\u00e4hn AG",
+  "invoice_date": "2026-09-06",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Training Workshop",
+      "quantity": 15,
+      "unit_price": 4342.16,
+      "amount": 65132.4
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 10,
+      "unit_price": 1628.21,
+      "amount": 16282.1
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 6,
+      "unit_price": 1123.12,
+      "amount": 6738.72
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 11,
+      "unit_price": 3105.02,
+      "amount": 34155.22
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 6,
+      "unit_price": 1501.1,
+      "amount": 9006.6
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 20,
+      "unit_price": 961.06,
+      "amount": 19221.2
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 15,
+      "unit_price": 1054.93,
+      "amount": 15823.95
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 2,
+      "unit_price": 4197.24,
+      "amount": 8394.48
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 4,
+      "unit_price": 2875.97,
+      "amount": 11503.88
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 20,
+      "unit_price": 2720.87,
+      "amount": 54417.4
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 11,
+      "unit_price": 4240.62,
+      "amount": 46646.82
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 19,
+      "unit_price": 722.07,
+      "amount": 13719.33
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 16,
+      "unit_price": 3207.43,
+      "amount": 51318.88
+    },
+    {
+      "description": "External SSD",
+      "quantity": 7,
+      "unit_price": 980.35,
+      "amount": 6862.45
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 15,
+      "unit_price": 4949.13,
+      "amount": 74236.95
+    }
+  ],
+  "subtotal": 433460.38,
+  "tax": 78022.87,
+  "total": 511483.25
+}

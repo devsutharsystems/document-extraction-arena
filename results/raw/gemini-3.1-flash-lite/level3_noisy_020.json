@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-60577\",\n  \"vendor\": \"Eberth\",\n  \"invoice_date\": \"2026-01-29\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 4,\n      \"unit_price\": 2812.14,\n      \"amount\": 11248.56\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 18,\n      \"unit_price\": 1354.54,\n      \"amount\": 24381.72\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 5,\n      \"unit_price\": 2367.84,\n      \"amount\": 11839.20\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 8,\n      \"unit_price\": 1562.38,\n      \"amount\": 12499.04\n    }\n  ],\n  \"subtotal\": 59968.52,\n  \"tax\": 2998.43,\n  \"total\": 62966.95\n}",
+  "seconds": 3.71,
+  "input_tokens": 1199,
+  "output_tokens": 331,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_020",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

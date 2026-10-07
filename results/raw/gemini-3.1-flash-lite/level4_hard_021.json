@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-48054\",\n  \"vendor\": \"Fr\u00f6hlich Roht AG\",\n  \"invoice_date\": \"2026-06-09\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 9,\n      \"unit_price\": 2108.15,\n      \"amount\": 18973.35\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 11,\n      \"unit_price\": 1350.74,\n      \"amount\": 14858.14\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 3,\n      \"unit_price\": 175.02,\n      \"amount\": 525.06\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 20,\n      \"unit_price\": 2512.20,\n      \"amount\": 50244.00\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 12,\n      \"unit_price\": 962.97,\n      \"amount\": 11555.64\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 1,\n      \"unit_price\": 1961.71,\n      \"amount\": 1961.71\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 4,\n      \"unit_price\": 3235.27,\n      \"amount\": 12941.08\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 17,\n      \"unit_price\": 917.56,\n      \"amount\": 15598.52\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 9,\n      \"unit_price\": 2180.54,\n      \"amount\": 19624.86\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 8,\n      \"unit_price\": 1211.07,\n      \"amount\": 9688.56\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 19,\n      \"unit_price\": 235.83,\n      \"amount\": 4480.77\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 2,\n      \"unit_price\": 3465.49,\n      \"amount\": 6930.98\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 3,\n      \"unit_price\": 2649.55,\n      \"amount\": 7948.65\n    }\n  ],\n  \"subtotal\": 175331.32,\n  \"tax\": 35066.26,\n  \"total\": 210397.58\n}",
+  "seconds": 4.93,
+  "input_tokens": 1199,
+  "output_tokens": 810,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_021",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

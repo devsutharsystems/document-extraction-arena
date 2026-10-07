@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-68209\",\n  \"vendor\": \"Chakrabarti-Oza\",\n  \"invoice_date\": \"2026-04-16\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 5,\n      \"unit_price\": 2578.10,\n      \"amount\": 12890.50\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 15,\n      \"unit_price\": 1935.96,\n      \"amount\": 29039.40\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 20,\n      \"unit_price\": 3574.60,\n      \"amount\": 71492.00\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 15,\n      \"unit_price\": 1176.55,\n      \"amount\": 17648.25\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 15,\n      \"unit_price\": 716.51,\n      \"amount\": 10747.65\n    }\n  ],\n  \"subtotal\": 141817.80,\n  \"tax\": 14181.78,\n  \"total\": 155999.58\n}",
+  "seconds": 5.21,
+  "input_tokens": 1199,
+  "output_tokens": 391,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_001",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

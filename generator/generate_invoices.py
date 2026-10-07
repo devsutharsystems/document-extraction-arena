@@ -11,7 +11,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 FONT_BOLD = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
 
-LEVELS = ["level1_clean", "level2_mixed", "level3_noisy"]
+LEVELS = ["level1_clean", "level2_mixed", "level3_noisy", "level4_hard"]  # append only: index feeds the Faker seed
+HARD = "level4_hard"
 
 # style "eu" prints 1.234,56 ; style "us" prints 1,234.56
 CURRENCIES = {
@@ -62,11 +63,23 @@ def date_text(d, country, rng, mixed):
     return f"{d.day:02d}-{MONTHS[d.month - 1][:3]}-{d.year}"
 
 
+def hard_date_text(d, country, rng):
+    """Numeric only, day <= 12 and day != month, so the order is genuinely ambiguous."""
+    if country == "USA":
+        return f"{d.month:02d}/{d.day:02d}/{d.year}"
+    sep = rng.choice(["/", ".", "-"])
+    return f"{d.day:02d}{sep}{d.month:02d}{sep}{d.year}"
+
+
 def make_invoice(level, n, seed):
     """Returns (truth, display). Same (level, n, seed) -> same invoice."""
     mixed = level != "level1_clean"
     rng = random.Random(f"{seed}-{level}-{n}")
-    code = rng.choice(list(CURRENCIES)) if mixed else "INR"
+    hard = level == HARD
+    if hard:  # no JPY: its YYYY/MM/DD dates would not be ambiguous
+        code = rng.choice([c for c in CURRENCIES if c != "JPY"])
+    else:
+        code = rng.choice(list(CURRENCIES)) if mixed else "INR"
     cur = CURRENCIES[code]
 
     fake = Faker(cur["locale"])
@@ -75,7 +88,7 @@ def make_invoice(level, n, seed):
     address = f"{fake.street_address()}, {city}, {cur['country']}"
 
     items = []
-    for desc in rng.sample(ITEMS, rng.randint(2, 6)):
+    for desc in rng.sample(ITEMS, rng.randint(8, 15) if hard else rng.randint(2, 6)):
         qty = rng.randint(1, 20)
         if code == "JPY":
             unit = Decimal(rng.randint(5, 400) * 100)
@@ -89,7 +102,11 @@ def make_invoice(level, n, seed):
     tax_pct = Decimal(rng.choice([0, 5, 10, 18, 20])) if mixed else Decimal(18)
     tax = q(subtotal * tax_pct / 100, cur["decimals"])
     total = subtotal + tax
-    inv_date = date(2026, 1, 1) + timedelta(days=rng.randint(0, 270))
+    if hard:
+        month = rng.randint(1, 12)
+        inv_date = date(2026, month, rng.choice([x for x in range(1, 13) if x != month]))
+    else:
+        inv_date = date(2026, 1, 1) + timedelta(days=rng.randint(0, 270))
 
     truth = {
         "id": f"{level}_{n:03d}",
@@ -107,22 +124,24 @@ def make_invoice(level, n, seed):
     }
     display = {
         "address": address,
-        "date_text": date_text(inv_date, cur["country"], rng, mixed),
+        "date_text": (hard_date_text(inv_date, cur["country"], rng) if hard
+                      else date_text(inv_date, cur["country"], rng, mixed)),
         "tax_pct": int(tax_pct),
         "cur": cur,
     }
     return truth, display
 
 
-def render(inv, disp):
+def render(inv, disp, compact=False):
     W, H = 1240, 1754
     cur = disp["cur"]
     img = Image.new("RGB", (W, H), "white")
     draw = ImageDraw.Draw(img)
-    title = ImageFont.truetype(FONT_BOLD, 44)
-    bold = ImageFont.truetype(FONT_BOLD, 26)
-    body = ImageFont.truetype(FONT, 26)
-    small = ImageFont.truetype(FONT, 22)
+    t, b, sm, row = (36, 20, 17, 38) if compact else (44, 26, 22, 50)  # compact = smaller text
+    title = ImageFont.truetype(FONT_BOLD, t)
+    bold = ImageFont.truetype(FONT_BOLD, b)
+    body = ImageFont.truetype(FONT, b)
+    small = ImageFont.truetype(FONT, sm)
 
     draw.text((90, 80), inv["vendor"], font=title, fill="black")
     draw.text((90, 140), disp["address"], font=small, fill="black")
@@ -144,15 +163,15 @@ def render(inv, disp):
         draw.text((700, y), str(item["quantity"]), font=body, fill="black", anchor="ra")
         draw.text((900, y), money(item["unit_price"], cur), font=body, fill="black", anchor="ra")
         draw.text((W - 90, y), money(item["amount"], cur), font=body, fill="black", anchor="ra")
-        y += 50
+        y += row
 
     y += 40
     draw.text((900, y), "Subtotal", font=body, fill="black")
     draw.text((W - 90, y), money(inv["subtotal"], cur), font=body, fill="black", anchor="ra")
-    y += 50
+    y += row
     draw.text((900, y), f"Tax ({disp['tax_pct']}%)", font=body, fill="black")
     draw.text((W - 90, y), money(inv["tax"], cur), font=body, fill="black", anchor="ra")
-    y += 50
+    y += row
     draw.text((900, y), "Total", font=bold, fill="black")
     draw.text((W - 90, y), money(inv["total"], cur), font=bold, fill="black", anchor="ra")
     return img
@@ -173,14 +192,32 @@ def degrade(img, rng):
     return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
 
 
-def main(out_root="data/synthetic", count=30, seed=42):
-    for level in LEVELS:
+def degrade_hard(img, rng):
+    """Worse than degrade(): more rotation, blur, noise, lighting and contrast loss."""
+    np_rng = np.random.default_rng(rng.randint(0, 2**31 - 1))
+    img = img.rotate(rng.uniform(-5, 5), resample=Image.BICUBIC, fillcolor=(228, 228, 224))
+    img = img.filter(ImageFilter.GaussianBlur(radius=rng.uniform(1.0, 1.8)))
+    arr = np.asarray(img).astype(np.float32)
+    h, w, _ = arr.shape
+    gx = np.linspace(rng.uniform(0.65, 0.9), rng.uniform(0.9, 1.05), w)[None, :, None]
+    gy = np.linspace(rng.uniform(0.7, 0.95), rng.uniform(0.85, 1.05), h)[:, None, None]
+    arr = arr * gx * gy                                   # strong uneven lighting
+    arr = (arr - 128) * rng.uniform(0.6, 0.8) + 128       # low contrast
+    arr += np_rng.normal(0, rng.uniform(14, 24), arr.shape)  # heavy sensor noise
+    return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+
+
+def main(out_root="data/synthetic", count=30, seed=42, levels=LEVELS):
+    for level in levels:
         out_dir = Path(out_root) / level
         out_dir.mkdir(parents=True, exist_ok=True)
         for n in range(1, count + 1):
             truth, disp = make_invoice(level, n, seed)
-            img = render(truth, disp)
-            if level == "level3_noisy":
+            img = render(truth, disp, compact=level == HARD)
+            if level == HARD:
+                rng = random.Random(f"{seed}-{level}-{n}-noise")
+                degrade_hard(img, rng).save(out_dir / f"{truth['id']}.jpg", quality=rng.randint(15, 30))
+            elif level == "level3_noisy":
                 rng = random.Random(f"{seed}-{level}-{n}-noise")
                 degrade(img, rng).save(out_dir / f"{truth['id']}.jpg", quality=rng.randint(35, 55))
             else:

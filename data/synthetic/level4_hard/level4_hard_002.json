@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_002",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-20246",
+  "vendor": "Rose OHG mbH",
+  "invoice_date": "2026-09-10",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 12,
+      "unit_price": 1557.76,
+      "amount": 18693.12
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 7,
+      "unit_price": 4429.78,
+      "amount": 31008.46
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 16,
+      "unit_price": 1277.6,
+      "amount": 20441.6
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 20,
+      "unit_price": 1288.37,
+      "amount": 25767.4
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 2,
+      "unit_price": 1338.25,
+      "amount": 2676.5
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 1,
+      "unit_price": 1629.97,
+      "amount": 1629.97
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 8,
+      "unit_price": 4989.0,
+      "amount": 39912.0
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 5,
+      "unit_price": 4798.78,
+      "amount": 23993.9
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 15,
+      "unit_price": 145.49,
+      "amount": 2182.35
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 5,
+      "unit_price": 2092.21,
+      "amount": 10461.05
+    },
+    {
+      "description": "Webcam",
+      "quantity": 7,
+      "unit_price": 1235.35,
+      "amount": 8647.45
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 15,
+      "unit_price": 2161.07,
+      "amount": 32416.05
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 16,
+      "unit_price": 1146.23,
+      "amount": 18339.68
+    },
+    {
+      "description": "External SSD",
+      "quantity": 15,
+      "unit_price": 2681.93,
+      "amount": 40228.95
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 3,
+      "unit_price": 2403.84,
+      "amount": 7211.52
+    }
+  ],
+  "subtotal": 283610.0,
+  "tax": 28361.0,
+  "total": 311971.0
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-44498\",\n  \"vendor\": \"Gray PLC\",\n  \"invoice_date\": \"2026-03-20\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 16,\n      \"unit_price\": 14800,\n      \"amount\": 236800\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 4,\n      \"unit_price\": 12700,\n      \"amount\": 50800\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 9,\n      \"unit_price\": 39200,\n      \"amount\": 352800\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 15,\n      \"unit_price\": 28700,\n      \"amount\": 430500\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 25800,\n      \"amount\": 77400\n    }\n  ],\n  \"subtotal\": 1148300,\n  \"tax\": 229660,\n  \"total\": 1377960\n}",
+  "seconds": 25.8,
+  "input_tokens": 1199,
+  "output_tokens": 358,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_013",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-34920\",\n  \"vendor\": \"Khosla-Mammen\",\n  \"invoice_date\": \"2026-03-21\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 3841.93,\n      \"amount\": 23051.58\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 13,\n      \"unit_price\": 1533.37,\n      \"amount\": 19933.81\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 10,\n      \"unit_price\": 4228.99,\n      \"amount\": 42289.90\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 13,\n      \"unit_price\": 693.05,\n      \"amount\": 9009.65\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 20,\n      \"unit_price\": 1969.71,\n      \"amount\": 39394.20\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 1,\n      \"unit_price\": 3221.99,\n      \"amount\": 3221.99\n    }\n  ],\n  \"subtotal\": 136901.13,\n  \"tax\": 24642.20,\n  \"total\": 161543.33\n}",
+  "seconds": 3.94,
+  "input_tokens": 1199,
+  "output_tokens": 444,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_005",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

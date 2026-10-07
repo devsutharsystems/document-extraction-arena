@@ -1,0 +1,103 @@
+{
+  "id": "level4_hard_011",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-71889",
+  "vendor": "Gala-Bhandari",
+  "invoice_date": "2026-08-03",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Webcam",
+      "quantity": 7,
+      "unit_price": 2656.07,
+      "amount": 18592.49
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 12,
+      "unit_price": 3766.62,
+      "amount": 45199.44
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 18,
+      "unit_price": 470.1,
+      "amount": 8461.8
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 13,
+      "unit_price": 4678.61,
+      "amount": 60821.93
+    },
+    {
+      "description": "External SSD",
+      "quantity": 17,
+      "unit_price": 3815.49,
+      "amount": 64863.33
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 4,
+      "unit_price": 4895.69,
+      "amount": 19582.76
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 11,
+      "unit_price": 1265.25,
+      "amount": 13917.75
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 18,
+      "unit_price": 562.62,
+      "amount": 10127.16
+    },
+    {
+      "description": "Ethernet Cable",
+      "quantity": 5,
+      "unit_price": 4368.27,
+      "amount": 21841.35
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 2,
+      "unit_price": 3155.06,
+      "amount": 6310.12
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 10,
+      "unit_price": 3277.27,
+      "amount": 32772.7
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 3,
+      "unit_price": 675.87,
+      "amount": 2027.61
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 16,
+      "unit_price": 620.96,
+      "amount": 9935.36
+    },
+    {
+      "description": "Wireless Mouse",
+      "quantity": 14,
+      "unit_price": 2868.67,
+      "amount": 40161.38
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 7,
+      "unit_price": 3035.19,
+      "amount": 21246.33
+    }
+  ],
+  "subtotal": 375861.51,
+  "tax": 18793.08,
+  "total": 394654.59
+}

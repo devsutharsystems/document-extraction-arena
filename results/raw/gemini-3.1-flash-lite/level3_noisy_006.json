@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-67216\",\n  \"vendor\": \"Morrison, Williams and Turner\",\n  \"invoice_date\": \"2026-02-20\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 16,\n      \"unit_price\": 1000,\n      \"amount\": 16000\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 6,\n      \"unit_price\": 33800,\n      \"amount\": 202800\n    }\n  ],\n  \"subtotal\": 218800,\n  \"tax\": 10940,\n  \"total\": 229740\n}",
+  "seconds": 10.75,
+  "input_tokens": 1199,
+  "output_tokens": 211,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_006",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

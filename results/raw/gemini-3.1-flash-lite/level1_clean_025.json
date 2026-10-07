@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-72901\",\n  \"vendor\": \"Ratta, Jaggi and Vala\",\n  \"invoice_date\": \"2026-04-08\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 6,\n      \"unit_price\": 3281.95,\n      \"amount\": 19691.70\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 6,\n      \"unit_price\": 4249.36,\n      \"amount\": 25496.16\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 12,\n      \"unit_price\": 3282.39,\n      \"amount\": 39388.68\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 17,\n      \"unit_price\": 307.48,\n      \"amount\": 5227.16\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 20,\n      \"unit_price\": 1265.25,\n      \"amount\": 25305.00\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 16,\n      \"unit_price\": 3193.26,\n      \"amount\": 51092.16\n    }\n  ],\n  \"subtotal\": 166200.86,\n  \"tax\": 29916.15,\n  \"total\": 196117.01\n}",
+  "seconds": 3.53,
+  "input_tokens": 1199,
+  "output_tokens": 447,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_025",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

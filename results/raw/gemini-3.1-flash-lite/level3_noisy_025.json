@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-96965\",\n  \"vendor\": \"Price-Klein\",\n  \"invoice_date\": \"2026-05-07\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 9,\n      \"unit_price\": 30800,\n      \"amount\": 277200\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 5,\n      \"unit_price\": 25400,\n      \"amount\": 127000\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 7,\n      \"unit_price\": 17200,\n      \"amount\": 120400\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 10,\n      \"unit_price\": 30100,\n      \"amount\": 301000\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 11,\n      \"unit_price\": 4400,\n      \"amount\": 48400\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 5,\n      \"unit_price\": 9400,\n      \"amount\": 47000\n    }\n  ],\n  \"subtotal\": 921000,\n  \"tax\": 92100,\n  \"total\": 1013100\n}",
+  "seconds": 7.55,
+  "input_tokens": 1199,
+  "output_tokens": 404,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_025",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

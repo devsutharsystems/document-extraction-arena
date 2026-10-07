@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-36344\",\n  \"vendor\": \"Anderson Group\",\n  \"invoice_date\": \"2026-01-04\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 7,\n      \"unit_price\": 771.90,\n      \"amount\": 5403.30\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 12,\n      \"unit_price\": 3307.25,\n      \"amount\": 39687.00\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 20,\n      \"unit_price\": 3343.53,\n      \"amount\": 66870.60\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 9,\n      \"unit_price\": 3323.30,\n      \"amount\": 29909.70\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 3,\n      \"unit_price\": 4306.85,\n      \"amount\": 12920.55\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 5,\n      \"unit_price\": 4211.97,\n      \"amount\": 21059.85\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 17,\n      \"unit_price\": 4465.86,\n      \"amount\": 75919.62\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 4,\n      \"unit_price\": 4204.66,\n      \"amount\": 16818.64\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 17,\n      \"unit_price\": 1017.01,\n      \"amount\": 17289.17\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 3,\n      \"unit_price\": 2679.32,\n      \"amount\": 8037.96\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 20,\n      \"unit_price\": 242.35,\n      \"amount\": 4847.00\n    }\n  ],\n  \"subtotal\": 298763.39,\n  \"tax\": 53777.41,\n  \"total\": 352540.80\n}",
+  "seconds": 16.67,
+  "input_tokens": 1199,
+  "output_tokens": 705,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_019",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

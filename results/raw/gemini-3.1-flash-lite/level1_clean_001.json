@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-96025\",\n  \"vendor\": \"Bahl, Rana and Bajwa\",\n  \"invoice_date\": \"2026-05-27\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 10,\n      \"unit_price\": 3244.85,\n      \"amount\": 32448.50\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 18,\n      \"unit_price\": 1335.25,\n      \"amount\": 24034.50\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 20,\n      \"unit_price\": 509.42,\n      \"amount\": 10188.40\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 1,\n      \"unit_price\": 1071.70,\n      \"amount\": 1071.70\n    }\n  ],\n  \"subtotal\": 67743.10,\n  \"tax\": 12193.76,\n  \"total\": 79936.86\n}",
+  "seconds": 3.47,
+  "input_tokens": 1199,
+  "output_tokens": 334,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_001",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

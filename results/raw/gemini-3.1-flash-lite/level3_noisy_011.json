@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-65894\",\n  \"vendor\": \"Garner-Robbins\",\n  \"invoice_date\": \"2026-09-27\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 15,\n      \"unit_price\": 17700,\n      \"amount\": 265500\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 8,\n      \"unit_price\": 17200,\n      \"amount\": 137600\n    }\n  ],\n  \"subtotal\": 403100,\n  \"tax\": 80620,\n  \"total\": 483720\n}",
+  "seconds": 10.2,
+  "input_tokens": 1199,
+  "output_tokens": 213,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_011",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

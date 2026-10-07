@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2028-24086\",\n  \"vendor\": \"Klotz Becker GbR\",\n  \"invoice_date\": \"2028-11-06\",\n  \"currency\": \"EUR\",\n  \"line_items\": [\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 18,\n      \"unit_price\": 2777.73,\n      \"amount\": 49999.14\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 11,\n      \"unit_price\": 83.83,\n      \"amount\": 922.13\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 13,\n      \"unit_price\": 2685.74,\n      \"amount\": 34914.62\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 19,\n      \"unit_price\": 1662.03,\n      \"amount\": 31578.57\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 15,\n      \"unit_price\": 1838.32,\n      \"amount\": 27574.80\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 11,\n      \"unit_price\": 1169.25,\n      \"amount\": 12861.75\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 3,\n      \"unit_price\": 2537.63,\n      \"amount\": 7612.89\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 19,\n      \"unit_price\": 2525.64,\n      \"amount\": 47987.16\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 11,\n      \"unit_price\": 3012.32,\n      \"amount\": 33135.52\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 17,\n      \"unit_price\": 3417.65,\n      \"amount\": 58100.05\n    }\n  ],\n  \"subtotal\": 304686.63,\n  \"tax\": 54843.59,\n  \"total\": 359530.22\n}",
+  "seconds": 4.14,
+  "input_tokens": 1199,
+  "output_tokens": 658,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level4_hard_020",
+  "level": "level4_hard",
+  "model": "gemini-3.1-flash-lite"
+}

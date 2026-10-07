@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-59725\",\n  \"vendor\": \"Mendoza LLC\",\n  \"invoice_date\": \"2026-04-26\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 2,\n      \"unit_price\": 9600,\n      \"amount\": 19200\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 12,\n      \"unit_price\": 23100,\n      \"amount\": 277200\n    }\n  ],\n  \"subtotal\": 296400,\n  \"tax\": 14820,\n  \"total\": 311220\n}",
+  "seconds": 3.51,
+  "input_tokens": 1199,
+  "output_tokens": 207,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level2_mixed_010",
+  "level": "level2_mixed",
+  "model": "gemini-3.1-flash-lite"
+}

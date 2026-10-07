@@ -1,0 +1,79 @@
+{
+  "id": "level4_hard_019",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-36344",
+  "vendor": "Anderson Group",
+  "invoice_date": "2026-04-01",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Ethernet Cable",
+      "quantity": 7,
+      "unit_price": 771.9,
+      "amount": 5403.3
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 12,
+      "unit_price": 3307.25,
+      "amount": 39687.0
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 20,
+      "unit_price": 3343.53,
+      "amount": 66870.6
+    },
+    {
+      "description": "External SSD",
+      "quantity": 9,
+      "unit_price": 3323.3,
+      "amount": 29909.7
+    },
+    {
+      "description": "Wireless Keyboard",
+      "quantity": 3,
+      "unit_price": 4306.85,
+      "amount": 12920.55
+    },
+    {
+      "description": "Packaging Materials",
+      "quantity": 5,
+      "unit_price": 4211.97,
+      "amount": 21059.85
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 17,
+      "unit_price": 4465.86,
+      "amount": 75919.62
+    },
+    {
+      "description": "Webcam",
+      "quantity": 4,
+      "unit_price": 4204.66,
+      "amount": 16818.64
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 17,
+      "unit_price": 1017.01,
+      "amount": 17289.17
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 3,
+      "unit_price": 2679.32,
+      "amount": 8037.96
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 20,
+      "unit_price": 242.35,
+      "amount": 4847.0
+    }
+  ],
+  "subtotal": 298763.39,
+  "tax": 53777.41,
+  "total": 352540.8
+}

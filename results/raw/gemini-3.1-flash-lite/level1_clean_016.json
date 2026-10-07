@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-59040\",\n  \"vendor\": \"Sule-Cherian\",\n  \"invoice_date\": \"2026-03-20\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 17,\n      \"unit_price\": 4463.41,\n      \"amount\": 75877.97\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 5,\n      \"unit_price\": 4506.91,\n      \"amount\": 22534.55\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 2,\n      \"unit_price\": 1708.47,\n      \"amount\": 3416.94\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 19,\n      \"unit_price\": 1387.69,\n      \"amount\": 26366.11\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 3,\n      \"unit_price\": 4553.52,\n      \"amount\": 13660.56\n    }\n  ],\n  \"subtotal\": 141856.13,\n  \"tax\": 25534.10,\n  \"total\": 167390.23\n}",
+  "seconds": 10.94,
+  "input_tokens": 1199,
+  "output_tokens": 388,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_016",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

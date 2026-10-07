@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-28580\",\n  \"vendor\": \"Foley LLC\",\n  \"invoice_date\": \"2026-07-26\",\n  \"currency\": \"JPY\",\n  \"line_items\": [\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 20300,\n      \"amount\": 121800\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 3,\n      \"unit_price\": 4900,\n      \"amount\": 14700\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 1,\n      \"unit_price\": 23900,\n      \"amount\": 23900\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 16,\n      \"unit_price\": 23500,\n      \"amount\": 376000\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 18,\n      \"unit_price\": 39300,\n      \"amount\": 707400\n    }\n  ],\n  \"subtotal\": 1243800,\n  \"tax\": 223884,\n  \"total\": 1467684\n}",
+  "seconds": 7.34,
+  "input_tokens": 1199,
+  "output_tokens": 357,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level3_noisy_027",
+  "level": "level3_noisy",
+  "model": "gemini-3.1-flash-lite"
+}

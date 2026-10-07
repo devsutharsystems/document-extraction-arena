@@ -1,0 +1,73 @@
+{
+  "id": "level4_hard_005",
+  "level": "level4_hard",
+  "invoice_number": "INV-2026-96652",
+  "vendor": "Green-Rodriguez",
+  "invoice_date": "2026-06-10",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 17,
+      "unit_price": 2738.32,
+      "amount": 46551.44
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 7,
+      "unit_price": 3153.88,
+      "amount": 22077.16
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 12,
+      "unit_price": 3166.37,
+      "amount": 37996.44
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 18,
+      "unit_price": 4081.07,
+      "amount": 73459.26
+    },
+    {
+      "description": "Courier Delivery",
+      "quantity": 11,
+      "unit_price": 3901.11,
+      "amount": 42912.21
+    },
+    {
+      "description": "Cloud Hosting",
+      "quantity": 20,
+      "unit_price": 4261.48,
+      "amount": 85229.6
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 15,
+      "unit_price": 4349.01,
+      "amount": 65235.15
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 11,
+      "unit_price": 3093.82,
+      "amount": 34032.02
+    },
+    {
+      "description": "Webcam",
+      "quantity": 1,
+      "unit_price": 1139.17,
+      "amount": 1139.17
+    },
+    {
+      "description": "LED Desk Lamp",
+      "quantity": 1,
+      "unit_price": 3574.25,
+      "amount": 3574.25
+    }
+  ],
+  "subtotal": 412206.7,
+  "tax": 20610.34,
+  "total": 432817.04
+}

@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-74079\",\n  \"vendor\": \"Krish, Bhakta and Lad\",\n  \"invoice_date\": \"2026-06-20\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 2,\n      \"unit_price\": 4055.64,\n      \"amount\": 8111.28\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 6,\n      \"unit_price\": 2728.59,\n      \"amount\": 16371.54\n    }\n  ],\n  \"subtotal\": 24482.82,\n  \"tax\": 4406.91,\n  \"total\": 28889.73\n}",
+  "seconds": 11.27,
+  "input_tokens": 1199,
+  "output_tokens": 226,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_018",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}

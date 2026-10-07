@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-52055\",\n  \"vendor\": \"Nigam LLC\",\n  \"invoice_date\": \"2026-08-14\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 1,\n      \"unit_price\": 2210.38,\n      \"amount\": 2210.38\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 17,\n      \"unit_price\": 3851.07,\n      \"amount\": 65468.19\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 10,\n      \"unit_price\": 2540.70,\n      \"amount\": 25407.00\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 12,\n      \"unit_price\": 3396.70,\n      \"amount\": 40760.40\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 5,\n      \"unit_price\": 4957.38,\n      \"amount\": 24786.90\n    }\n  ],\n  \"subtotal\": 158632.87,\n  \"tax\": 28553.92,\n  \"total\": 187186.79\n}",
+  "seconds": 6.11,
+  "input_tokens": 1199,
+  "output_tokens": 391,
+  "thinking_tokens": 0,
+  "error": null,
+  "id": "level1_clean_004",
+  "level": "level1_clean",
+  "model": "gemini-3.1-flash-lite"
+}
