@@ -73,3 +73,7 @@ python runner/score.py --data data/my_invoices --raw results/raw_mine --out resu
 ```
 
 The summary is printed and saved as `results/mine/summary.csv`, with per-invoice rows in `results/mine/per_invoice.csv` and field-level mistakes in `results/mine/failures.csv`. `python runner/compare.py --results results/mine` compares models on your invoices once you have run more than one.
+
+## Licence
+
+Apache License 2.0. See [LICENSE](LICENSE).
