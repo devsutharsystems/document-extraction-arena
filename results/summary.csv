@@ -3,3 +3,5 @@ gemini-3.1-flash-lite,level1_clean,30,100.0,100.0,6.9,0.0008,0.0241,0
 gemini-3.1-flash-lite,level2_mixed,30,99.6,96.7,8.8,0.00079,0.0238,0
 gemini-3.1-flash-lite,level3_noisy,30,100.0,100.0,9.6,0.0008,0.0241,0
 gemini-3.1-flash-lite,level4_hard,30,94.1,60.0,7.2,0.00141,0.0424,0
+gemini-3.6-flash,level4_hard,4,100.0,100.0,11.5,0.00909,0.0364,0
+gemini-3.8-flash,level4_hard,4,100.0,100.0,26.8,0.00682,0.0273,0

@@ -33,11 +33,11 @@ PROMPT = (
 MIME = {".png": "image/png", ".jpg": "image/jpeg"}
 
 
-def extract(model, image_path):
+def extract(model, image_path, no_retry=False):
     data = image_path.read_bytes()
     config = types.GenerateContentConfig(response_mime_type="application/json", temperature=0)
     err = None
-    for attempt in range(4):
+    for attempt in range(1 if no_retry else 4):
         try:
             start = time.time()
             resp = get_client().models.generate_content(
@@ -56,7 +56,8 @@ def extract(model, image_path):
             }
         except Exception as e:  # rate limits and network errors: wait, then retry
             err = str(e)
-            time.sleep(2 ** attempt * 2)
+            if not no_retry:
+                time.sleep(2 ** attempt * 2)
     return {"response_text": None, "seconds": None, "input_tokens": 0,
             "output_tokens": 0, "thinking_tokens": 0, "error": err}
 
@@ -93,6 +94,10 @@ def main():
     ap.add_argument("--data", default="data/synthetic")
     ap.add_argument("--out", default="results/raw")
     ap.add_argument("--max-consecutive-errors", type=int, default=3)
+    ap.add_argument("--no-retry", action="store_true",
+                    help="save a failed API call as an error record at once: one request, no retries, no backoff")
+    ap.add_argument("--min-interval", type=float, default=0,
+                    help="minimum seconds between the starts of two requests (0 = no pacing)")
     ap.add_argument("--dry-run", action="store_true",
                     help="print which invoices would run, retry or be skipped; no API calls, no files written")
     args = ap.parse_args()
@@ -118,13 +123,19 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     consecutive_errors = 0
+    last_start = None
     for i, truth_path in enumerate(truths, 1):
         inv_id = truth_path.stem
         out_path = out_dir / f"{inv_id}.json"
         if status(out_path) == "skip":  # already done: lets you resume after an interruption
             continue                    # (a saved API failure falls through and is retried)
         image = next(p for p in truth_path.parent.glob(inv_id + ".*") if p.suffix in MIME)
-        result = extract(args.model, image)
+        if last_start is not None and args.min_interval > 0:
+            wait = args.min_interval - (time.monotonic() - last_start)
+            if wait > 0:
+                time.sleep(wait)
+        last_start = time.monotonic()
+        result = extract(args.model, image, no_retry=args.no_retry)
         result.update({"id": inv_id, "level": truth_path.parent.name, "model": args.model})
         out_path.write_text(json.dumps(result, indent=2))
         tokens = result["input_tokens"] + result["output_tokens"] + result["thinking_tokens"]

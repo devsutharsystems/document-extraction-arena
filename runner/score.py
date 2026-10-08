@@ -10,7 +10,11 @@ import pandas as pd
 # Verify against https://ai.google.dev/gemini-api/docs/pricing before publishing.
 PRICES = {
     "gemini-3.1-flash-lite": (0.25, 1.50),
+    # 3.x Flash prices are valid through December 31, 2026 (then $1.50 / $7.50).
+    # Source: https://ai.google.dev/gemini-api/docs/pricing
     "gemini-3.8-flash": (0.75, 3.75),
+    "gemini-3.7-flash": (0.75, 3.75),
+    "gemini-3.6-flash": (0.75, 3.75),
 }
 
 SCALAR_FIELDS = ["invoice_number", "vendor", "invoice_date", "currency", "subtotal", "tax", "total"]

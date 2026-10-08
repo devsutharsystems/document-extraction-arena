@@ -87,7 +87,7 @@ def test_stops_after_three_consecutive_failures_and_retries_on_rerun(data, tmp_p
             p.with_suffix(".png").write_bytes(b"x")
     calls = []
 
-    def failing(model, image):
+    def failing(model, image, no_retry=False):
         calls.append(image.stem)
         return {"response_text": None, "seconds": None, "input_tokens": 0, "output_tokens": 0,
                 "thinking_tokens": 0, "error": "503 UNAVAILABLE"}
@@ -107,3 +107,65 @@ def test_stops_after_three_consecutive_failures_and_retries_on_rerun(data, tmp_p
     with pytest.raises(SystemExit):
         run_models.main()
     assert calls == ["level4_hard_001", "level4_hard_002", "level4_hard_003"]
+
+
+class FakeClient:
+    """Stands in for the genai client: every call raises, and the calls are counted."""
+    def __init__(self):
+        self.calls = 0
+        self.models = self
+
+    def generate_content(self, **kwargs):
+        self.calls += 1
+        raise RuntimeError("429 RESOURCE_EXHAUSTED")
+
+
+def test_no_retry_makes_exactly_one_request_per_invoice(data, tmp_path, monkeypatch):
+    for p in (data / "level4_hard").glob("*.json"):
+        p.with_suffix(".png").write_bytes(b"x")
+    client = FakeClient()
+    monkeypatch.setattr(run_models, "get_client", lambda: client)
+    sleeps = []
+    monkeypatch.setattr(run_models.time, "sleep", lambda s: sleeps.append(s))
+    out = tmp_path / "raw"
+    monkeypatch.setattr(sys, "argv", ["run_models.py", "--model", "m", "--data", str(data), "--out", str(out),
+                                      "--levels", "level4_hard", "--per-level", "5", "--no-retry"])
+    with pytest.raises(SystemExit) as e:  # the 3-in-a-row rule still applies
+        run_models.main()
+    assert "3 API failures in a row" in str(e.value)
+    assert client.calls == 3  # 3 invoices, 1 request each
+    assert not any(s >= 2 for s in sleeps)  # no backoff sleeps
+    saved = json.loads((out / "m" / "level4_hard_001.json").read_text())
+    assert saved["error"] and "429" in saved["error"]
+
+
+def test_without_no_retry_each_invoice_makes_four_attempts(data, monkeypatch):
+    (data / "level4_hard" / "level4_hard_001.png").write_bytes(b"x")
+    client = FakeClient()
+    monkeypatch.setattr(run_models, "get_client", lambda: client)
+    monkeypatch.setattr(run_models.time, "sleep", lambda s: None)
+    result = run_models.extract("m", data / "level4_hard" / "level4_hard_001.png")
+    assert client.calls == 4 and result["error"]
+
+
+def test_min_interval_spaces_request_starts(data, tmp_path, monkeypatch):
+    for p in (data / "level4_hard").glob("*.json"):
+        p.with_suffix(".png").write_bytes(b"x")
+    clock = [1000.0]
+    starts = []
+
+    def fake_extract(model, image, no_retry=False):
+        starts.append(clock[0])
+        clock[0] += 2  # each request takes 2 s
+        return {"response_text": "{}", "seconds": 2, "input_tokens": 1, "output_tokens": 1,
+                "thinking_tokens": 0, "error": None}
+
+    monkeypatch.setattr(run_models, "extract", fake_extract)
+    monkeypatch.setattr(run_models.time, "monotonic", lambda: clock[0])
+    monkeypatch.setattr(run_models.time, "sleep", lambda s: clock.__setitem__(0, clock[0] + s))
+    monkeypatch.setattr(sys, "argv", ["run_models.py", "--model", "m", "--data", str(data),
+                                      "--out", str(tmp_path / "raw"), "--levels", "level4_hard",
+                                      "--per-level", "4", "--min-interval", "13"])
+    run_models.main()
+    gaps = [b - a for a, b in zip(starts, starts[1:])]
+    assert len(starts) == 4 and all(g >= 13 for g in gaps)

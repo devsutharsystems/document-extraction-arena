@@ -1,0 +1,11 @@
+{
+  "response_text": null,
+  "seconds": null,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "thinking_tokens": 0,
+  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "id": "level4_hard_008",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}

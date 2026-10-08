@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-73862\",\n  \"vendor\": \"Kakar-Saxena\",\n  \"invoice_date\": \"2026-03-07\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 3,\n      \"unit_price\": 3870.84,\n      \"amount\": 11612.52\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 20,\n      \"unit_price\": 1532.08,\n      \"amount\": 30641.6\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 12,\n      \"unit_price\": 992.7,\n      \"amount\": 11912.4\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 16,\n      \"unit_price\": 587.88,\n      \"amount\": 9406.08\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 15,\n      \"unit_price\": 2817.63,\n      \"amount\": 42264.45\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 4,\n      \"unit_price\": 2427.43,\n      \"amount\": 9709.72\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 17,\n      \"unit_price\": 3891.29,\n      \"amount\": 66151.93\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 17,\n      \"unit_price\": 1023.07,\n      \"amount\": 17392.19\n    }\n  ],\n  \"subtotal\": 199090.89,\n  \"tax\": 0.0,\n  \"total\": 199090.89\n}",
+  "seconds": 11.46,
+  "input_tokens": 1199,
+  "output_tokens": 542,
+  "thinking_tokens": 646,
+  "error": null,
+  "id": "level4_hard_003",
+  "level": "level4_hard",
+  "model": "gemini-3.8-flash"
+}

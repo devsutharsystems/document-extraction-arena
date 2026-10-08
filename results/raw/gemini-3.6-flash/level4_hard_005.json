@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-96652\",\n  \"vendor\": \"Green-Rodriguez\",\n  \"invoice_date\": \"2026-06-10\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 17,\n      \"unit_price\": 2738.32,\n      \"amount\": 46551.44\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 7,\n      \"unit_price\": 3153.88,\n      \"amount\": 22077.16\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 12,\n      \"unit_price\": 3166.37,\n      \"amount\": 37996.44\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 18,\n      \"unit_price\": 4081.07,\n      \"amount\": 73459.26\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 11,\n      \"unit_price\": 3901.11,\n      \"amount\": 42912.21\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 20,\n      \"unit_price\": 4261.48,\n      \"amount\": 85229.60\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 15,\n      \"unit_price\": 4349.01,\n      \"amount\": 65235.15\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 11,\n      \"unit_price\": 3093.82,\n      \"amount\": 34032.02\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 1,\n      \"unit_price\": 1139.17,\n      \"amount\": 1139.17\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 3574.25,\n      \"amount\": 3574.25\n    }\n  ],\n  \"subtotal\": 412206.70,\n  \"tax\": 20610.34,\n  \"total\": 432817.04\n}",
+  "seconds": 14.37,
+  "input_tokens": 1199,
+  "output_tokens": 657,
+  "thinking_tokens": 1860,
+  "error": null,
+  "id": "level4_hard_005",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}
