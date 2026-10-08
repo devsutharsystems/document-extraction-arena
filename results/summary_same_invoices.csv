@@ -1,7 +1,0 @@
-model,level,n,accuracy_pct,exact_invoice_pct,avg_seconds,cost_per_invoice_usd
-gemini-3.1-flash-lite,level1_clean,20,100.0,100.0,6.3,0.00081
-gemini-3.1-flash-lite,level2_mixed,20,99.4,95.0,6.6,0.00078
-gemini-3.1-flash-lite,level3_noisy,20,100.0,100.0,10.2,0.00079
-gemini-3.1-flash-lite,level4_hard,3,100.0,100.0,5.5,0.00149
-gemini-3.6-flash,level4_hard,3,100.0,100.0,10.6,0.00868
-gemini-3.8-flash,level4_hard,3,100.0,100.0,19.9,0.00671
