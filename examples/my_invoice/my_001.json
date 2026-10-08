@@ -1,0 +1,37 @@
+{
+  "id": "my_001",
+  "level": "mine",
+  "invoice_number": "KP/2026/0417",
+  "vendor": "Kesar Paper & Print Co.",
+  "invoice_date": "2026-10-08",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "A4 Copier Paper (500 sheets)",
+      "quantity": 40,
+      "unit_price": 285.0,
+      "amount": 11400.0
+    },
+    {
+      "description": "Black Gel Pens (box of 50)",
+      "quantity": 12,
+      "unit_price": 349.5,
+      "amount": 4194.0
+    },
+    {
+      "description": "Spiral Notebooks, ruled",
+      "quantity": 25,
+      "unit_price": 62.75,
+      "amount": 1568.75
+    },
+    {
+      "description": "Heavy Duty Stapler",
+      "quantity": 3,
+      "unit_price": 540.0,
+      "amount": 1620.0
+    }
+  ],
+  "subtotal": 18782.75,
+  "tax": 3380.9,
+  "total": 22163.65
+}
