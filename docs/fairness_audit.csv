@@ -1,0 +1,6 @@
+id,field,verdict,reason
+level4_hard_014,invoice_date,fair,The country is legible and the model ignored it.
+level4_hard_008,invoice_number,fair,The number is clearly legible; the model read the year as 2028.
+level4_hard_019,invoice_date,borderline,The address is too blurred to read the country.
+level4_hard_018,invoice_number,unfair,The last digit is ambiguous between 6 and 8.
+level4_hard_015,line_items,not yet checked,
