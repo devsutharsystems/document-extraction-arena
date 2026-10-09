@@ -113,13 +113,17 @@ def test_error_chart_data_matches_per_invoice_csv(no_api):
     assert got == expected
     assert len(counts) == 16  # 8 fields x 2 models, one row each: grouped, not stacked
     spec = app.error_chart(counts, 16).to_dict()
-    assert "stack" not in str(spec.get("layer", [{}])[0]["encoding"]["x"])
+    assert "stack" not in str(spec["layer"][0]["encoding"]["x"])
+    assert spec["layer"][0]["encoding"]["x"]["scale"]["domain"] == [0, int(counts.Wrong.max()) + 1]
+    assert spec["layer"][0]["encoding"]["x"]["axis"]["tickMinStep"] == 1
+    assert spec["layer"][1]["transform"] == [{"filter": "(datum.Wrong > 0)"}]
 
 
-def test_results_tab_has_the_chart_and_caption(no_api):
+def test_results_tab_has_one_same_invoices_caption_and_no_duplicate(no_api):
     at = load()
     assert not at.exception
-    assert any("Same 16 hard invoices for both models." in c.value for c in at.caption)
+    assert sum("Same invoices for both models" in c.value for c in at.caption) == 1
+    assert not any("Same 16 hard invoices" in c.value for c in at.caption)
 
 
 def test_inspect_defaults_to_the_known_date_mistake(no_api):

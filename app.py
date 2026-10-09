@@ -302,13 +302,14 @@ def error_chart(counts, n):
         yOffset=alt.YOffset("Model:N", sort=[SMALL, BIG]),
     )
     x = alt.X("Wrong:Q", title=f"Invoices with this field wrong (out of {n})",
-              scale=alt.Scale(domain=[0, n]), axis=alt.Axis(tickMinStep=1, format="d"))
+              scale=alt.Scale(domain=[0, int(counts.Wrong.max()) + 1], nice=False),
+              axis=alt.Axis(tickMinStep=1, format="d"))
     color = alt.Color("Model:N", scale=alt.Scale(domain=[SMALL, BIG], range=["#555555", "#E8A33D"]),
                       legend=alt.Legend(orient="top", title=None))
-    bars = alt.Chart(counts).mark_bar().encode(x=x, color=color, **enc)
-    labels = alt.Chart(counts).mark_text(align="left", dx=4, color="#111111").encode(
+    bars = alt.Chart(counts).mark_bar(size=20).encode(x=x, color=color, **enc)
+    labels = alt.Chart(counts).transform_filter(alt.datum.Wrong > 0).mark_text(align="left", dx=4, color="#111111").encode(
         x="Wrong:Q", text=alt.Text("Wrong:Q", format="d"), **enc)
-    return (bars + labels).properties(height=360, background="transparent").configure_view(strokeWidth=0)
+    return (bars + labels).properties(height=420, background="transparent").configure_view(strokeWidth=0)
 
 
 def tab_results():
@@ -330,7 +331,6 @@ def tab_results():
         st.subheader("Which fields went wrong?")
         counts = field_error_counts(per_inv, shared_level4_ids(per_inv, n))
         st.altair_chart(error_chart(counts, n), width="stretch")
-        st.caption(f"Same {n} hard invoices for both models.")
     else:
         st.info("The comparison file does not contain both models yet.")
 
