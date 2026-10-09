@@ -207,7 +207,7 @@ def tab_try():
     else:
         st.markdown(f'<div class="note">On the free tier, Google may use uploaded content to improve its products '
                     f'(<a href="{TERMS_URL}" target="_blank">terms</a>). Use samples, not real invoices with '
-                    f'personal or business data.</div>', unsafe_allow_html=True)
+                    f'personal or business data. With a paid-tier Gemini key, Google does not use your prompts or responses to improve its products.</div>', unsafe_allow_html=True)
         up = st.file_uploader("Invoice image", type=["png", "jpg", "jpeg"])
         key_up = st.file_uploader("Answer key (optional JSON)", type=["json"])
         if up:
