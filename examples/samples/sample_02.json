@@ -1,0 +1,43 @@
+{
+  "id": "sample_02",
+  "level": "mine",
+  "invoice_number": "INV/2026/0931",
+  "vendor": "Fernhill Print & Design Ltd",
+  "invoice_date": "2026-10-02",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Business cards, 500 pack",
+      "quantity": 4,
+      "unit_price": 38.5,
+      "amount": 154.0
+    },
+    {
+      "description": "A1 posters, matt finish",
+      "quantity": 25,
+      "unit_price": 6.2,
+      "amount": 155.0
+    },
+    {
+      "description": "Brand guideline booklet",
+      "quantity": 1,
+      "unit_price": 640.0,
+      "amount": 640.0
+    },
+    {
+      "description": "Delivery (next day)",
+      "quantity": 1,
+      "unit_price": 12.95,
+      "amount": 12.95
+    },
+    {
+      "description": "Design revisions (hours)",
+      "quantity": 3,
+      "unit_price": 45.0,
+      "amount": 135.0
+    }
+  ],
+  "subtotal": 1096.95,
+  "tax": 219.39,
+  "total": 1316.34
+}

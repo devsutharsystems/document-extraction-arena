@@ -76,3 +76,13 @@ def test_friendly_errors(monkeypatch, err, words):
     at, _ = click_run(monkeypatch, fake_result(error=err))
     assert not at.exception
     assert any(words in e.value for e in at.error)
+
+
+def test_sample_picker_lists_readable_names_with_answer_keys(no_api):
+    at = load()
+    picker = next(s for s in at.selectbox if s.label == "Use a sample")
+    assert picker.options[:3] == ["US software invoice (USD)", "UK print shop (GBP)",
+                                  "Indian GST bill, phone photo (INR)"]
+    for stem in ("sample_01", "sample_02", "sample_03"):
+        assert (ROOT / "examples" / "samples" / f"{stem}.json").exists()
+    assert any("never saved" in m.value for m in at.markdown)

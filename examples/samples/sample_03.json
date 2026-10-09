@@ -1,0 +1,37 @@
+{
+  "id": "sample_03",
+  "level": "mine",
+  "invoice_number": "GS-2026-0715",
+  "vendor": "Sahyadri Hardware Traders",
+  "invoice_date": "2026-09-28",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "PVC pipe 1 inch (3 m)",
+      "quantity": 40,
+      "unit_price": 185.0,
+      "amount": 7400.0
+    },
+    {
+      "description": "Ball valve 1 inch",
+      "quantity": 15,
+      "unit_price": 320.5,
+      "amount": 4807.5
+    },
+    {
+      "description": "Teflon tape roll",
+      "quantity": 60,
+      "unit_price": 18.75,
+      "amount": 1125.0
+    },
+    {
+      "description": "Wall mixer tap",
+      "quantity": 4,
+      "unit_price": 2450.0,
+      "amount": 9800.0
+    }
+  ],
+  "subtotal": 23132.5,
+  "tax": 4163.85,
+  "total": 27296.35
+}

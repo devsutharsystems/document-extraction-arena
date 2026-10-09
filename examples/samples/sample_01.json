@@ -1,0 +1,37 @@
+{
+  "id": "sample_01",
+  "level": "mine",
+  "invoice_number": "NB-10482",
+  "vendor": "Northbeam Analytics LLC",
+  "invoice_date": "2026-09-14",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Analytics Pro plan (annual)",
+      "quantity": 1,
+      "unit_price": 2400.0,
+      "amount": 2400.0
+    },
+    {
+      "description": "Extra seats",
+      "quantity": 6,
+      "unit_price": 180.0,
+      "amount": 1080.0
+    },
+    {
+      "description": "Onboarding workshop",
+      "quantity": 2,
+      "unit_price": 350.0,
+      "amount": 700.0
+    },
+    {
+      "description": "Priority support add-on",
+      "quantity": 1,
+      "unit_price": 499.0,
+      "amount": 499.0
+    }
+  ],
+  "subtotal": 4679.0,
+  "tax": 386.02,
+  "total": 5065.02
+}

@@ -144,14 +144,28 @@ def friendly_error(err):
     return "The model call failed. Try again in a few minutes."
 
 
+SAMPLE_NAMES = {  # file name (no extension) -> name shown in the picker
+    "sample_01": "US software invoice (USD)",
+    "sample_02": "UK print shop (GBP)",
+    "sample_03": "Indian GST bill, phone photo (INR)",
+    "level1_clean_001": "Test set, level 1: clean (INR)",
+    "level2_mixed_003": "Test set, level 2: US date 05/10/2026 (USD)",
+    "level3_noisy_005": "Test set, level 3: scan noise",
+    "level4_hard_014": "Test set, level 4: hard, ambiguous date",
+    "my_001": "Worked example (fictional invoice)",
+}
+
+
 def list_samples():
-    out = {}
+    """{picker name: image path}, readable names first, in the order of SAMPLE_NAMES."""
+    found = {}
     for d in SAMPLE_DIRS:
         if d.is_dir():
             for p in sorted(d.iterdir()):
                 if p.suffix.lower() in IMAGE_SUFFIXES:
-                    out[p.stem] = p
-    return out
+                    found[p.stem] = p
+    order = [s for s in SAMPLE_NAMES if s in found] + [s for s in found if s not in SAMPLE_NAMES]
+    return {SAMPLE_NAMES.get(s, s): found[s] for s in order}
 
 
 def run_once(model, image_bytes, suffix, api_key):
@@ -360,7 +374,7 @@ def main():
         tab_results()
     with t3:
         tab_how()
-    st.markdown('<div class="foot">Synthetic invoices · Free-tier runs · Your API key stays in your browser session</div>',
+    st.markdown('<div class="foot">Synthetic invoices · Free-tier runs · Your API key is used only for this session and is never saved.</div>',
                 unsafe_allow_html=True)
 
 
