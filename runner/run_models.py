@@ -11,12 +11,17 @@ from google.genai import types
 _client = None
 
 
+def make_client(api_key=None):
+    """A client with the runner's 90 s timeout. No key given: the library reads GEMINI_API_KEY."""
+    return genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=90_000))
+
+
 def get_client():
     """Created on first use, so importing this module (tests, --dry-run) needs no API key."""
     global _client
     if _client is None:
         load_dotenv()
-        _client = genai.Client(http_options=types.HttpOptions(timeout=90_000))
+        _client = make_client()
     return _client
 
 PROMPT = (
@@ -33,14 +38,14 @@ PROMPT = (
 MIME = {".png": "image/png", ".jpg": "image/jpeg"}
 
 
-def extract(model, image_path, no_retry=False):
+def extract(model, image_path, no_retry=False, client=None):
     data = image_path.read_bytes()
     config = types.GenerateContentConfig(response_mime_type="application/json", temperature=0)
     err = None
     for attempt in range(1 if no_retry else 4):
         try:
             start = time.time()
-            resp = get_client().models.generate_content(
+            resp = (client or get_client()).models.generate_content(
                 model=model,
                 contents=[types.Part.from_bytes(data=data, mime_type=MIME[image_path.suffix]), PROMPT],
                 config=config,

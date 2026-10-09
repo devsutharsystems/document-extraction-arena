@@ -79,6 +79,17 @@ The summary is printed and saved as `results/mine/summary.csv`, with per-invoice
 
 A worked example is in [`examples/my_invoice/`](examples/my_invoice/): a fictional invoice image with a correct answer key, to copy as a template for your own. It scored 100% on `gemini-3.1-flash-lite` in my own run, measured once on this single invoice, so it shows the workflow and says little about model quality.
 
+## Web app
+
+A small Streamlit app lets you try an invoice, see the saved results and read how it works, without touching the command line scripts:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+It runs locally in your browser. Pick a sample from `examples/samples/` (or upload an image and an optional answer key), choose a model and click **Run**; each click makes one API call with no retries. The key comes from the `GEMINI_API_KEY` environment variable or a password box in the sidebar; the app never shows or saves it, and it does not read `.env`. The Results tab reads `results/*.csv` and `results/raw/`. On the free tier Google may use uploaded content to improve its products ([terms](https://ai.google.dev/gemini-api/terms)), so use the samples, not real invoices with personal or business data.
+
 ## Licence
 
 Apache License 2.0. See [LICENSE](LICENSE).

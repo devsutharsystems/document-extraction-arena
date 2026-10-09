@@ -1,0 +1,43 @@
+{
+  "id": "level2_mixed_003",
+  "level": "level2_mixed",
+  "invoice_number": "INV-2026-81602",
+  "vendor": "Rodriguez-Scott",
+  "invoice_date": "2026-05-10",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Courier Delivery",
+      "quantity": 3,
+      "unit_price": 1587.47,
+      "amount": 4762.41
+    },
+    {
+      "description": "USB-C Hub",
+      "quantity": 18,
+      "unit_price": 2211.3,
+      "amount": 39803.4
+    },
+    {
+      "description": "Webcam",
+      "quantity": 2,
+      "unit_price": 1465.94,
+      "amount": 2931.88
+    },
+    {
+      "description": "Office Chair",
+      "quantity": 18,
+      "unit_price": 4366.3,
+      "amount": 78593.4
+    },
+    {
+      "description": "Network Switch",
+      "quantity": 3,
+      "unit_price": 695.26,
+      "amount": 2085.78
+    }
+  ],
+  "subtotal": 128176.87,
+  "tax": 6408.84,
+  "total": 134585.71
+}

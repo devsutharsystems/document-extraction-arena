@@ -1,0 +1,37 @@
+{
+  "id": "level1_clean_001",
+  "level": "level1_clean",
+  "invoice_number": "INV-2026-96025",
+  "vendor": "Bahl, Rana and Bajwa",
+  "invoice_date": "2026-05-27",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Network Switch",
+      "quantity": 10,
+      "unit_price": 3244.85,
+      "amount": 32448.5
+    },
+    {
+      "description": "Printer Toner",
+      "quantity": 18,
+      "unit_price": 1335.25,
+      "amount": 24034.5
+    },
+    {
+      "description": "Training Workshop",
+      "quantity": 20,
+      "unit_price": 509.42,
+      "amount": 10188.4
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 1,
+      "unit_price": 1071.7,
+      "amount": 1071.7
+    }
+  ],
+  "subtotal": 67743.1,
+  "tax": 12193.76,
+  "total": 79936.86
+}
