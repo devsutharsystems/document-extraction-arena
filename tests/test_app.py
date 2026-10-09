@@ -63,7 +63,7 @@ def click_run(monkeypatch, result):
 
 
 def test_run_scores_a_perfect_answer_8_of_8(monkeypatch):
-    sample = ROOT / "examples" / "samples" / "level1_clean_001.json"
+    sample = ROOT / "examples" / "samples" / "sample_01.json"
     at, ex = click_run(monkeypatch, fake_result(sample.read_text()))
     assert not at.exception
     ex.assert_called_once()
@@ -86,3 +86,45 @@ def test_sample_picker_lists_readable_names_with_answer_keys(no_api):
     for stem in ("sample_01", "sample_02", "sample_03"):
         assert (ROOT / "examples" / "samples" / f"{stem}.json").exists()
     assert any("never saved" in m.value for m in at.markdown)
+
+
+def expected_wrong_counts(n=16):
+    """Independent recomputation from per_invoice.csv."""
+    d = pd.read_csv(ROOT / "results" / "per_invoice.csv")
+    ok = d[(d.level == "level4_hard") & ~d.api_error]
+    ids = sorted(set(ok[ok.model == "gemini-3.6-flash"].id) & set(ok[ok.model == "gemini-3.1-flash-lite"].id))[:n]
+    out = {}
+    for model in ("gemini-3.1-flash-lite", "gemini-3.6-flash"):
+        sub = ok[(ok.model == model) & ok.id.isin(ids)]
+        for col in [c for c in d.columns if c.startswith("f_")]:
+            out[(model, col[2:])] = int((sub[col] < 1).sum())
+    return ids, out
+
+
+def test_error_chart_data_matches_per_invoice_csv(no_api):
+    sys.path.insert(0, str(ROOT))
+    import app
+    d = pd.read_csv(ROOT / "results" / "per_invoice.csv")
+    ids, expected = expected_wrong_counts()
+    assert len(ids) == 16
+    counts = app.field_error_counts(d, app.shared_level4_ids(d, 16))
+    got = {(r.Model, k): r.Wrong for r in counts.itertuples()
+           for k, v in app.FIELD_LABELS.items() if v == r.Field}
+    assert got == expected
+    assert len(counts) == 16  # 8 fields x 2 models, one row each: grouped, not stacked
+    spec = app.error_chart(counts, 16).to_dict()
+    assert "stack" not in str(spec.get("layer", [{}])[0]["encoding"]["x"])
+
+
+def test_results_tab_has_the_chart_and_caption(no_api):
+    at = load()
+    assert not at.exception
+    assert any("Same 16 hard invoices for both models." in c.value for c in at.caption)
+
+
+def test_inspect_defaults_to_the_known_date_mistake(no_api):
+    at = load()
+    by_label = {s.label: s for s in at.selectbox}
+    assert by_label["Level"].value == "level4_hard"
+    assert by_label["Invoice"].value == "level4_hard_014"
+    assert [s.value for s in at.selectbox if s.key and s.key.startswith("inspect_model")] == ["gemini-3.1-flash-lite"]

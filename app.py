@@ -10,6 +10,7 @@ import sys
 import tempfile
 from pathlib import Path
 
+import altair as alt
 import pandas as pd
 import streamlit as st
 
@@ -36,6 +37,8 @@ FIELD_LABELS = {
 
 CSS = """
 <style>
+:root {color-scheme: light;}
+.card, .big, .step {color: #111111;}
 #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] {visibility: hidden; height: 0;}
 .block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 1200px;}
 .eyebrow {font-size: .78rem; letter-spacing: .12em; font-weight: 700; color: #B9770E; margin-bottom: .5rem;}
@@ -129,7 +132,7 @@ def render_fields(truth, pred, status, n_correct):
     st.markdown(f'<div class="card"><div class="top"><div class="lbl">Line items{esc(n_truth)}</div>'
                 f'{badge(status["line_items"])}</div></div>', unsafe_allow_html=True)
     if rows:
-        st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch")
     else:
         st.caption("The AI returned no line items.")
 
@@ -251,7 +254,7 @@ def tab_try():
     status, n_correct = evaluate(out["truth"], pred)
     left, right = st.columns([1, 1.1], gap="large")
     with left:
-        st.image(out["image"], caption=out["name"], use_container_width=True)
+        st.image(out["image"], caption=out["name"], width="stretch")
     with right:
         render_fields(out["truth"], pred, status, n_correct)
     tokens = res["input_tokens"] + res["output_tokens"] + res["thinking_tokens"]
@@ -282,6 +285,32 @@ def shared_level4_ids(per_invoice, n):
     return sorted(ids)[:n]
 
 
+def field_error_counts(per_inv, ids):
+    """Long table (Field, Model, Wrong): invoices among `ids` where the field scored below 1."""
+    rows = []
+    for model in (SMALL, BIG):
+        sub = per_inv[per_inv.id.isin(ids) & (per_inv.model == model) & ~per_inv.api_error]
+        for f, label in FIELD_LABELS.items():
+            rows.append({"Field": label, "Model": model, "Wrong": int((sub[f"f_{f}"] < 1).sum())})
+    return pd.DataFrame(rows)
+
+
+def error_chart(counts, n):
+    """Grouped (side-by-side) horizontal bars with value labels."""
+    enc = dict(
+        y=alt.Y("Field:N", sort=list(FIELD_LABELS.values()), title=None, axis=alt.Axis(labelLimit=200)),
+        yOffset=alt.YOffset("Model:N", sort=[SMALL, BIG]),
+    )
+    x = alt.X("Wrong:Q", title=f"Invoices with this field wrong (out of {n})",
+              scale=alt.Scale(domain=[0, n]), axis=alt.Axis(tickMinStep=1, format="d"))
+    color = alt.Color("Model:N", scale=alt.Scale(domain=[SMALL, BIG], range=["#555555", "#E8A33D"]),
+                      legend=alt.Legend(orient="top", title=None))
+    bars = alt.Chart(counts).mark_bar().encode(x=x, color=color, **enc)
+    labels = alt.Chart(counts).mark_text(align="left", dx=4, color="#111111").encode(
+        x="Wrong:Q", text=alt.Text("Wrong:Q", format="d"), **enc)
+    return (bars + labels).properties(height=360, background="transparent").configure_view(strokeWidth=0)
+
+
 def tab_results():
     same, summary, per_inv = read_csv("summary_same_invoices.csv"), read_csv("summary.csv"), read_csv("per_invoice.csv")
     if same is None or summary is None or per_inv is None:
@@ -299,28 +328,27 @@ def tab_results():
         st.caption("Same invoices for both models. Small sample: this says nothing about the other hard invoices "
                    "or the easier levels, where only the small model was run.")
         st.subheader("Which fields went wrong?")
-        ids = shared_level4_ids(per_inv, n)
-        fields = [f"f_{f}" for f in FIELD_LABELS]
-        sub = per_inv[(per_inv.id.isin(ids)) & per_inv.model.isin([BIG, SMALL])]
-        chart = (sub.groupby("model")[fields].mean().T * 100).round(1)
-        chart.index = [FIELD_LABELS[i[2:]] for i in chart.index]
-        st.bar_chart(chart, color=["#111111", "#E8A33D"][: len(chart.columns)], y_label="% correct")
+        counts = field_error_counts(per_inv, shared_level4_ids(per_inv, n))
+        st.altair_chart(error_chart(counts, n), width="stretch")
+        st.caption(f"Same {n} hard invoices for both models.")
     else:
         st.info("The comparison file does not contain both models yet.")
 
     st.subheader(f"The small model ({SMALL}) on all four levels")
     t = summary[summary.model == SMALL][["level", "n", "accuracy_pct", "exact_invoice_pct", "avg_seconds", "cost_per_invoice_usd"]]
     t.columns = ["Level", "Invoices", "Accuracy %", "Fully correct %", "Avg seconds", "Cost per invoice ($)"]
-    st.dataframe(t, hide_index=True, use_container_width=True)
+    st.dataframe(t, hide_index=True, width="stretch")
 
     st.subheader("Inspect an invoice")
     levels = sorted(p.name for p in DATA.iterdir() if p.is_dir()) if DATA.is_dir() else []
     if not levels:
         return
     c1, c2 = st.columns(2)
-    level = c1.selectbox("Level", levels, index=levels.index("level4_hard") if "level4_hard" in levels else 0)
+    level = c1.selectbox("Level", levels, index=levels.index("level4_hard") if "level4_hard" in levels else 0,
+                         key="inspect_level")
     inv_ids = sorted(p.stem for p in (DATA / level).glob("*.json"))
-    inv = c2.selectbox("Invoice", inv_ids)
+    default_inv = inv_ids.index("level4_hard_014") if "level4_hard_014" in inv_ids else 0  # a known date mistake
+    inv = c2.selectbox("Invoice", inv_ids, index=default_inv, key=f"inspect_inv_{level}")
     answered = []
     for d in sorted((RESULTS / "raw").iterdir()) if (RESULTS / "raw").is_dir() else []:
         f = d / f"{inv}.json"
@@ -329,7 +357,8 @@ def tab_results():
     if not answered:
         st.info("No model has a saved answer for this invoice.")
         return
-    model = st.selectbox("Model", answered, key="inspect_model")
+    model = st.selectbox("Model", answered, index=answered.index(SMALL) if SMALL in answered else 0,
+                         key=f"inspect_model_{inv}")
     truth = json.loads((DATA / level / f"{inv}.json").read_text())
     res = json.loads((RESULTS / "raw" / model / f"{inv}.json").read_text())
     pred = score.parse_response(res["response_text"])
@@ -337,7 +366,7 @@ def tab_results():
     status, n_correct = evaluate(truth, pred)
     left, right = st.columns([1, 1.1], gap="large")
     with left:
-        st.image(str(img), caption=inv, use_container_width=True)
+        st.image(str(img), caption=inv, width="stretch")
     with right:
         render_fields(truth, pred, status, n_correct)
 
@@ -378,4 +407,5 @@ def main():
                 unsafe_allow_html=True)
 
 
-main()
+if __name__ == "__main__":
+    main()
