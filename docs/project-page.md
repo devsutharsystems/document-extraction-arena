@@ -42,10 +42,10 @@ Times marked "measured once on the author's laptop" were taken once on a fresh c
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python generator/generate_invoices.py
+python generator/generate_invoices.py --out data/regenerated
 ```
 
-This writes 120 invoices (4 levels x 30) to `data/synthetic/`, each as an image plus a JSON answer key. The generator uses a fixed seed, so you get the same invoices every time. Open one key and compare it with its image:
+This writes 120 invoices (4 levels x 30) to `data/regenerated/`, each as an image plus a JSON answer key. The 120 invoices are already in the repo. To regenerate them without overwriting the images the models were scored on, use `--out`. On macOS the regenerated files are identical to the committed ones. On Windows and Linux a fallback font is used (Arial on Windows, DejaVu Sans otherwise), so the images differ slightly while the answer keys are identical. The generator uses a fixed seed, so the answer keys are the same every time, and on macOS so are the images. Open one key and compare it with its image:
 
 ```bash
 cat data/synthetic/level2_mixed/level2_mixed_003.json

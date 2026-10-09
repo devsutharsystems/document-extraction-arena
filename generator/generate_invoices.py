@@ -1,3 +1,4 @@
+import argparse
 import json
 import random
 from datetime import date, timedelta
@@ -8,8 +9,40 @@ import numpy as np
 from faker import Faker
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
-FONT_BOLD = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+# Tried in order. macOS Arial comes first so macOS output stays identical to the committed images.
+FONT_CANDIDATES = [
+    "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "C:\\Windows\\Fonts\\arial.ttf",
+    "DejaVuSans.ttf",  # Pillow also searches the system font folders for a bare name
+]
+FONT_BOLD_CANDIDATES = [
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    "C:\\Windows\\Fonts\\arialbd.ttf",
+    "DejaVuSans-Bold.ttf",
+]
+_font_cache = {}
+
+
+def find_font(candidates):
+    """First candidate Pillow can open. Warns once if it is not the macOS Arial."""
+    key = tuple(candidates)
+    if key not in _font_cache:
+        for i, name in enumerate(candidates):
+            try:
+                ImageFont.truetype(name, 10)
+            except OSError:
+                continue
+            if i > 0 and not _font_cache.get("warned"):
+                _font_cache["warned"] = True
+                print(f"Warning: macOS Arial not found, using {name}. Images will differ slightly "
+                      "from the committed ones; the answer keys are identical.")
+            _font_cache[key] = name
+            break
+        else:
+            raise OSError("No usable font found. Install Arial (Windows/macOS) or DejaVu Sans "
+                          "(Linux: e.g. `sudo apt install fonts-dejavu-core`). Tried: "
+                          + ", ".join(candidates))
+    return _font_cache[key]
 
 LEVELS = ["level1_clean", "level2_mixed", "level3_noisy", "level4_hard"]  # append only: index feeds the Faker seed
 HARD = "level4_hard"
@@ -138,10 +171,11 @@ def render(inv, disp, compact=False):
     img = Image.new("RGB", (W, H), "white")
     draw = ImageDraw.Draw(img)
     t, b, sm, row = (36, 20, 17, 38) if compact else (44, 26, 22, 50)  # compact = smaller text
-    title = ImageFont.truetype(FONT_BOLD, t)
-    bold = ImageFont.truetype(FONT_BOLD, b)
-    body = ImageFont.truetype(FONT, b)
-    small = ImageFont.truetype(FONT, sm)
+    font, font_bold = find_font(FONT_CANDIDATES), find_font(FONT_BOLD_CANDIDATES)
+    title = ImageFont.truetype(font_bold, t)
+    bold = ImageFont.truetype(font_bold, b)
+    body = ImageFont.truetype(font, b)
+    small = ImageFont.truetype(font, sm)
 
     draw.text((90, 80), inv["vendor"], font=title, fill="black")
     draw.text((90, 140), disp["address"], font=small, fill="black")
@@ -227,4 +261,9 @@ def main(out_root="data/synthetic", count=30, seed=42, levels=LEVELS):
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser(description="Generate synthetic invoices and answer keys.")
+    ap.add_argument("--out", default="data/synthetic", help="output folder (default data/synthetic)")
+    ap.add_argument("--count", type=int, default=30, help="invoices per level (default 30)")
+    ap.add_argument("--seed", type=int, default=42, help="random seed (default 42)")
+    args = ap.parse_args()
+    main(out_root=args.out, count=args.count, seed=args.seed)

@@ -4,7 +4,7 @@ A small benchmark that asks Gemini models to read invoice images and return stru
 
 ## Status
 
-- Dataset: 120 synthetic invoices (4 levels x 30), generated with a fixed seed.
+- Dataset: 120 synthetic invoices (4 levels x 30), generated with a fixed seed (answer keys are reproducible everywhere; images are byte-identical on macOS, and differ slightly elsewhere because of the font).
 - `gemini-3.1-flash-lite`: run on all 120 invoices.
 - `gemini-3.6-flash`: **preliminary run, `level4_hard` only.** 16 invoices answered (`level4_hard_001` to `_016`) out of the 20 planned; the run stopped at `level4_hard_017` on the free-tier daily quota (429). It was chosen as the "large model" because it had the most completed invoices under free-tier limits, not because of its score.
 - `gemini-3.8-flash`: partial run, 4 invoices answered (`level4_hard_001` to `_004`). `gemini-3.7-flash`: 0 answered. Both were blocked by 503 "high demand" errors and the free tier's 20 requests per day for each of these models (`results/api_errors.csv`). They are not used in the comparison.
@@ -46,14 +46,14 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 echo "GEMINI_API_KEY=your-key" > .env      # .env is gitignored; never commit it
 
-python generator/generate_invoices.py       # writes data/synthetic/
+python generator/generate_invoices.py --out data/regenerated   # the 120 invoices are already in data/synthetic/
 python -m pytest tests -q
 python runner/run_models.py --model gemini-3.1-flash-lite --per-level 30
 python runner/score.py
 python runner/compare.py --models gemini-3.1-flash-lite,gemini-3.6-flash --per-level 20
 ```
 
-`generate_invoices.py` writes all four levels (120 invoices). `run_models.py` resumes: finished invoices are skipped, and any saved result with an API error is retried. It stops after 3 failures in a row (`--max-consecutive-errors`), each of which has already used 4 attempts.
+`generate_invoices.py` writes all four levels (120 invoices); options are `--out` (default `data/synthetic`), `--count` (30) and `--seed` (42). Regenerate into a separate folder, as above, so the images the models were scored on are not overwritten. On macOS the regenerated files are identical to the committed ones. On Windows and Linux a fallback font is used (Arial on Windows, DejaVu Sans otherwise), so the images differ slightly while the answer keys are identical. `run_models.py` resumes: finished invoices are skipped, and any saved result with an API error is retried. It stops after 3 failures in a row (`--max-consecutive-errors`), each of which has already used 4 attempts.
 
 ## Test your own invoices
 
