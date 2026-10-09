@@ -132,3 +132,37 @@ def test_inspect_defaults_to_the_known_date_mistake(no_api):
     assert by_label["Level"].value == "level4_hard"
     assert by_label["Invoice"].value == "level4_hard_014"
     assert [s.value for s in at.selectbox if s.key and s.key.startswith("inspect_model")] == ["gemini-3.1-flash-lite"]
+
+
+def test_key_field_is_in_the_try_tab_and_there_is_no_sidebar(no_api, monkeypatch):
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    at = load()
+    assert not at.exception
+    field = next(w for w in at.text_input if w.key == "api_key_input")
+    assert field.label == "Your Gemini API key (free from Google AI Studio)"
+    assert len(at.sidebar.children) == 0
+    assert any("never saved" in c.value for c in at.caption)
+
+
+def test_run_without_a_key_asks_for_one_and_makes_no_call(no_api, monkeypatch):
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    at = load()
+    at.button[0].click().run()
+    assert not at.exception
+    assert any("Please add your Gemini API key" in i.value for i in at.info)
+    mk, ex = no_api
+    mk.assert_not_called()
+    ex.assert_not_called()
+
+
+def test_typed_key_is_used_for_the_call(monkeypatch):
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    sample = ROOT / "examples" / "samples" / "sample_01.json"
+    with mock.patch.object(run_models, "make_client", return_value=object()) as mk, \
+         mock.patch.object(run_models, "extract", return_value=fake_result(sample.read_text())) as ex:
+        at = load()
+        next(w for w in at.text_input if w.key == "api_key_input").set_value("typed-key-not-real")
+        at.button[0].click().run()
+    assert not at.exception
+    mk.assert_called_once_with("typed-key-not-real")
+    ex.assert_called_once()

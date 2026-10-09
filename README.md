@@ -88,7 +88,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-It runs locally in your browser. Pick a sample from `examples/samples/` (or upload an image and an optional answer key), choose a model and click **Run**; each click makes one API call with no retries. The key comes from the `GEMINI_API_KEY` environment variable or a password box in the sidebar; the app never shows or saves it, and it does not read `.env`. The Results tab reads `results/*.csv` and `results/raw/`. On the free tier Google may use uploaded content to improve its products ([terms](https://ai.google.dev/gemini-api/terms)), so use the samples, not real invoices with personal or business data.
+It runs locally in your browser. Pick a sample from `examples/samples/` (or upload an image and an optional answer key), choose a model and click **Run**; each click makes one API call with no retries. The key comes from the `GEMINI_API_KEY` environment variable or a password box in the Try tab; the app never shows or saves it, and it does not read `.env`. The Results tab reads `results/*.csv` and `results/raw/`. On the free tier Google may use uploaded content to improve its products ([terms](https://ai.google.dev/gemini-api/terms)), so use the samples, not real invoices with personal or business data.
 
 ## Licence
 

@@ -1,7 +1,7 @@
 """Document Extraction Arena: a small web app. Run with: streamlit run app.py
 
 Reuses runner/run_models.py (the model call and PROMPT) and runner/score.py (the scoring).
-The API key comes from GEMINI_API_KEY or the sidebar; it is never shown, logged or saved.
+The API key comes from GEMINI_API_KEY or the key field in the Try tab; it is never shown, logged or saved.
 """
 import html
 import json
@@ -39,9 +39,10 @@ CSS = """
 <style>
 :root {color-scheme: light;}
 .card, .big, .step {color: #111111;}
-#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] {visibility: hidden; height: 0;}
-[data-testid="stHeader"] {display: none;}
-.block-container {padding-top: 3rem; padding-bottom: 3rem; max-width: 1200px;}
+#MainMenu, footer, [data-testid="stDecoration"] {visibility: hidden; height: 0;}
+[data-testid="stToolbar"], [data-testid="stMainMenu"], [data-testid="stAppDeployButton"], .stDeployButton {display: none;}
+[data-testid="stHeader"] {background: transparent;}
+.block-container {padding-top: 4rem; padding-bottom: 3rem; max-width: 1200px;}
 .eyebrow {font-size: .78rem; letter-spacing: .12em; font-weight: 700; color: #B9770E; margin-bottom: .5rem;}
 .headline {font-size: 3rem; line-height: 1.05; font-weight: 800; margin: 0 0 .8rem 0;}
 .sub {font-size: 1.1rem; color: #444; margin-bottom: 1.2rem;}
@@ -192,15 +193,7 @@ def header():
 
 
 def tab_try():
-    with st.sidebar:
-        st.subheader("Gemini API key")
-        env_key = os.environ.get("GEMINI_API_KEY", "")
-        if env_key:
-            st.caption("Using the GEMINI_API_KEY environment variable.")
-        typed = st.text_input("Paste a key (only needed if none is set)", type="password", key="api_key_input")
-        st.caption("The key is used for your calls only. It is never shown or saved.")
-    api_key = env_key or typed
-
+    env_key = os.environ.get("GEMINI_API_KEY", "")
     samples = list_samples()
     source = st.radio("Where is the invoice?", ["Use a sample", "Upload your own"], horizontal=True)
     image_bytes = suffix = truth = name = None
@@ -230,9 +223,14 @@ def tab_try():
                            "It needs: " + ", ".join(list(score.SCALAR_FIELDS) + ["line_items"]) + ".")
 
     model = st.selectbox("Model", MODELS, index=0, key="try_model")
+    typed = st.text_input("Your Gemini API key (free from Google AI Studio)", type="password", key="api_key_input",
+                          disabled=bool(env_key),
+                          placeholder="Using the GEMINI_API_KEY environment variable" if env_key else "")
+    st.caption("Your key is used only for this session and is never saved.")
+    api_key = env_key or typed
     if st.button("Run", type="primary", disabled=image_bytes is None):
         if not api_key:
-            st.session_state["result"] = {"message": "Add a Gemini API key in the sidebar first."}
+            st.session_state["result"] = {"message": "Please add your Gemini API key above the Run button first."}
         else:
             with st.spinner("The AI is reading the invoice…"):
                 res = run_once(model, image_bytes, suffix, api_key)
@@ -395,7 +393,7 @@ Code, data and full write-up: [{REPO_URL}]({REPO_URL})
 
 
 def main():
-    st.set_page_config(page_title="Document Extraction Arena", layout="wide")
+    st.set_page_config(page_title="Document Extraction Arena", layout="wide", initial_sidebar_state="collapsed")
     header()
     t1, t2, t3 = st.tabs(["Try an invoice", "Results", "How it works"])
     with t1:
