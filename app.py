@@ -26,6 +26,7 @@ SAMPLE_DIRS = [ROOT / "examples" / "samples", ROOT / "examples" / "my_invoice"]
 MODELS = ["gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-3.8-flash"]
 BIG, SMALL = "gemini-3.6-flash", "gemini-3.1-flash-lite"
 REPO_URL = "https://github.com/devsutharsystems/document-extraction-arena"
+EXAMPLE_KEY_URL = REPO_URL + "/blob/main/examples/my_invoice/my_001.json"
 TERMS_URL = "https://ai.google.dev/gemini-api/terms"
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 
@@ -209,7 +210,9 @@ def tab_try():
                     f'(<a href="{TERMS_URL}" target="_blank">terms</a>). Use samples, not real invoices with '
                     f'personal or business data. With a paid-tier Gemini key, Google does not use your prompts or responses to improve its products.</div>', unsafe_allow_html=True)
         up = st.file_uploader("Invoice image", type=["png", "jpg", "jpeg"])
-        key_up = st.file_uploader("Answer key (optional JSON)", type=["json"])
+        key_up = st.file_uploader("Answer key (optional)", type=["json"])
+        st.caption("Skip it to just see what the AI read. To check its answers, upload a JSON file like this example: "
+                   f"[my_001.json]({EXAMPLE_KEY_URL})")
         if up:
             image_bytes, suffix, name = up.getvalue(), Path(up.name).suffix, up.name
         if key_up:
@@ -226,6 +229,7 @@ def tab_try():
     typed = st.text_input("Your Gemini API key (free from Google AI Studio)", type="password", key="api_key_input",
                           disabled=bool(env_key),
                           placeholder="Using the GEMINI_API_KEY environment variable" if env_key else "")
+    st.markdown("[Get a free Gemini key](https://aistudio.google.com/apikey)")
     st.caption("Works with a Google Gemini API key (free from Google AI Studio). Other providers are not supported yet.")
     st.caption("Your key is used only for this session and is never saved.")
     api_key = env_key or typed
