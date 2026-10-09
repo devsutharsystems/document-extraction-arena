@@ -7,9 +7,11 @@ Everything below comes from the saved runs in `results/raw/`, `results/per_invoi
 | Model | Invoices answered | API errors |
 |---|---|---|
 | gemini-3.1-flash-lite | 120 (30 per level, 4 levels) | 0 |
-| gemini-3.8-flash | 0 | 2 (of the 2 invoices attempted) |
+| gemini-3.6-flash (preliminary) | 16, all `level4_hard` (`001` to `016`) | 1 (429 quota at `017`) |
+| gemini-3.8-flash (partial) | 4, all `level4_hard` (`001` to `004`) | 3 (one 503, two 429) |
+| gemini-3.7-flash (failed) | 0 | 3 (503) |
 
-The large model has no scored answers, so this document says nothing about its extraction mistakes. Every extraction failure below is from `gemini-3.1-flash-lite`.
+`gemini-3.6-flash` was used as the large model because it had the most completed invoices under free-tier limits, not because of its score. Its numbers are preliminary (n = 16, level 4 only). The extraction failures in levels 1-3 and the flash-lite failures below are from `gemini-3.1-flash-lite`; the large model's level 4 failures are listed in their own section.
 
 ## Levels 1-3: one error in 90 invoices
 
@@ -90,11 +92,24 @@ In the level 4 images the repo owner looked at, rotation shifts the description 
 
 ### Caveat
 
-An item that is unfair for one model (an ambiguous digit, an unreadable country) is unfair for any model reading the same image. This has not been tested on a second model. So compare models on the same images, and do not treat level 4's absolute accuracy as a measure of model quality.
+An item that is unfair for one model (an ambiguous digit, an unreadable country) is unfair for any model reading the same image. On the 16 shared invoices, `gemini-3.6-flash` got `008`, `009`, `014` and `015` exact, so the information flash-lite missed on those 4 images was readable by at least one model; this says nothing about invoices `017` to `030`. So compare models on the same images, and do not treat level 4's absolute accuracy as a measure of model quality.
 
-## API failures on the large model (2 of 2 attempts)
+## Large model, level 4 (preliminary, n = 16)
 
-- `level1_clean_001`: `503 UNAVAILABLE`, "This model is currently experiencing high demand".
-- `level1_clean_002`: `429 RESOURCE_EXHAUSTED`, free-tier quota for `gemini-3.8-flash` (limit 20 requests, retry in about 12 hours). An earlier saved attempt at this same invoice had failed with `504 DEADLINE_EXCEEDED`; that file was overwritten by the later 429.
+`gemini-3.6-flash` answered `level4_hard_001` to `_016`. From `results/failures.csv` it made 1 extraction failure:
 
-The run was stopped after these two results instead of looping. These are infrastructure failures, not extraction mistakes. `score.py` excludes them from accuracy and from `results/failures.csv`, and lists them in `results/api_errors.csv` instead.
+| id | field | expected | got | flash-lite also wrong on this invoice? |
+|---|---|---|---|---|
+| level4_hard_011 | line_items | 15 lines | `14/15 lines matched, model returned 15` | Yes, but on other fields (invoice_number and invoice_date); flash-lite's line items on this invoice were right |
+
+The CSV does not record which line differed. This failure was NOT checked against the image, and `level4_hard_011` has not been audited. Of flash-lite's 12 level 4 failures, 5 (`008`, `009`, `011`, `014`, `015`) fall inside these 16 invoices; the large model got `008`, `009`, `014` and `015` exact. The other 7 flash-lite failures are on invoices the large model has not answered, so this says nothing about them. `gemini-3.8-flash` produced 0 extraction failures on its 4 invoices (`001` to `004`).
+
+## API failures
+
+Free-tier limits are 20 requests per day each for `gemini-3.6-flash`, `gemini-3.7-flash` and `gemini-3.8-flash` and 500 for `gemini-3.1-flash-lite` (as shown on the owner's Google AI Studio rate-limit page), and failed requests count against them. Google also returned `503 UNAVAILABLE` ("This model is currently experiencing high demand. Spikes in demand are usually temporary.") in short spikes, which is why the large-model runs are small. From `results/api_errors.csv` (7 errors):
+
+- `gemini-3.6-flash`: 1 error, `429 RESOURCE_EXHAUSTED` at `level4_hard_017` (free-tier requests per day, limit 20).
+- `gemini-3.8-flash`: 3 errors: `503` at `level4_hard_005`, `429` at `level4_hard_006` and `level4_hard_007`.
+- `gemini-3.7-flash`: 3 errors, all `503`, at `level4_hard_001` to `_003`.
+
+These are the errors saved in `results/raw` (the latest attempt per invoice). Earlier 503 errors were overwritten when a retry later succeeded, so the real number of failed requests was higher. Runs were stopped after repeated failures instead of looping. These are infrastructure failures, not extraction mistakes. `score.py` excludes them from accuracy and from `results/failures.csv`, and lists them in `results/api_errors.csv` instead.

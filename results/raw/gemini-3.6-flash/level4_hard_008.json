@@ -1,10 +1,10 @@
 {
-  "response_text": null,
-  "seconds": null,
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "thinking_tokens": 0,
-  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-55529\",\n  \"vendor\": \"Wilkinson, Green and Simpson\",\n  \"invoice_date\": \"2026-04-10\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 16,\n      \"unit_price\": 3003.05,\n      \"amount\": 48048.8\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 18,\n      \"unit_price\": 2512.52,\n      \"amount\": 45225.36\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 20,\n      \"unit_price\": 3411.32,\n      \"amount\": 68226.4\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 15,\n      \"unit_price\": 2036.83,\n      \"amount\": 30552.45\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 11,\n      \"unit_price\": 2732.93,\n      \"amount\": 30062.23\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 1,\n      \"unit_price\": 532.99,\n      \"amount\": 532.99\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 16,\n      \"unit_price\": 2674.01,\n      \"amount\": 42784.16\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 6,\n      \"unit_price\": 3339.72,\n      \"amount\": 20038.32\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 8,\n      \"unit_price\": 1564.85,\n      \"amount\": 12518.8\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 1,\n      \"unit_price\": 2916.44,\n      \"amount\": 2916.44\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 11,\n      \"unit_price\": 425.94,\n      \"amount\": 4685.34\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 16,\n      \"unit_price\": 1341.43,\n      \"amount\": 21462.88\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 6,\n      \"unit_price\": 1166.76,\n      \"amount\": 7000.56\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 5,\n      \"unit_price\": 448.08,\n      \"amount\": 2240.4\n    }\n  ],\n  \"subtotal\": 336295.13,\n  \"tax\": 33629.51,\n  \"total\": 369924.64\n}",
+  "seconds": 12.25,
+  "input_tokens": 1199,
+  "output_tokens": 863,
+  "thinking_tokens": 742,
+  "error": null,
   "id": "level4_hard_008",
   "level": "level4_hard",
   "model": "gemini-3.6-flash"

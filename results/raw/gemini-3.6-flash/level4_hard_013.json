@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-45507\",\n  \"vendor\": \"Ahmed, Allen and Butler\",\n  \"invoice_date\": \"2026-04-10\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 7,\n      \"unit_price\": 2546.19,\n      \"amount\": 17823.33\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 12,\n      \"unit_price\": 670.73,\n      \"amount\": 8048.76\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 13,\n      \"unit_price\": 2087.87,\n      \"amount\": 27142.31\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 3,\n      \"unit_price\": 2588.53,\n      \"amount\": 7765.59\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 14,\n      \"unit_price\": 456.37,\n      \"amount\": 6389.18\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 4,\n      \"unit_price\": 1420.14,\n      \"amount\": 5680.56\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 3,\n      \"unit_price\": 1335.18,\n      \"amount\": 4005.54\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 9,\n      \"unit_price\": 1502.78,\n      \"amount\": 13525.02\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 8,\n      \"unit_price\": 967.36,\n      \"amount\": 7738.88\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 2,\n      \"unit_price\": 4672.77,\n      \"amount\": 9345.54\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 8,\n      \"unit_price\": 4789.28,\n      \"amount\": 38314.24\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 16,\n      \"unit_price\": 4317.71,\n      \"amount\": 69083.36\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 1,\n      \"unit_price\": 2355.42,\n      \"amount\": 2355.42\n    }\n  ],\n  \"subtotal\": 217217.73,\n  \"tax\": 21721.77,\n  \"total\": 238939.5\n}",
+  "seconds": 8.5,
+  "input_tokens": 1199,
+  "output_tokens": 806,
+  "thinking_tokens": 1291,
+  "error": null,
+  "id": "level4_hard_013",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}

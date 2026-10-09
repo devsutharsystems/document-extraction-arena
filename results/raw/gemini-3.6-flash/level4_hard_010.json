@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-43300\",\n  \"vendor\": \"Pham and Sons\",\n  \"invoice_date\": \"2026-02-11\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 15,\n      \"unit_price\": 3056.18,\n      \"amount\": 45842.7\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 7,\n      \"unit_price\": 4203.57,\n      \"amount\": 29424.99\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 18,\n      \"unit_price\": 4517.33,\n      \"amount\": 81311.94\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 6,\n      \"unit_price\": 259.26,\n      \"amount\": 1555.56\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 13,\n      \"unit_price\": 808.49,\n      \"amount\": 10510.37\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 20,\n      \"unit_price\": 1862.29,\n      \"amount\": 37245.8\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 12,\n      \"unit_price\": 2983.91,\n      \"amount\": 35806.92\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 14,\n      \"unit_price\": 4639.15,\n      \"amount\": 64948.1\n    },\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 2,\n      \"unit_price\": 3410.77,\n      \"amount\": 6821.54\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 1,\n      \"unit_price\": 595.01,\n      \"amount\": 595.01\n    }\n  ],\n  \"subtotal\": 314062.93,\n  \"tax\": 31406.29,\n  \"total\": 345469.22\n}",
+  "seconds": 8.18,
+  "input_tokens": 1199,
+  "output_tokens": 649,
+  "thinking_tokens": 922,
+  "error": null,
+  "id": "level4_hard_010",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}

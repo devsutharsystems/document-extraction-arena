@@ -1,10 +1,10 @@
 {
-  "response_text": null,
-  "seconds": null,
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "thinking_tokens": 0,
-  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-27839\",\n  \"vendor\": \"Jani Group\",\n  \"invoice_date\": \"2026-01-02\",\n  \"currency\": \"INR\",\n  \"line_items\": [\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 1,\n      \"unit_price\": 3741.49,\n      \"amount\": 3741.49\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 20,\n      \"unit_price\": 3313.43,\n      \"amount\": 66268.60\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 16,\n      \"unit_price\": 4538.34,\n      \"amount\": 72613.44\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 16,\n      \"unit_price\": 2584.41,\n      \"amount\": 41350.56\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 14,\n      \"unit_price\": 3938.62,\n      \"amount\": 55140.68\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 19,\n      \"unit_price\": 286.07,\n      \"amount\": 5435.33\n    },\n    {\n      \"description\": \"Laptop Stand\",\n      \"quantity\": 8,\n      \"unit_price\": 2216.44,\n      \"amount\": 17731.52\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 16,\n      \"unit_price\": 2109.89,\n      \"amount\": 33758.24\n    }\n  ],\n  \"subtotal\": 296039.86,\n  \"tax\": 59207.97,\n  \"total\": 355247.83\n}",
+  "seconds": 8.76,
+  "input_tokens": 1199,
+  "output_tokens": 546,
+  "thinking_tokens": 1156,
+  "error": null,
   "id": "level4_hard_006",
   "level": "level4_hard",
   "model": "gemini-3.6-flash"

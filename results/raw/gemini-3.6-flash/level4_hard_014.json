@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-93409\",\n  \"vendor\": \"Reed Inc\",\n  \"invoice_date\": \"2026-03-08\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 16,\n      \"unit_price\": 1878.77,\n      \"amount\": 30060.32\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 7,\n      \"unit_price\": 180.48,\n      \"amount\": 1263.36\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 15,\n      \"unit_price\": 3097.6,\n      \"amount\": 46464.0\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 15,\n      \"unit_price\": 4814.56,\n      \"amount\": 72218.4\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 7,\n      \"unit_price\": 1920.58,\n      \"amount\": 13444.06\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 18,\n      \"unit_price\": 967.87,\n      \"amount\": 17421.66\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 9,\n      \"unit_price\": 1773.82,\n      \"amount\": 15964.38\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 20,\n      \"unit_price\": 2071.58,\n      \"amount\": 41431.6\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 4,\n      \"unit_price\": 2779.26,\n      \"amount\": 11117.04\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 5,\n      \"unit_price\": 1327.31,\n      \"amount\": 6636.55\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 19,\n      \"unit_price\": 4594.04,\n      \"amount\": 87286.76\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 8,\n      \"unit_price\": 310.78,\n      \"amount\": 2486.24\n    }\n  ],\n  \"subtotal\": 345794.37,\n  \"tax\": 62242.99,\n  \"total\": 408037.36\n}",
+  "seconds": 9.58,
+  "input_tokens": 1199,
+  "output_tokens": 753,
+  "thinking_tokens": 1201,
+  "error": null,
+  "id": "level4_hard_014",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}

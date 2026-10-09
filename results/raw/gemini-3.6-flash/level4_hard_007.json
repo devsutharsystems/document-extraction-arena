@@ -1,10 +1,10 @@
 {
-  "response_text": null,
-  "seconds": null,
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "thinking_tokens": 0,
-  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-19303\",\n  \"vendor\": \"Gallagher PLC\",\n  \"invoice_date\": \"2026-06-11\",\n  \"currency\": \"GBP\",\n  \"line_items\": [\n    {\n      \"description\": \"Ethernet Cable\",\n      \"quantity\": 11,\n      \"unit_price\": 2817.72,\n      \"amount\": 30994.92\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 7,\n      \"unit_price\": 2575.74,\n      \"amount\": 18030.18\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 6,\n      \"unit_price\": 3097.37,\n      \"amount\": 18584.22\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 20,\n      \"unit_price\": 3219.03,\n      \"amount\": 64380.60\n    },\n    {\n      \"description\": \"Network Switch\",\n      \"quantity\": 8,\n      \"unit_price\": 139.26,\n      \"amount\": 1114.08\n    },\n    {\n      \"description\": \"Wireless Keyboard\",\n      \"quantity\": 7,\n      \"unit_price\": 4723.66,\n      \"amount\": 33065.62\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 4,\n      \"unit_price\": 118.98,\n      \"amount\": 475.92\n    },\n    {\n      \"description\": \"Cloud Hosting\",\n      \"quantity\": 17,\n      \"unit_price\": 3950.10,\n      \"amount\": 67151.70\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 13,\n      \"unit_price\": 3751.38,\n      \"amount\": 48767.94\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 11,\n      \"unit_price\": 1385.41,\n      \"amount\": 15239.51\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 18,\n      \"unit_price\": 1335.89,\n      \"amount\": 24046.02\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 14,\n      \"unit_price\": 87.15,\n      \"amount\": 1220.10\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 12,\n      \"unit_price\": 3641.79,\n      \"amount\": 43701.48\n    },\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 9,\n      \"unit_price\": 2349.91,\n      \"amount\": 21149.19\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 14,\n      \"unit_price\": 4398.48,\n      \"amount\": 61578.72\n    }\n  ],\n  \"subtotal\": 449500.20,\n  \"tax\": 22475.01,\n  \"total\": 471975.21\n}",
+  "seconds": 8.01,
+  "input_tokens": 1199,
+  "output_tokens": 918,
+  "thinking_tokens": 769,
+  "error": null,
   "id": "level4_hard_007",
   "level": "level4_hard",
   "model": "gemini-3.6-flash"

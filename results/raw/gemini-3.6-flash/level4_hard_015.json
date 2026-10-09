@@ -1,0 +1,11 @@
+{
+  "response_text": "{\n  \"invoice_number\": \"INV-2026-40159\",\n  \"vendor\": \"Soto, Johnson and Smith\",\n  \"invoice_date\": \"2026-05-03\",\n  \"currency\": \"USD\",\n  \"line_items\": [\n    {\n      \"description\": \"Packaging Materials\",\n      \"quantity\": 19,\n      \"unit_price\": 4983.52,\n      \"amount\": 94686.88\n    },\n    {\n      \"description\": \"Training Workshop\",\n      \"quantity\": 13,\n      \"unit_price\": 1944.86,\n      \"amount\": 25283.18\n    },\n    {\n      \"description\": \"LED Desk Lamp\",\n      \"quantity\": 1,\n      \"unit_price\": 2686.92,\n      \"amount\": 2686.92\n    },\n    {\n      \"description\": \"Printer Toner\",\n      \"quantity\": 19,\n      \"unit_price\": 2538.66,\n      \"amount\": 48234.54\n    },\n    {\n      \"description\": \"External SSD\",\n      \"quantity\": 3,\n      \"unit_price\": 3049.74,\n      \"amount\": 9149.22\n    },\n    {\n      \"description\": \"Office Chair\",\n      \"quantity\": 9,\n      \"unit_price\": 1876.45,\n      \"amount\": 16888.05\n    },\n    {\n      \"description\": \"Software Licence\",\n      \"quantity\": 18,\n      \"unit_price\": 2675.90,\n      \"amount\": 48166.20\n    },\n    {\n      \"description\": \"Security Audit\",\n      \"quantity\": 3,\n      \"unit_price\": 98.11,\n      \"amount\": 294.33\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"quantity\": 18,\n      \"unit_price\": 2428.75,\n      \"amount\": 43717.50\n    },\n    {\n      \"description\": \"Courier Delivery\",\n      \"quantity\": 8,\n      \"unit_price\": 3227.62,\n      \"amount\": 25820.96\n    },\n    {\n      \"description\": \"Webcam\",\n      \"quantity\": 20,\n      \"unit_price\": 3886.94,\n      \"amount\": 77738.80\n    },\n    {\n      \"description\": \"Whiteboard Markers\",\n      \"quantity\": 19,\n      \"unit_price\": 4282.04,\n      \"amount\": 81358.76\n    },\n    {\n      \"description\": \"USB-C Hub\",\n      \"quantity\": 12,\n      \"unit_price\": 1837.62,\n      \"amount\": 22051.44\n    }\n  ],\n  \"subtotal\": 496076.78,\n  \"tax\": 89293.82,\n  \"total\": 585370.60\n}",
+  "seconds": 11.2,
+  "input_tokens": 1199,
+  "output_tokens": 817,
+  "thinking_tokens": 1649,
+  "error": null,
+  "id": "level4_hard_015",
+  "level": "level4_hard",
+  "model": "gemini-3.6-flash"
+}

@@ -15,3 +15,4 @@ gemini-3.1-flash-lite,level4_hard,level4_hard_025,invoice_number,"expected 'INV-
 gemini-3.1-flash-lite,level4_hard,level4_hard_025,invoice_date,"expected '2026-02-08', got '2026-05-02'"
 gemini-3.1-flash-lite,level4_hard,level4_hard_026,invoice_number,"expected 'INV-2026-70686', got 'INV-2026-70688'"
 gemini-3.1-flash-lite,level4_hard,level4_hard_028,invoice_date,"expected '2026-12-08', got '2026-08-12'"
+gemini-3.6-flash,level4_hard,level4_hard_011,line_items,"14/15 lines matched, model returned 15"
