@@ -38,6 +38,12 @@ Scores come from `python runner/score.py` (`results/summary.csv`). API failures 
 - **Small n for the large model.** 16 invoices on level 4 only (preliminary), against 30 per level for flash-lite. Compare models only on the same invoices; the model comparison says nothing about the 14 uncovered level 4 invoices.
 - **Level 4 is only partly audited and has a known defect.** The repo owner looked at the images of 5 of the 12 non-exact level 4 invoices ([`docs/fairness_audit.csv`](docs/fairness_audit.csv)): 2 fair, 1 borderline, 1 unfair (`level4_hard_018`, last digit ambiguous between 6 and 8) and 1 not yet checked (`level4_hard_015`). This is a sample of 5, not the full set: the other 7 failing invoices were never checked against their images. Also, with rotation the description column is offset vertically from the number columns by about one row in the level 4 images looked at, so pairing rows depends on order; this makes line items harder than the answer key implies. Unfair items affect any model reading the same image, so compare models on the same images and do not treat level 4's absolute accuracy as a measure of model quality. Details: [docs/what-can-go-wrong.md](docs/what-can-go-wrong.md).
 - **One date convention gap.** The prompt does not say how to read ambiguous numeric dates.
+- **Gemini only.** The benchmark and the web app work with Google Gemini models only, using a Google Gemini API key (free from Google AI Studio). Other providers are not supported yet.
+
+## Possible next steps
+
+- Support for other providers (e.g. OpenAI, Anthropic).
+- Extend the `gemini-3.6-flash` run to all 20 (or 30) level 4 invoices after the free-tier quota resets.
 
 ## Quick start
 

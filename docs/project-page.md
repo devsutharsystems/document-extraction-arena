@@ -151,6 +151,7 @@ You can read the whole scorer in one sitting, and `tests/test_scorer.py` tests i
 - How the larger model compares beyond a preliminary run: on 16 level 4 invoices, `gemini-3.6-flash` scored 99.9% vs 96.0% for flash-lite (see below), but nothing is known about the other 14 level 4 invoices or levels 1-3.
 - How good a model is from level 4's absolute accuracy. Part of that level was found to be unfair ([`fairness_audit.csv`](fairness_audit.csv)), and 7 of the 12 failing invoices have never been checked against their images.
 - Which model is better. Only one comparison exists (n = 16, level 4, preliminary).
+- How other providers' models do. The benchmark and the web app work with Google Gemini models only, using a Google Gemini API key (free from Google AI Studio). Other providers are not supported yet.
 
 ## Results for the larger model (preliminary)
 
@@ -168,6 +169,11 @@ What the numbers show on these 16 invoices: the larger model had 1 non-exact inv
 Cost: paid-tier equivalents calculated from token counts with the prices in `runner/score.py` (source: https://ai.google.dev/gemini-api/docs/pricing). The 3.x Flash price ($0.75 in / $3.75 out per 1M tokens) is valid through December 31, 2026 and doubles from January 1, 2027. All runs used the free tier, so nothing was charged.
 
 Plan: after the quota resets, extend the `gemini-3.6-flash` run to 20 (or 30) level 4 invoices and update these numbers.
+
+## Possible next steps
+
+- Support for other providers (e.g. OpenAI, Anthropic).
+- Extend the `gemini-3.6-flash` run to all 20 (or 30) level 4 invoices after the free-tier quota resets.
 
 ## Links
 

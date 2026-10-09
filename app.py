@@ -226,6 +226,7 @@ def tab_try():
     typed = st.text_input("Your Gemini API key (free from Google AI Studio)", type="password", key="api_key_input",
                           disabled=bool(env_key),
                           placeholder="Using the GEMINI_API_KEY environment variable" if env_key else "")
+    st.caption("Works with a Google Gemini API key (free from Google AI Studio). Other providers are not supported yet.")
     st.caption("Your key is used only for this session and is never saved.")
     api_key = env_key or typed
     if st.button("Run", type="primary", disabled=image_bytes is None):
