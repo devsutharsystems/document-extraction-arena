@@ -40,7 +40,8 @@ CSS = """
 :root {color-scheme: light;}
 .card, .big, .step {color: #111111;}
 #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] {visibility: hidden; height: 0;}
-.block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 1200px;}
+[data-testid="stHeader"] {display: none;}
+.block-container {padding-top: 3rem; padding-bottom: 3rem; max-width: 1200px;}
 .eyebrow {font-size: .78rem; letter-spacing: .12em; font-weight: 700; color: #B9770E; margin-bottom: .5rem;}
 .headline {font-size: 3rem; line-height: 1.05; font-weight: 800; margin: 0 0 .8rem 0;}
 .sub {font-size: 1.1rem; color: #444; margin-bottom: 1.2rem;}
